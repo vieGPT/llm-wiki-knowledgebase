@@ -12,10 +12,10 @@ relationships:
   - target: "[[projects/cloakbrowser/architecture/framework-integration-modes]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/examples/stealth_test.py
-  - repo:github.com/CloakHQ/CloakBrowser/examples/recaptcha_score.py
-  - repo:github.com/CloakHQ/CloakBrowser/examples/integrations/langchain_loader.py
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/examples/stealth_test.py
+  - ~/code/CloakBrowser/examples/recaptcha_score.py
+  - ~/code/CloakBrowser/examples/integrations/langchain_loader.py
 summary: >-
     Usage discipline that keeps Chrome DevTools Protocol chatter low before scoring scripts run: native sleep over waitForTimeout, few evaluate calls, and Playwright rather than Puppeteer.
 provenance:
@@ -27,7 +27,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:52:24+01:00
-updated: 2026-10-31T06:37:29+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # CDP traffic minimization
@@ -69,7 +69,7 @@ CDP traffic minimization is the only CloakBrowser technique that lives in the us
 
 Commit `b1a00ed` (26/10/2026):
 
-- repo:github.com/CloakHQ/CloakBrowser/README.md (Troubleshooting: reCAPTCHA v3 scores are low; Puppeteer note; `launch()` timezone/locale)
-- repo:github.com/CloakHQ/CloakBrowser/examples/stealth_test.py
-- repo:github.com/CloakHQ/CloakBrowser/examples/recaptcha_score.py
-- repo:github.com/CloakHQ/CloakBrowser/examples/integrations/langchain_loader.py
+- ~/code/CloakBrowser/README.md (Troubleshooting: reCAPTCHA v3 scores are low; Puppeteer note; `launch()` timezone/locale)
+- ~/code/CloakBrowser/examples/stealth_test.py
+- ~/code/CloakBrowser/examples/recaptcha_score.py
+- ~/code/CloakBrowser/examples/integrations/langchain_loader.py

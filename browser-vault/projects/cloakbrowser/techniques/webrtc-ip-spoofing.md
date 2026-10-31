@@ -16,11 +16,11 @@ relationships:
   - target: "[[projects/cloakbrowser/detection-vectors/proxy-and-network-signals]]"
     type: mitigates
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/playwright.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/puppeteer.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/geoip.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/config.test.ts
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/js/src/playwright.ts
+  - ~/code/CloakBrowser/js/src/puppeteer.ts
+  - ~/code/CloakBrowser/js/src/geoip.ts
+  - ~/code/CloakBrowser/js/tests/config.test.ts
 summary: >-
     The binary rewrites WebRTC ICE candidate IPs to the proxy exit IP via --fingerprint-webrtc-ip; the wrapper resolves the IP from the proxy or reuses the GeoIP lookup.
 provenance:
@@ -32,7 +32,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:41:22+01:00
-updated: 2026-10-31T06:46:59+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # WebRTC IP spoofing
@@ -75,8 +75,8 @@ Detection pages compare the IP seen in ICE candidates (via `RTCPeerConnection`) 
 
 ## Sources
 
-- repo:github.com/CloakHQ/CloakBrowser/README.md (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/js/src/playwright.ts (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/js/src/puppeteer.ts (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/js/src/geoip.ts (commit b1a00ed, `resolveWebrtcArgs` / `appendWebrtcExitIp` only)
-- repo:github.com/CloakHQ/CloakBrowser/js/tests/config.test.ts (commit b1a00ed)
+- ~/code/CloakBrowser/README.md (commit b1a00ed)
+- ~/code/CloakBrowser/js/src/playwright.ts (commit b1a00ed)
+- ~/code/CloakBrowser/js/src/puppeteer.ts (commit b1a00ed)
+- ~/code/CloakBrowser/js/src/geoip.ts (commit b1a00ed, `resolveWebrtcArgs` / `appendWebrtcExitIp` only)
+- ~/code/CloakBrowser/js/tests/config.test.ts (commit b1a00ed)

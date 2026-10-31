@@ -14,12 +14,12 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/subsystems/settings-and-license]]"
     type: related_to
 sources:
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/runtime.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/browser_manager.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_runtime.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_launcher.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_api.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/conftest.py
+  - ~/code/CloakBrowser-Manager/backend/runtime.py
+  - ~/code/CloakBrowser-Manager/backend/browser_manager.py
+  - ~/code/CloakBrowser-Manager/backend/tests/test_runtime.py
+  - ~/code/CloakBrowser-Manager/backend/tests/test_launcher.py
+  - ~/code/CloakBrowser-Manager/backend/tests/test_api.py
+  - ~/code/CloakBrowser-Manager/backend/tests/conftest.py
 summary: >-
     backend/runtime.py fixes the host runtime (native vs Docker), data dir and bundle root; BrowserManager.resolve_binary_status picks tier and engine version and pre-downloads the binary.
 provenance:
@@ -31,7 +31,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T06:27:10+01:00
-updated: 2026-10-31T06:37:29+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Runtime and binary
@@ -72,5 +72,5 @@ The **release channel** is `stable` or `preview`. The default comes from `CLOAKB
 
 ## Sources
 
-- repo:github.com/vieGPT/CloakBrowser-Manager/backend/runtime.py, backend/browser_manager.py (commit 11e0043)
-- repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_runtime.py, test_launcher.py, test_api.py, conftest.py (commit 11e0043)
+- ~/code/CloakBrowser-Manager/backend/runtime.py, backend/browser_manager.py (commit 11e0043)
+- ~/code/CloakBrowser-Manager/backend/tests/test_runtime.py, test_launcher.py, test_api.py, conftest.py (commit 11e0043)

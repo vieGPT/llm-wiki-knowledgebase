@@ -14,10 +14,10 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/techniques/portable-cookies]]"
     type: related_to
 sources:
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/database.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/runtime.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/CHANGELOG.md
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_database.py
+  - ~/code/CloakBrowser-Manager/backend/database.py
+  - ~/code/CloakBrowser-Manager/backend/runtime.py
+  - ~/code/CloakBrowser-Manager/CHANGELOG.md
+  - ~/code/CloakBrowser-Manager/backend/tests/test_database.py
 summary: >-
     backend/database.py keeps profiles, tags and artifact metadata in one SQLite file in the data dir, rebuilds the profiles table on schema drift, and mints seeds and per-profile dirs.
 provenance:
@@ -29,7 +29,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: core
 created: 2026-10-31T06:20:23+01:00
-updated: 2026-10-31T06:46:59+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Profile database
@@ -71,7 +71,7 @@ New profiles take `min(sort_order) − 1`, so they appear at the top; drag-and-d
 
 ## Sources
 
-- repo:github.com/vieGPT/CloakBrowser-Manager/backend/database.py (commit 11e0043)
-- repo:github.com/vieGPT/CloakBrowser-Manager/backend/runtime.py (commit 11e0043)
-- repo:github.com/vieGPT/CloakBrowser-Manager/CHANGELOG.md (commit 11e0043)
-- repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_database.py (commit 11e0043)
+- ~/code/CloakBrowser-Manager/backend/database.py (commit 11e0043)
+- ~/code/CloakBrowser-Manager/backend/runtime.py (commit 11e0043)
+- ~/code/CloakBrowser-Manager/CHANGELOG.md (commit 11e0043)
+- ~/code/CloakBrowser-Manager/backend/tests/test_database.py (commit 11e0043)

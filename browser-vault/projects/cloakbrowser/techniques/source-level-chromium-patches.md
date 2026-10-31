@@ -21,10 +21,10 @@ relationships:
   - target: "[[projects/cloakbrowser/detection-vectors/headless-detection]]"
     type: mitigates
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/CHANGELOG.md
-  - repo:github.com/CloakHQ/CloakBrowser/BINARY-LICENSE.md
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/config.py
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/CHANGELOG.md
+  - ~/code/CloakBrowser/BINARY-LICENSE.md
+  - ~/code/CloakBrowser/cloakbrowser/config.py
 summary: >-
     Why CloakBrowser modifies fingerprint surfaces in Chromium's C++ and compiles them in, instead of JS injection or flag tweaks, and what that buys and costs.
 provenance:
@@ -36,7 +36,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:46:41+01:00
-updated: 2026-10-31T06:16:30+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Source-level Chromium patches
@@ -81,7 +81,7 @@ Comparison table values in the README (as of Oct 2026): reCAPTCHA v3 0.1 stock P
 
 ## Sources
 
-- `repo:github.com/CloakHQ/CloakBrowser/README.md` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/CHANGELOG.md` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/BINARY-LICENSE.md` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/config.py` (commit `b1a00ed`)
+- `~/code/CloakBrowser/README.md` (commit `b1a00ed`)
+- `~/code/CloakBrowser/CHANGELOG.md` (commit `b1a00ed`)
+- `~/code/CloakBrowser/BINARY-LICENSE.md` (commit `b1a00ed`)
+- `~/code/CloakBrowser/cloakbrowser/config.py` (commit `b1a00ed`)

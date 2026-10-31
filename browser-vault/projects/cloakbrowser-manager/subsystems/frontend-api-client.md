@@ -18,16 +18,16 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/techniques/cdp-endpoint-proxying]]"
     type: related_to
 sources:
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/lib/api.ts
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/main.tsx
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/novnc.d.ts
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/styles/globals.css
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/tailwind.config.ts
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/tsconfig.json
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/vite.config.ts
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/vitest.config.ts
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/lib/api.test.ts
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/App.tsx
+  - ~/code/CloakBrowser-Manager/frontend/src/lib/api.ts
+  - ~/code/CloakBrowser-Manager/frontend/src/main.tsx
+  - ~/code/CloakBrowser-Manager/frontend/src/novnc.d.ts
+  - ~/code/CloakBrowser-Manager/frontend/src/styles/globals.css
+  - ~/code/CloakBrowser-Manager/frontend/tailwind.config.ts
+  - ~/code/CloakBrowser-Manager/frontend/tsconfig.json
+  - ~/code/CloakBrowser-Manager/frontend/vite.config.ts
+  - ~/code/CloakBrowser-Manager/frontend/vitest.config.ts
+  - ~/code/CloakBrowser-Manager/frontend/src/lib/api.test.ts
+  - ~/code/CloakBrowser-Manager/frontend/src/App.tsx
 summary: >-
     frontend/src/lib/api.ts: one typed fetch wrapper over the same-origin /api, cookie auth, a global 401 hook, and ApiError carrying structured license denials (reason, upgrade URL).
 provenance:
@@ -39,7 +39,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T06:19:30+01:00
-updated: 2026-10-31T06:37:29+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Frontend API client
@@ -97,9 +97,13 @@ Details worth knowing:
 
 - The client sends no CSRF token; state-changing calls rely on `SameSite=Strict` plus the backend's Origin/Host check on sensitive endpoints. Is that check applied to all mutating routes, or only to shutdown and WebSockets? ^[ambiguous]
 
+## Class stubs (ast-extract)
+
+- [[projects/cloakbrowser-manager/subsystems/api-error|ApiError]]
+
 ## Sources
 
-Commit `11e0043` of `repo:github.com/vieGPT/CloakBrowser-Manager`:
+Commit `11e0043` of `~/code/CloakBrowser-Manager`:
 
 - frontend/src/lib/api.ts, frontend/src/main.tsx, frontend/src/novnc.d.ts, frontend/src/styles/globals.css
 - frontend/tailwind.config.ts, frontend/tsconfig.json, frontend/vite.config.ts, frontend/vitest.config.ts

@@ -28,15 +28,15 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/techniques/per-profile-transparent-proxy]]"
     type: related_to
 sources:
-  - repo:github.com/vieGPT/CloakBrowser-Manager/README.md
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/components/ProfileForm.tsx
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/components/ProfileForm.test.tsx
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/hooks/useProfiles.ts
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/browser_manager.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/database.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/main.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/artifacts.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/assets/manager-macos.png
+  - ~/code/CloakBrowser-Manager/README.md
+  - ~/code/CloakBrowser-Manager/frontend/src/components/ProfileForm.tsx
+  - ~/code/CloakBrowser-Manager/frontend/src/components/ProfileForm.test.tsx
+  - ~/code/CloakBrowser-Manager/frontend/src/hooks/useProfiles.ts
+  - ~/code/CloakBrowser-Manager/backend/browser_manager.py
+  - ~/code/CloakBrowser-Manager/backend/database.py
+  - ~/code/CloakBrowser-Manager/backend/main.py
+  - ~/code/CloakBrowser-Manager/backend/artifacts.py
+  - ~/code/CloakBrowser-Manager/assets/manager-macos.png
 summary: >-
     Each Manager profile is a separate device: its own stored fingerprint seed, GPU family, screen and user-data directory, turned into CloakBrowser flags at launch so accounts do not share signals.
 provenance:
@@ -48,7 +48,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: core
 created: 2026-10-31T06:22:07+01:00
-updated: 2026-10-31T06:53:05+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Per-profile identity isolation
@@ -117,4 +117,4 @@ The macOS screenshot (`assets/manager-macos.png`) shows the editor's Basic (name
 
 ## Sources
 
-- repo:github.com/vieGPT/CloakBrowser-Manager (commit `11e0043`): `README.md` (Features), `frontend/src/components/ProfileForm.tsx`, `frontend/src/components/ProfileForm.test.tsx`, `frontend/src/hooks/useProfiles.ts`, `backend/browser_manager.py` (`_build_fingerprint_args`, launch options), `backend/database.py` (seed default and re-roll), `backend/main.py` (reset file list), `backend/artifacts.py` (store location), `assets/manager-macos.png`
+- ~/code/CloakBrowser-Manager (commit `11e0043`): `README.md` (Features), `frontend/src/components/ProfileForm.tsx`, `frontend/src/components/ProfileForm.test.tsx`, `frontend/src/hooks/useProfiles.ts`, `backend/browser_manager.py` (`_build_fingerprint_args`, launch options), `backend/database.py` (seed default and re-roll), `backend/main.py` (reset file list), `backend/artifacts.py` (store location), `assets/manager-macos.png`

@@ -14,12 +14,12 @@ relationships:
   - target: "[[projects/cloakbrowser/subsystems/license-and-tiers]]"
     type: related_to
 sources:
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/diagnostics.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/main.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/browser_manager.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/models.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/components/SystemStatusBadge.tsx
-  - repo:github.com/vieGPT/CloakBrowser-Manager/CHANGELOG.md
+  - ~/code/CloakBrowser-Manager/backend/diagnostics.py
+  - ~/code/CloakBrowser-Manager/backend/main.py
+  - ~/code/CloakBrowser-Manager/backend/browser_manager.py
+  - ~/code/CloakBrowser-Manager/backend/models.py
+  - ~/code/CloakBrowser-Manager/frontend/src/components/SystemStatusBadge.tsx
+  - ~/code/CloakBrowser-Manager/CHANGELOG.md
 summary: >-
     Crash-diagnosable manager.log (startup fingerprint, crash hooks, stderr tee, redacted launch lines) plus /api/status with tier, binary and Windows font health behind the top-bar badge.
 provenance:
@@ -31,7 +31,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T06:32:16+01:00
-updated: 2026-10-31T06:37:29+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Diagnostics
@@ -73,4 +73,4 @@ Font coverage is a per-host property: every profile on one Docker host shares th
 
 ## Sources
 
-- repo:github.com/vieGPT/CloakBrowser-Manager (commit `11e0043`): `backend/diagnostics.py`, `backend/main.py` (logging setup, hook installation, `_windows_font_health`, `/api/status`, update check), `backend/browser_manager.py` (launch log line), `backend/models.py` (`StatusResponse`), `frontend/src/components/SystemStatusBadge.tsx`, `CHANGELOG.md` (0.1.0, 0.1.2, 0.1.5)
+- ~/code/CloakBrowser-Manager (commit `11e0043`): `backend/diagnostics.py`, `backend/main.py` (logging setup, hook installation, `_windows_font_health`, `/api/status`, update check), `backend/browser_manager.py` (launch log line), `backend/models.py` (`StatusResponse`), `frontend/src/components/SystemStatusBadge.tsx`, `CHANGELOG.md` (0.1.0, 0.1.2, 0.1.5)

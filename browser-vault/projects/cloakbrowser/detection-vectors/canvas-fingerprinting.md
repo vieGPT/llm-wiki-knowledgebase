@@ -12,9 +12,9 @@ relationships:
   - target: "[[projects/cloakbrowser/detection-vectors/webgl-gpu-fingerprinting]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/examples/stealth_test.py
-  - repo:github.com/CloakHQ/CloakBrowser/images/fingerprintjs_pass.png
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/examples/stealth_test.py
+  - ~/code/CloakBrowser/images/fingerprintjs_pass.png
 summary: >-
     Detectors draw text, emoji and shapes on a hidden canvas and hash the pixels; CloakBrowser varies the hash per seed with noise, but missing host fonts and detectable noise are its weak spots.
 provenance:
@@ -26,7 +26,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: core
 created: 2026-10-31T05:52:24+01:00
-updated: 2026-10-31T05:52:24+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Canvas fingerprinting
@@ -66,6 +66,6 @@ See [[projects/cloakbrowser/detection-vectors/fingerprint-tampering-detection|Fi
 
 Commit `b1a00ed` (26/10/2026):
 
-- repo:github.com/CloakHQ/CloakBrowser/README.md (Fingerprint Management, Additional Flags, Font Setup on Linux, Troubleshooting: FingerprintJS and Kasada/Akamai, CDP server mode)
-- repo:github.com/CloakHQ/CloakBrowser/examples/stealth_test.py (CreepJS noise-off test)
-- repo:github.com/CloakHQ/CloakBrowser/images/fingerprintjs_pass.png (vision-interpreted)
+- ~/code/CloakBrowser/README.md (Fingerprint Management, Additional Flags, Font Setup on Linux, Troubleshooting: FingerprintJS and Kasada/Akamai, CDP server mode)
+- ~/code/CloakBrowser/examples/stealth_test.py (CreepJS noise-off test)
+- ~/code/CloakBrowser/images/fingerprintjs_pass.png (vision-interpreted)

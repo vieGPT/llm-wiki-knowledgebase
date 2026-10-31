@@ -12,28 +12,28 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/subsystems/settings-and-license]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/license.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/download.py
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/license.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/playwright.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/puppeteer.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/cli.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/license.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/launch.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/puppeteer.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/setup.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/humanizeEngine.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_license.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_license_error.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_login.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_welcome_banner.py
-  - repo:github.com/CloakHQ/CloakBrowser/CHANGELOG.md
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/License.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/Handles.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/tests/CloakBrowser.Tests/LicenseTests.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/tests/CloakBrowser.Tests/Wrappers/LicenseGuardCompositionTests.cs
+  - ~/code/CloakBrowser/cloakbrowser/license.py
+  - ~/code/CloakBrowser/cloakbrowser/download.py
+  - ~/code/CloakBrowser/dotnet/README.md
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/js/src/license.ts
+  - ~/code/CloakBrowser/js/src/playwright.ts
+  - ~/code/CloakBrowser/js/src/puppeteer.ts
+  - ~/code/CloakBrowser/js/tests/cli.test.ts
+  - ~/code/CloakBrowser/js/tests/license.test.ts
+  - ~/code/CloakBrowser/js/tests/launch.test.ts
+  - ~/code/CloakBrowser/js/tests/puppeteer.test.ts
+  - ~/code/CloakBrowser/js/tests/setup.ts
+  - ~/code/CloakBrowser/js/tests/humanizeEngine.test.ts
+  - ~/code/CloakBrowser/tests/test_license.py
+  - ~/code/CloakBrowser/tests/test_license_error.py
+  - ~/code/CloakBrowser/tests/test_login.py
+  - ~/code/CloakBrowser/tests/test_welcome_banner.py
+  - ~/code/CloakBrowser/CHANGELOG.md
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/License.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/Handles.cs
+  - ~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/LicenseTests.cs
+  - ~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/Wrappers/LicenseGuardCompositionTests.cs
 summary: >-
     How the wrapper resolves and validates a Pro license key, injects it into the binary's env, checks the latest Pro build, counts seats, and maps binary exit codes 76-79 to clear errors.
 provenance:
@@ -45,7 +45,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: core
 created: 2026-10-31T05:41:41+01:00
-updated: 2026-10-31T06:58:25+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # License and tiers
@@ -187,19 +187,23 @@ The C# `License` static class is a "Direct port of Python `cloakbrowser/license.
 
 - [[projects/cloakbrowser-manager/subsystems/settings-and-license|Settings and license (Manager)]] — how CloakBrowser-Manager stores one app-wide key and maps license denials to HTTP 402/403.
 
+## Class stubs (ast-extract)
+
+- [[projects/cloakbrowser/subsystems/cloak-browser-license-error|CloakBrowserLicenseError]]
+
 ## Sources
 
 Commit `b1a00ed` (26/10/2026):
 
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/license.py (re-read in the P2 pass)
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/download.py (commit b1a00ed, P2 pass)
-- repo:github.com/CloakHQ/CloakBrowser/dotnet/README.md
-- repo:github.com/CloakHQ/CloakBrowser/README.md
-- repo:github.com/CloakHQ/CloakBrowser/js/src/license.ts, js/src/playwright.ts, js/src/puppeteer.ts, js/tests/cli.test.ts (commit b1a00ed, B5 batch)
-- repo:github.com/CloakHQ/CloakBrowser/js/tests/license.test.ts, js/tests/launch.test.ts, js/tests/puppeteer.test.ts, js/tests/setup.ts, js/tests/humanizeEngine.test.ts (commit b1a00ed, B6 batch)
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_license.py (commit b1a00ed, B8 batch)
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_license_error.py (commit b1a00ed, B8 batch)
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_login.py (commit b1a00ed, B8 batch)
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_welcome_banner.py (commit b1a00ed, B8 batch)
-- repo:github.com/CloakHQ/CloakBrowser/CHANGELOG.md (0.4.5 entry, stale banner interval)
-- repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/License.cs, dotnet/src/CloakBrowser/Handles.cs, dotnet/tests/CloakBrowser.Tests/LicenseTests.cs, dotnet/tests/CloakBrowser.Tests/Wrappers/LicenseGuardCompositionTests.cs (commit b1a00ed, batch D)
+- ~/code/CloakBrowser/cloakbrowser/license.py (re-read in the P2 pass)
+- ~/code/CloakBrowser/cloakbrowser/download.py (commit b1a00ed, P2 pass)
+- ~/code/CloakBrowser/dotnet/README.md
+- ~/code/CloakBrowser/README.md
+- ~/code/CloakBrowser/js/src/license.ts, js/src/playwright.ts, js/src/puppeteer.ts, js/tests/cli.test.ts (commit b1a00ed, B5 batch)
+- ~/code/CloakBrowser/js/tests/license.test.ts, js/tests/launch.test.ts, js/tests/puppeteer.test.ts, js/tests/setup.ts, js/tests/humanizeEngine.test.ts (commit b1a00ed, B6 batch)
+- ~/code/CloakBrowser/tests/test_license.py (commit b1a00ed, B8 batch)
+- ~/code/CloakBrowser/tests/test_license_error.py (commit b1a00ed, B8 batch)
+- ~/code/CloakBrowser/tests/test_login.py (commit b1a00ed, B8 batch)
+- ~/code/CloakBrowser/tests/test_welcome_banner.py (commit b1a00ed, B8 batch)
+- ~/code/CloakBrowser/CHANGELOG.md (0.4.5 entry, stale banner interval)
+- ~/code/CloakBrowser/dotnet/src/CloakBrowser/License.cs, dotnet/src/CloakBrowser/Handles.cs, dotnet/tests/CloakBrowser.Tests/LicenseTests.cs, dotnet/tests/CloakBrowser.Tests/Wrappers/LicenseGuardCompositionTests.cs (commit b1a00ed, batch D)

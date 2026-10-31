@@ -12,17 +12,17 @@ relationships:
   - target: "[[projects/cloakbrowser/detection-vectors/behavioral-analysis]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/images/recaptcha_v3_score_09.png
-  - repo:github.com/CloakHQ/CloakBrowser/images/turnstile_non_interactive.png
-  - repo:github.com/CloakHQ/CloakBrowser/js/examples/stealth-test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/examples/stealth_test.py
-  - repo:github.com/CloakHQ/CloakBrowser/examples/recaptcha_score.py
-  - repo:github.com/CloakHQ/CloakBrowser/images/browserscan_normal.png
-  - repo:github.com/CloakHQ/CloakBrowser/images/fingerprintjs_pass.png
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_stealth.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_stealth_unit.py
+  - ~/code/CloakBrowser/images/recaptcha_v3_score_09.png
+  - ~/code/CloakBrowser/images/turnstile_non_interactive.png
+  - ~/code/CloakBrowser/js/examples/stealth-test.ts
+  - ~/code/CloakBrowser/js/README.md
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/examples/stealth_test.py
+  - ~/code/CloakBrowser/examples/recaptcha_score.py
+  - ~/code/CloakBrowser/images/browserscan_normal.png
+  - ~/code/CloakBrowser/images/fingerprintjs_pass.png
+  - ~/code/CloakBrowser/tests/test_stealth.py
+  - ~/code/CloakBrowser/tests/test_stealth_unit.py
 summary: >-
     Dated, vendor-reported results of CloakBrowser against live detection services (reCAPTCHA v3, Turnstile, FingerprintJS, BrowserScan and others), with the pass criteria the test suite uses.
 provenance:
@@ -34,7 +34,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:47:25+01:00
-updated: 2026-10-31T05:54:19+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Detection service test matrix
@@ -150,7 +150,7 @@ The README's TLS row is not tested by any suite. See [[projects/cloakbrowser/det
 
 ## Sources
 
-- `repo:github.com/CloakHQ/CloakBrowser` at commit `b1a00ed`: `images/recaptcha_v3_score_09.png` (vision-interpreted), `images/turnstile_non_interactive.png` (vision-interpreted), `js/examples/stealth-test.ts`, `js/README.md`
-- `repo:github.com/CloakHQ/CloakBrowser` at commit `b1a00ed` (B2): `README.md` (Test Results, Comparison), `examples/stealth_test.py`, `examples/recaptcha_score.py`, `images/browserscan_normal.png` (vision-interpreted), `images/fingerprintjs_pass.png` (vision-interpreted)
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_stealth.py (commit b1a00ed, B8 batch)
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_stealth_unit.py (commit b1a00ed, B8 batch)
+- `~/code/CloakBrowser` at commit `b1a00ed`: `images/recaptcha_v3_score_09.png` (vision-interpreted), `images/turnstile_non_interactive.png` (vision-interpreted), `js/examples/stealth-test.ts`, `js/README.md`
+- `~/code/CloakBrowser` at commit `b1a00ed` (B2): `README.md` (Test Results, Comparison), `examples/stealth_test.py`, `examples/recaptcha_score.py`, `images/browserscan_normal.png` (vision-interpreted), `images/fingerprintjs_pass.png` (vision-interpreted)
+- ~/code/CloakBrowser/tests/test_stealth.py (commit b1a00ed, B8 batch)
+- ~/code/CloakBrowser/tests/test_stealth_unit.py (commit b1a00ed, B8 batch)

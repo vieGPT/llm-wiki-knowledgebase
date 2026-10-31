@@ -8,13 +8,13 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/subsystems/api-server]]"
     type: related_to
 sources:
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/main.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/app_entry.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/README.md
-  - repo:github.com/vieGPT/CloakBrowser-Manager/CHANGELOG.md
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_auth.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_api.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/docker-compose.yml
+  - ~/code/CloakBrowser-Manager/backend/main.py
+  - ~/code/CloakBrowser-Manager/app_entry.py
+  - ~/code/CloakBrowser-Manager/README.md
+  - ~/code/CloakBrowser-Manager/CHANGELOG.md
+  - ~/code/CloakBrowser-Manager/backend/tests/test_auth.py
+  - ~/code/CloakBrowser-Manager/backend/tests/test_api.py
+  - ~/code/CloakBrowser-Manager/docker-compose.yml
 summary: >-
     Optional single shared AUTH_TOKEN gates /api/* via Bearer header or an HttpOnly cookie (which also covers VNC WebSockets); /api/health stays open, origin checks guard WS and shutdown.
 provenance:
@@ -26,7 +26,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T06:27:05+01:00
-updated: 2026-10-31T06:28:29+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Authentication model
@@ -85,7 +85,7 @@ The Manager has no user accounts. Authentication is one optional shared secret, 
 
 ## Sources
 
-- repo:github.com/vieGPT/CloakBrowser-Manager/backend/main.py (commit 11e0043)
-- repo:github.com/vieGPT/CloakBrowser-Manager/app_entry.py (commit 11e0043)
-- repo:github.com/vieGPT/CloakBrowser-Manager/README.md (Authentication, Remote Access), CHANGELOG.md (0.1.0) (commit 11e0043)
-- repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_auth.py, backend/tests/test_api.py, docker-compose.yml (commit 11e0043)
+- ~/code/CloakBrowser-Manager/backend/main.py (commit 11e0043)
+- ~/code/CloakBrowser-Manager/app_entry.py (commit 11e0043)
+- ~/code/CloakBrowser-Manager/README.md (Authentication, Remote Access), CHANGELOG.md (0.1.0) (commit 11e0043)
+- ~/code/CloakBrowser-Manager/backend/tests/test_auth.py, backend/tests/test_api.py, docker-compose.yml (commit 11e0043)

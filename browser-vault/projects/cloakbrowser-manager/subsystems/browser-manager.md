@@ -40,11 +40,11 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/architecture/manager-architecture]]"
     type: related_to
 sources:
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/browser_manager.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/main.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/CHANGELOG.md
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_browser_manager.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_vnc_manager.py
+  - ~/code/CloakBrowser-Manager/backend/browser_manager.py
+  - ~/code/CloakBrowser-Manager/backend/main.py
+  - ~/code/CloakBrowser-Manager/CHANGELOG.md
+  - ~/code/CloakBrowser-Manager/backend/tests/test_browser_manager.py
+  - ~/code/CloakBrowser-Manager/backend/tests/test_vnc_manager.py
 summary: >-
     BrowserManager launches, tracks and stops one CloakBrowser persistent context per profile, maps profile rows to --fingerprint flags, guards dirs with hold_stopped and surfaces license denials.
 provenance:
@@ -56,7 +56,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: core
 created: 2026-10-31T06:20:23+01:00
-updated: 2026-10-31T06:53:05+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Browser manager
@@ -123,9 +123,13 @@ Any failure swaps the profile from launching to stopping under the lock and tear
 
 - Resolved: the wrapper's `.cloakbrowser-seed` mechanism ([[projects/cloakbrowser/subsystems/profile-seed]]) treats an explicit `--fingerprint=<seed>` as an opt-out and neither reads nor writes the file, so the Manager's database seed always wins and reset needs no seed-file cleanup. ^[inferred]
 
+## Class stubs (ast-extract)
+
+- [[projects/cloakbrowser-manager/subsystems/profile-busy-error|ProfileBusyError]]
+
 ## Sources
 
-- repo:github.com/vieGPT/CloakBrowser-Manager/backend/browser_manager.py (commit 11e0043)
-- repo:github.com/vieGPT/CloakBrowser-Manager/backend/main.py (commit 11e0043)
-- repo:github.com/vieGPT/CloakBrowser-Manager/CHANGELOG.md (commit 11e0043, entries 0.1.0 to 0.1.8)
-- repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_browser_manager.py, test_vnc_manager.py (commit 11e0043)
+- ~/code/CloakBrowser-Manager/backend/browser_manager.py (commit 11e0043)
+- ~/code/CloakBrowser-Manager/backend/main.py (commit 11e0043)
+- ~/code/CloakBrowser-Manager/CHANGELOG.md (commit 11e0043, entries 0.1.0 to 0.1.8)
+- ~/code/CloakBrowser-Manager/backend/tests/test_browser_manager.py, test_vnc_manager.py (commit 11e0043)

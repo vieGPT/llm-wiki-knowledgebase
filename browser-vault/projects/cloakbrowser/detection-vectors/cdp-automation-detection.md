@@ -5,23 +5,23 @@ category: detection-vectors
 tags: [cdp, bot-detection, playwright, browser-automation, isolated-world]
 aliases: [isAutomatedWithCDP, CDP detection, automation signals]
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/keyboard.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/world.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/injected.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/patch.py
-  - repo:github.com/CloakHQ/CloakBrowser/examples/fingerprint_scan_test.py
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/examples/stealth_test.py
-  - repo:github.com/CloakHQ/CloakBrowser/examples/integrations/selenium_example.py
-  - repo:github.com/CloakHQ/CloakBrowser/examples/integrations/undetected_chromedriver.py
-  - repo:github.com/CloakHQ/CloakBrowser/images/browserscan_normal.png
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_stealth_reproduction_110.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_stealth_unit.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_stealth.py
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/stealth.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/stealth.puppeteer.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/humanizeEngine.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/humanizeHarness.ts
+  - ~/code/CloakBrowser/cloakbrowser/human/keyboard.py
+  - ~/code/CloakBrowser/cloakbrowser/human/world.py
+  - ~/code/CloakBrowser/cloakbrowser/human/injected.py
+  - ~/code/CloakBrowser/cloakbrowser/human/patch.py
+  - ~/code/CloakBrowser/examples/fingerprint_scan_test.py
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/examples/stealth_test.py
+  - ~/code/CloakBrowser/examples/integrations/selenium_example.py
+  - ~/code/CloakBrowser/examples/integrations/undetected_chromedriver.py
+  - ~/code/CloakBrowser/images/browserscan_normal.png
+  - ~/code/CloakBrowser/tests/test_stealth_reproduction_110.py
+  - ~/code/CloakBrowser/tests/test_stealth_unit.py
+  - ~/code/CloakBrowser/tests/test_stealth.py
+  - ~/code/CloakBrowser/js/tests/stealth.test.ts
+  - ~/code/CloakBrowser/js/tests/stealth.puppeteer.test.ts
+  - ~/code/CloakBrowser/js/tests/humanizeEngine.test.ts
+  - ~/code/CloakBrowser/js/tests/humanizeHarness.ts
 summary: >-
     How pages detect a CDP-driven browser (untrusted events, evaluate stack frames, framework globals, protocol traffic) and what the humanize layer does to stay out of the page's realm.
 provenance:
@@ -33,7 +33,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: core
 created: 2026-10-31T05:47:42+01:00
-updated: 2026-10-31T06:37:29+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # CDP and automation detection
@@ -108,17 +108,17 @@ Selenium and undetected-chromedriver drive the CloakBrowser binary through Chrom
 
 Commit `b1a00ed` (26/10/2026):
 
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/keyboard.py
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/world.py
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/injected.py
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/patch.py
-- repo:github.com/CloakHQ/CloakBrowser/examples/fingerprint_scan_test.py
-- repo:github.com/CloakHQ/CloakBrowser/README.md
-- repo:github.com/CloakHQ/CloakBrowser/examples/stealth_test.py (B2)
-- repo:github.com/CloakHQ/CloakBrowser/examples/integrations/selenium_example.py (B2)
-- repo:github.com/CloakHQ/CloakBrowser/examples/integrations/undetected_chromedriver.py (B2)
-- repo:github.com/CloakHQ/CloakBrowser/images/browserscan_normal.png (B2, vision-interpreted)
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_stealth_reproduction_110.py (commit b1a00ed, B8 batch)
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_stealth_unit.py (commit b1a00ed, B8 batch)
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_stealth.py (commit b1a00ed, B8 batch)
-- repo:github.com/CloakHQ/CloakBrowser/js/tests/stealth.test.ts, js/tests/stealth.puppeteer.test.ts, js/tests/humanizeEngine.test.ts, js/tests/humanizeHarness.ts (commit b1a00ed, B6 batch)
+- ~/code/CloakBrowser/cloakbrowser/human/keyboard.py
+- ~/code/CloakBrowser/cloakbrowser/human/world.py
+- ~/code/CloakBrowser/cloakbrowser/human/injected.py
+- ~/code/CloakBrowser/cloakbrowser/human/patch.py
+- ~/code/CloakBrowser/examples/fingerprint_scan_test.py
+- ~/code/CloakBrowser/README.md
+- ~/code/CloakBrowser/examples/stealth_test.py (B2)
+- ~/code/CloakBrowser/examples/integrations/selenium_example.py (B2)
+- ~/code/CloakBrowser/examples/integrations/undetected_chromedriver.py (B2)
+- ~/code/CloakBrowser/images/browserscan_normal.png (B2, vision-interpreted)
+- ~/code/CloakBrowser/tests/test_stealth_reproduction_110.py (commit b1a00ed, B8 batch)
+- ~/code/CloakBrowser/tests/test_stealth_unit.py (commit b1a00ed, B8 batch)
+- ~/code/CloakBrowser/tests/test_stealth.py (commit b1a00ed, B8 batch)
+- ~/code/CloakBrowser/js/tests/stealth.test.ts, js/tests/stealth.puppeteer.test.ts, js/tests/humanizeEngine.test.ts, js/tests/humanizeHarness.ts (commit b1a00ed, B6 batch)

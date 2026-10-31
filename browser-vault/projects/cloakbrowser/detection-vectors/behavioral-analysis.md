@@ -5,11 +5,11 @@ category: detection-vectors
 tags: [behavioral-biometrics, bot-detection, mouse-dynamics, keystroke-dynamics, recaptcha]
 aliases: [behavioral bot detection, interaction biometrics]
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/mouse.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/keyboard.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/engine.py
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/humanizeEngine.test.ts
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/cloakbrowser/human/mouse.py
+  - ~/code/CloakBrowser/cloakbrowser/human/keyboard.py
+  - ~/code/CloakBrowser/cloakbrowser/human/engine.py
+  - ~/code/CloakBrowser/js/tests/humanizeEngine.test.ts
 summary: >-
     What behavioral bot detection measures (mouse paths, click timing, keystroke dynamics, scroll deltas, fill vs type) and which CloakBrowser input behaviors address each signal.
 provenance:
@@ -21,7 +21,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: core
 created: 2026-10-31T05:41:41+01:00
-updated: 2026-10-31T06:10:53+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Behavioral analysis
@@ -74,8 +74,8 @@ Behavioral signals overlap with [[projects/cloakbrowser/detection-vectors/cdp-au
 
 Commit `b1a00ed` (26/10/2026):
 
-- repo:github.com/CloakHQ/CloakBrowser/README.md
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/mouse.py
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/keyboard.py
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/engine.py
-- repo:github.com/CloakHQ/CloakBrowser/js/tests/humanizeEngine.test.ts (commit b1a00ed, P2 pass)
+- ~/code/CloakBrowser/README.md
+- ~/code/CloakBrowser/cloakbrowser/human/mouse.py
+- ~/code/CloakBrowser/cloakbrowser/human/keyboard.py
+- ~/code/CloakBrowser/cloakbrowser/human/engine.py
+- ~/code/CloakBrowser/js/tests/humanizeEngine.test.ts (commit b1a00ed, P2 pass)

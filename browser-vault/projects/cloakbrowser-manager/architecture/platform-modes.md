@@ -22,21 +22,21 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/architecture/manager-architecture]]"
     type: related_to
 sources:
-  - repo:github.com/vieGPT/CloakBrowser-Manager/Dockerfile
-  - repo:github.com/vieGPT/CloakBrowser-Manager/run.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/app_entry.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/runtime.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/packaging/manager.spec
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/lib/api.ts
-  - repo:github.com/vieGPT/CloakBrowser-Manager/CHANGELOG.md
-  - repo:github.com/vieGPT/CloakBrowser-Manager/.env.example
-  - repo:github.com/vieGPT/CloakBrowser-Manager/entrypoint.sh
-  - repo:github.com/vieGPT/CloakBrowser-Manager/docker-compose.yml
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_runtime.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_launcher.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/browser_manager.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/main.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/artifacts.py
+  - ~/code/CloakBrowser-Manager/Dockerfile
+  - ~/code/CloakBrowser-Manager/run.py
+  - ~/code/CloakBrowser-Manager/app_entry.py
+  - ~/code/CloakBrowser-Manager/backend/runtime.py
+  - ~/code/CloakBrowser-Manager/packaging/manager.spec
+  - ~/code/CloakBrowser-Manager/frontend/src/lib/api.ts
+  - ~/code/CloakBrowser-Manager/CHANGELOG.md
+  - ~/code/CloakBrowser-Manager/.env.example
+  - ~/code/CloakBrowser-Manager/entrypoint.sh
+  - ~/code/CloakBrowser-Manager/docker-compose.yml
+  - ~/code/CloakBrowser-Manager/backend/tests/test_runtime.py
+  - ~/code/CloakBrowser-Manager/backend/tests/test_launcher.py
+  - ~/code/CloakBrowser-Manager/backend/browser_manager.py
+  - ~/code/CloakBrowser-Manager/backend/main.py
+  - ~/code/CloakBrowser-Manager/backend/artifacts.py
 summary: >-
     The host decides the mode: Windows/macOS run natively with real browser windows and a pywebview shell; Linux runs only in Docker, streaming each profile over KasmVNC.
 provenance:
@@ -48,7 +48,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T06:19:30+01:00
-updated: 2026-10-31T06:53:05+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Platform modes
@@ -137,7 +137,7 @@ Native-only shell details from `app_entry.py`: stdout/stderr are switched to `er
 
 ## Sources
 
-Commit `11e0043` of `repo:github.com/vieGPT/CloakBrowser-Manager`:
+Commit `11e0043` of `~/code/CloakBrowser-Manager`:
 
 - Dockerfile, run.py, .env.example, packaging/manager.spec, frontend/src/lib/api.ts
 - app_entry.py, backend/runtime.py, CHANGELOG.md (consulted)

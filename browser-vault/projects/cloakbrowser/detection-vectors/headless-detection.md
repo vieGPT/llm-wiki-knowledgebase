@@ -5,14 +5,14 @@ category: detection-vectors
 tags: [headless, bot-detection, creepjs, fingerprinting, browser-automation]
 aliases: [headless Chrome detection, like-headless signals]
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/examples/fingerprint_scan_test.py
-  - repo:github.com/CloakHQ/CloakBrowser/examples/integrations/aws_lambda/INSTRUCTIONS.md
-  - repo:github.com/CloakHQ/CloakBrowser/examples/integrations/aws_lambda/lambda-entrypoint.sh
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_stealth.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_stealth_reproduction_110.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_launch_context.py
+  - ~/code/CloakBrowser/examples/fingerprint_scan_test.py
+  - ~/code/CloakBrowser/examples/integrations/aws_lambda/INSTRUCTIONS.md
+  - ~/code/CloakBrowser/examples/integrations/aws_lambda/lambda-entrypoint.sh
+  - ~/code/CloakBrowser/dotnet/README.md
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/tests/test_stealth.py
+  - ~/code/CloakBrowser/tests/test_stealth_reproduction_110.py
+  - ~/code/CloakBrowser/tests/test_launch_context.py
 summary: >-
     Signals that betray headless or automated Chromium (missing taskbar, absent ContentIndex/Contacts/downlinkMax APIs, Playwright globals) and how the project's scan script scores them.
 provenance:
@@ -24,7 +24,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:47:12+01:00
-updated: 2026-10-31T05:54:19+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Headless detection
@@ -76,11 +76,11 @@ The README makes two claims that pull in different directions (as of 26/10/2026,
 
 Commit `b1a00ed` (26/10/2026):
 
-- repo:github.com/CloakHQ/CloakBrowser/examples/fingerprint_scan_test.py
-- repo:github.com/CloakHQ/CloakBrowser/examples/integrations/aws_lambda/INSTRUCTIONS.md
-- repo:github.com/CloakHQ/CloakBrowser/examples/integrations/aws_lambda/lambda-entrypoint.sh
-- repo:github.com/CloakHQ/CloakBrowser/dotnet/README.md
-- repo:github.com/CloakHQ/CloakBrowser/README.md
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_stealth.py
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_stealth_reproduction_110.py
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_launch_context.py
+- ~/code/CloakBrowser/examples/fingerprint_scan_test.py
+- ~/code/CloakBrowser/examples/integrations/aws_lambda/INSTRUCTIONS.md
+- ~/code/CloakBrowser/examples/integrations/aws_lambda/lambda-entrypoint.sh
+- ~/code/CloakBrowser/dotnet/README.md
+- ~/code/CloakBrowser/README.md
+- ~/code/CloakBrowser/tests/test_stealth.py
+- ~/code/CloakBrowser/tests/test_stealth_reproduction_110.py
+- ~/code/CloakBrowser/tests/test_launch_context.py

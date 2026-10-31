@@ -10,7 +10,7 @@ relationships:
   - target: "[[projects/cloakbrowser/detection-vectors/fingerprint-tampering-detection]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
+  - ~/code/CloakBrowser/README.md
 summary: >-
     Web Audio output varies subtly by platform and is hashed as a device ID; CloakBrowser derives audio traits from the seed and adds noise, which --fingerprint-noise=false turns off.
 provenance:
@@ -22,7 +22,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:52:24+01:00
-updated: 2026-10-31T05:52:24+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Audio fingerprinting
@@ -51,4 +51,4 @@ Audio fingerprinting renders a short signal through the Web Audio API (typically
 
 Commit `b1a00ed` (26/10/2026):
 
-- repo:github.com/CloakHQ/CloakBrowser/README.md (feature list, Fingerprint Management, Default Fingerprint, Additional Flags)
+- ~/code/CloakBrowser/README.md (feature list, Fingerprint Management, Default Fingerprint, Additional Flags)

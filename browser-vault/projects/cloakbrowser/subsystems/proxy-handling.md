@@ -12,21 +12,21 @@ relationships:
   - target: "[[projects/cloakbrowser/subsystems/geoip-resolver]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/proxy.ts
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/browser.py
-  - repo:github.com/CloakHQ/CloakBrowser/bin/cloakserve
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/playwright.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/puppeteer.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/types.ts
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/proxy.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/puppeteer.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/launch.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_proxy.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_stealth.py
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/ProxyResolver.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/ProxySettings.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/tests/CloakBrowser.Tests/ProxyResolverTests.cs
+  - ~/code/CloakBrowser/js/src/proxy.ts
+  - ~/code/CloakBrowser/cloakbrowser/browser.py
+  - ~/code/CloakBrowser/bin/cloakserve
+  - ~/code/CloakBrowser/js/src/playwright.ts
+  - ~/code/CloakBrowser/js/src/puppeteer.ts
+  - ~/code/CloakBrowser/js/src/types.ts
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/js/tests/proxy.test.ts
+  - ~/code/CloakBrowser/js/tests/puppeteer.test.ts
+  - ~/code/CloakBrowser/js/tests/launch.test.ts
+  - ~/code/CloakBrowser/tests/test_proxy.py
+  - ~/code/CloakBrowser/tests/test_stealth.py
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/ProxyResolver.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/ProxySettings.cs
+  - ~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/ProxyResolverTests.cs
 summary: >-
     How the wrappers turn a proxy string or dict into either a Playwright proxy option or a Chrome --proxy-server flag, and why credentialed proxies bypass Playwright's CDP auth path.
 provenance:
@@ -38,7 +38,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:41:22+01:00
-updated: 2026-10-31T06:58:25+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Proxy handling
@@ -153,16 +153,21 @@ The Docker CDP server imports only the SOCKS string normalizer. It passes every 
 
 - Whether `--proxy-bypass-list` is honoured when a string (not dict) proxy is used: the string path never emits it, so bypass requires the dict form. ^[inferred]
 
+## Class stubs (ast-extract)
+
+- [[projects/cloakbrowser/subsystems/proxy-settings|ProxySettings]]
+- [[projects/cloakbrowser/subsystems/proxy-settings-required|ProxySettingsRequired]]
+
 ## Sources
 
-- repo:github.com/CloakHQ/CloakBrowser/js/src/proxy.ts (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/browser.py (commit b1a00ed, P2 pass)
-- repo:github.com/CloakHQ/CloakBrowser/bin/cloakserve (commit b1a00ed, P2 pass)
-- repo:github.com/CloakHQ/CloakBrowser/js/src/playwright.ts (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/js/src/puppeteer.ts (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/js/src/types.ts (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/README.md (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/js/tests/proxy.test.ts, js/tests/puppeteer.test.ts, js/tests/launch.test.ts (commit b1a00ed, B6 batch)
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_proxy.py (commit b1a00ed, B8 batch)
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_stealth.py (commit b1a00ed, B8 batch)
-- repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/ProxyResolver.cs, dotnet/src/CloakBrowser/ProxySettings.cs, dotnet/tests/CloakBrowser.Tests/ProxyResolverTests.cs (commit b1a00ed, batch D)
+- ~/code/CloakBrowser/js/src/proxy.ts (commit b1a00ed)
+- ~/code/CloakBrowser/cloakbrowser/browser.py (commit b1a00ed, P2 pass)
+- ~/code/CloakBrowser/bin/cloakserve (commit b1a00ed, P2 pass)
+- ~/code/CloakBrowser/js/src/playwright.ts (commit b1a00ed)
+- ~/code/CloakBrowser/js/src/puppeteer.ts (commit b1a00ed)
+- ~/code/CloakBrowser/js/src/types.ts (commit b1a00ed)
+- ~/code/CloakBrowser/README.md (commit b1a00ed)
+- ~/code/CloakBrowser/js/tests/proxy.test.ts, js/tests/puppeteer.test.ts, js/tests/launch.test.ts (commit b1a00ed, B6 batch)
+- ~/code/CloakBrowser/tests/test_proxy.py (commit b1a00ed, B8 batch)
+- ~/code/CloakBrowser/tests/test_stealth.py (commit b1a00ed, B8 batch)
+- ~/code/CloakBrowser/dotnet/src/CloakBrowser/ProxyResolver.cs, dotnet/src/CloakBrowser/ProxySettings.cs, dotnet/tests/CloakBrowser.Tests/ProxyResolverTests.cs (commit b1a00ed, batch D)

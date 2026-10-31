@@ -20,12 +20,12 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/techniques/per-profile-identity-isolation]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/playwright.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/puppeteer.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/profile-seed.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/widevine.ts
-  - repo:github.com/CloakHQ/CloakBrowser/examples/persistent_context.py
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/js/src/playwright.ts
+  - ~/code/CloakBrowser/js/src/puppeteer.ts
+  - ~/code/CloakBrowser/js/src/profile-seed.ts
+  - ~/code/CloakBrowser/js/src/widevine.ts
+  - ~/code/CloakBrowser/examples/persistent_context.py
 summary: >-
     Using a real user-data directory instead of an incognito context: escapes incognito checks, keeps a stable seed, and lets a one-time HTTP/1.1 visit warm cookies for later runs.
 provenance:
@@ -37,7 +37,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:41:22+01:00
-updated: 2026-10-31T06:46:59+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Persistent profile warm-up
@@ -85,9 +85,9 @@ The Python example shows the round trip at its simplest. Session 1 opens `./my-p
 
 ## Sources
 
-- repo:github.com/CloakHQ/CloakBrowser/README.md (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/js/src/playwright.ts (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/js/src/puppeteer.ts (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/js/src/profile-seed.ts (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/js/src/widevine.ts (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/examples/persistent_context.py (commit b1a00ed, B2)
+- ~/code/CloakBrowser/README.md (commit b1a00ed)
+- ~/code/CloakBrowser/js/src/playwright.ts (commit b1a00ed)
+- ~/code/CloakBrowser/js/src/puppeteer.ts (commit b1a00ed)
+- ~/code/CloakBrowser/js/src/profile-seed.ts (commit b1a00ed)
+- ~/code/CloakBrowser/js/src/widevine.ts (commit b1a00ed)
+- ~/code/CloakBrowser/examples/persistent_context.py (commit b1a00ed, B2)

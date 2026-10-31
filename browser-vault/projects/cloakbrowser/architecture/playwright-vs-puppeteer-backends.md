@@ -12,23 +12,23 @@ relationships:
   - target: "[[projects/cloakbrowser/architecture/python-js-wrapper-parity]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/index.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/playwright.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/puppeteer.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/types.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/human-puppeteer/index.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/human-puppeteer/keyboard.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/human-puppeteer/scroll.ts
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/js/package.json
-  - repo:github.com/CloakHQ/CloakBrowser/js/examples/basic-playwright.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/examples/basic-puppeteer.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/puppeteer.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/stealth.puppeteer.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/humanizePuppeteer.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/launch.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/humanizeEngine.test.ts
+  - ~/code/CloakBrowser/js/src/index.ts
+  - ~/code/CloakBrowser/js/src/playwright.ts
+  - ~/code/CloakBrowser/js/src/puppeteer.ts
+  - ~/code/CloakBrowser/js/src/types.ts
+  - ~/code/CloakBrowser/js/src/human-puppeteer/index.ts
+  - ~/code/CloakBrowser/js/src/human-puppeteer/keyboard.ts
+  - ~/code/CloakBrowser/js/src/human-puppeteer/scroll.ts
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/js/package.json
+  - ~/code/CloakBrowser/js/examples/basic-playwright.ts
+  - ~/code/CloakBrowser/js/examples/basic-puppeteer.ts
+  - ~/code/CloakBrowser/js/README.md
+  - ~/code/CloakBrowser/js/tests/puppeteer.test.ts
+  - ~/code/CloakBrowser/js/tests/stealth.puppeteer.test.ts
+  - ~/code/CloakBrowser/js/tests/humanizePuppeteer.test.ts
+  - ~/code/CloakBrowser/js/tests/launch.test.ts
+  - ~/code/CloakBrowser/js/tests/humanizeEngine.test.ts
 summary: >-
     The JS package drives the same stealth binary through Playwright (default export) or Puppeteer (cloakbrowser/puppeteer); they differ in proxy auth, viewport, humanize depth and CDP noise.
 provenance:
@@ -40,7 +40,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:41:22+01:00
-updated: 2026-10-31T06:53:05+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Playwright vs Puppeteer backends
@@ -119,13 +119,13 @@ These details come from `js/package.json` and the JS examples (as of 26/10/2026,
 
 ## Sources
 
-- repo:github.com/CloakHQ/CloakBrowser/js/src/index.ts (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/js/src/playwright.ts (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/js/src/puppeteer.ts (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/js/src/types.ts (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/js/src/human-puppeteer/index.ts (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/js/src/human-puppeteer/keyboard.ts (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/js/src/human-puppeteer/scroll.ts (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/README.md (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/js/package.json, js/examples/basic-playwright.ts, js/examples/basic-puppeteer.ts, js/README.md (commit b1a00ed, B4 batch)
-- repo:github.com/CloakHQ/CloakBrowser/js/tests/puppeteer.test.ts, js/tests/stealth.puppeteer.test.ts, js/tests/humanizePuppeteer.test.ts, js/tests/launch.test.ts, js/tests/humanizeEngine.test.ts (commit b1a00ed, B6 batch)
+- ~/code/CloakBrowser/js/src/index.ts (commit b1a00ed)
+- ~/code/CloakBrowser/js/src/playwright.ts (commit b1a00ed)
+- ~/code/CloakBrowser/js/src/puppeteer.ts (commit b1a00ed)
+- ~/code/CloakBrowser/js/src/types.ts (commit b1a00ed)
+- ~/code/CloakBrowser/js/src/human-puppeteer/index.ts (commit b1a00ed)
+- ~/code/CloakBrowser/js/src/human-puppeteer/keyboard.ts (commit b1a00ed)
+- ~/code/CloakBrowser/js/src/human-puppeteer/scroll.ts (commit b1a00ed)
+- ~/code/CloakBrowser/README.md (commit b1a00ed)
+- ~/code/CloakBrowser/js/package.json, js/examples/basic-playwright.ts, js/examples/basic-puppeteer.ts, js/README.md (commit b1a00ed, B4 batch)
+- ~/code/CloakBrowser/js/tests/puppeteer.test.ts, js/tests/stealth.puppeteer.test.ts, js/tests/humanizePuppeteer.test.ts, js/tests/launch.test.ts, js/tests/humanizeEngine.test.ts (commit b1a00ed, B6 batch)

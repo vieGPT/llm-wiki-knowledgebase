@@ -14,26 +14,26 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/subsystems/runtime-and-binary]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/download.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/config.py
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/CHANGELOG.md
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/download.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/config.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/js/examples/stagehand.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/update.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/signature.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/welcome.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/launch.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_extract.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_free_version_pin.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_config.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_update.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_welcome_banner.py
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/Download.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/tests/CloakBrowser.Tests/SignatureTests.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/tests/CloakBrowser.Tests/DownloadConfigTests.cs
+  - ~/code/CloakBrowser/cloakbrowser/download.py
+  - ~/code/CloakBrowser/cloakbrowser/config.py
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/CHANGELOG.md
+  - ~/code/CloakBrowser/js/src/download.ts
+  - ~/code/CloakBrowser/js/src/config.ts
+  - ~/code/CloakBrowser/js/README.md
+  - ~/code/CloakBrowser/js/examples/stagehand.ts
+  - ~/code/CloakBrowser/js/tests/update.test.ts
+  - ~/code/CloakBrowser/js/tests/signature.test.ts
+  - ~/code/CloakBrowser/js/tests/welcome.test.ts
+  - ~/code/CloakBrowser/js/tests/launch.test.ts
+  - ~/code/CloakBrowser/tests/test_extract.py
+  - ~/code/CloakBrowser/tests/test_free_version_pin.py
+  - ~/code/CloakBrowser/tests/test_config.py
+  - ~/code/CloakBrowser/tests/test_update.py
+  - ~/code/CloakBrowser/tests/test_welcome_banner.py
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/Download.cs
+  - ~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/SignatureTests.cs
+  - ~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/DownloadConfigTests.cs
 summary: >-
     ensure_binary resolves which Chromium build to run, downloads it from cloakbrowser.dev or GitHub, verifies a pinned Ed25519 signature, extracts atomically, and auto-updates.
 provenance:
@@ -45,7 +45,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: core
 created: 2026-10-31T05:44:40+01:00
-updated: 2026-10-31T06:58:25+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Binary download and verification
@@ -185,15 +185,19 @@ One test docstring contradicts the routing tests. `test_missing_manifest_is_tran
 
 - [[projects/cloakbrowser-manager/subsystems/runtime-and-binary|Runtime and binary (Manager)]] — CloakBrowser-Manager calls `ensure_binary` once at startup and after a settings change.
 
+## Class stubs (ast-extract)
+
+- [[projects/cloakbrowser/subsystems/binary-verification-error|BinaryVerificationError]]
+
 ## Sources
 
-- `repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/download.py` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/config.py` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/README.md` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/CHANGELOG.md` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/js/src/download.ts`, `js/src/config.ts`, `js/README.md`, `js/examples/stagehand.ts` (commit `b1a00ed`, B4 batch)
-- `repo:github.com/CloakHQ/CloakBrowser/js/tests/update.test.ts`, `js/tests/signature.test.ts`, `js/tests/welcome.test.ts`, `js/tests/launch.test.ts` (commit `b1a00ed`, B6 batch)
-- `repo:github.com/CloakHQ/CloakBrowser/tests/test_extract.py`, `tests/test_free_version_pin.py`, `tests/test_config.py` (commit `b1a00ed`, B7 batch)
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_update.py (commit b1a00ed, B8 batch)
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_welcome_banner.py (commit b1a00ed, B8 batch)
-- repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/Download.cs, dotnet/tests/CloakBrowser.Tests/SignatureTests.cs, dotnet/tests/CloakBrowser.Tests/DownloadConfigTests.cs (commit b1a00ed, batch D)
+- `~/code/CloakBrowser/cloakbrowser/download.py` (commit `b1a00ed`)
+- `~/code/CloakBrowser/cloakbrowser/config.py` (commit `b1a00ed`)
+- `~/code/CloakBrowser/README.md` (commit `b1a00ed`)
+- `~/code/CloakBrowser/CHANGELOG.md` (commit `b1a00ed`)
+- `~/code/CloakBrowser/js/src/download.ts`, `js/src/config.ts`, `js/README.md`, `js/examples/stagehand.ts` (commit `b1a00ed`, B4 batch)
+- `~/code/CloakBrowser/js/tests/update.test.ts`, `js/tests/signature.test.ts`, `js/tests/welcome.test.ts`, `js/tests/launch.test.ts` (commit `b1a00ed`, B6 batch)
+- `~/code/CloakBrowser/tests/test_extract.py`, `tests/test_free_version_pin.py`, `tests/test_config.py` (commit `b1a00ed`, B7 batch)
+- ~/code/CloakBrowser/tests/test_update.py (commit b1a00ed, B8 batch)
+- ~/code/CloakBrowser/tests/test_welcome_banner.py (commit b1a00ed, B8 batch)
+- ~/code/CloakBrowser/dotnet/src/CloakBrowser/Download.cs, dotnet/tests/CloakBrowser.Tests/SignatureTests.cs, dotnet/tests/CloakBrowser.Tests/DownloadConfigTests.cs (commit b1a00ed, batch D)

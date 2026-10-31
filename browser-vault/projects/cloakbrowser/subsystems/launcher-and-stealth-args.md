@@ -36,37 +36,37 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/subsystems/browser-manager]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/args.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/config.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/browser.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/config.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/__init__.py
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/CHANGELOG.md
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/playwright.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/puppeteer.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/config.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/launch.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/puppeteer.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/extension-loading.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/require.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/setup.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/widevine-integration.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_build_args.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_config.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_extension_loading.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/conftest.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_launch.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_launch_context.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_persistent_context.py
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/CloakLauncher.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/Config.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/LaunchOptions.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/ViewportDefaults.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/tests/CloakBrowser.Tests/BuildArgsTests.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/tests/CloakBrowser.Tests/ViewportTests.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/tests/CloakBrowser.Tests/FontWarningTests.cs
+  - ~/code/CloakBrowser/js/src/args.ts
+  - ~/code/CloakBrowser/js/src/config.ts
+  - ~/code/CloakBrowser/js/README.md
+  - ~/code/CloakBrowser/cloakbrowser/browser.py
+  - ~/code/CloakBrowser/cloakbrowser/config.py
+  - ~/code/CloakBrowser/cloakbrowser/__init__.py
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/CHANGELOG.md
+  - ~/code/CloakBrowser/js/src/playwright.ts
+  - ~/code/CloakBrowser/js/src/puppeteer.ts
+  - ~/code/CloakBrowser/js/tests/config.test.ts
+  - ~/code/CloakBrowser/js/tests/launch.test.ts
+  - ~/code/CloakBrowser/js/tests/puppeteer.test.ts
+  - ~/code/CloakBrowser/js/tests/extension-loading.test.ts
+  - ~/code/CloakBrowser/js/tests/require.test.ts
+  - ~/code/CloakBrowser/js/tests/setup.ts
+  - ~/code/CloakBrowser/js/tests/widevine-integration.test.ts
+  - ~/code/CloakBrowser/tests/test_build_args.py
+  - ~/code/CloakBrowser/tests/test_config.py
+  - ~/code/CloakBrowser/tests/test_extension_loading.py
+  - ~/code/CloakBrowser/tests/conftest.py
+  - ~/code/CloakBrowser/tests/test_launch.py
+  - ~/code/CloakBrowser/tests/test_launch_context.py
+  - ~/code/CloakBrowser/tests/test_persistent_context.py
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/CloakLauncher.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/Config.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/LaunchOptions.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/ViewportDefaults.cs
+  - ~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/BuildArgsTests.cs
+  - ~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/ViewportTests.cs
+  - ~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/FontWarningTests.cs
 summary: >-
     How the wrapper turns launch options into a deduplicated Chromium argv and a Playwright launch: stealth defaults, overrides, GeoIP, proxy, license guards, and version-gated viewport behavior.
 provenance:
@@ -78,7 +78,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: core
 created: 2026-10-31T05:42:16+01:00
-updated: 2026-10-31T06:58:25+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Launcher and stealth args
@@ -223,16 +223,16 @@ A post-handshake license denial, for example going over the concurrent-session c
 
 ## Sources
 
-- `repo:github.com/CloakHQ/CloakBrowser` at commit `b1a00ed`: `js/src/args.ts`, `js/src/config.ts`, `js/README.md`
-- `repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/browser.py` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/config.py` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/__init__.py` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/README.md` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/CHANGELOG.md` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser` at commit `b1a00ed`: `js/src/playwright.ts`, `js/src/puppeteer.ts`, `js/tests/config.test.ts` (B5 batch)
-- `repo:github.com/CloakHQ/CloakBrowser` at commit `b1a00ed`: `js/tests/launch.test.ts`, `js/tests/puppeteer.test.ts`, `js/tests/extension-loading.test.ts`, `js/tests/require.test.ts`, `js/tests/setup.ts`, `js/tests/widevine-integration.test.ts` (B6 batch)
-- `repo:github.com/CloakHQ/CloakBrowser/tests/test_build_args.py`, `tests/test_config.py`, `tests/test_extension_loading.py`, `tests/conftest.py` (commit `b1a00ed`, B7 batch)
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_launch.py (commit b1a00ed, B8 batch)
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_launch_context.py (commit b1a00ed, B8 batch)
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_persistent_context.py (commit b1a00ed, B8 batch)
-- repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/CloakLauncher.cs, Config.cs, LaunchOptions.cs, ViewportDefaults.cs; dotnet/tests/CloakBrowser.Tests/BuildArgsTests.cs, ViewportTests.cs, FontWarningTests.cs (commit b1a00ed, batch D)
+- `~/code/CloakBrowser` at commit `b1a00ed`: `js/src/args.ts`, `js/src/config.ts`, `js/README.md`
+- `~/code/CloakBrowser/cloakbrowser/browser.py` (commit `b1a00ed`)
+- `~/code/CloakBrowser/cloakbrowser/config.py` (commit `b1a00ed`)
+- `~/code/CloakBrowser/cloakbrowser/__init__.py` (commit `b1a00ed`)
+- `~/code/CloakBrowser/README.md` (commit `b1a00ed`)
+- `~/code/CloakBrowser/CHANGELOG.md` (commit `b1a00ed`)
+- `~/code/CloakBrowser` at commit `b1a00ed`: `js/src/playwright.ts`, `js/src/puppeteer.ts`, `js/tests/config.test.ts` (B5 batch)
+- `~/code/CloakBrowser` at commit `b1a00ed`: `js/tests/launch.test.ts`, `js/tests/puppeteer.test.ts`, `js/tests/extension-loading.test.ts`, `js/tests/require.test.ts`, `js/tests/setup.ts`, `js/tests/widevine-integration.test.ts` (B6 batch)
+- `~/code/CloakBrowser/tests/test_build_args.py`, `tests/test_config.py`, `tests/test_extension_loading.py`, `tests/conftest.py` (commit `b1a00ed`, B7 batch)
+- ~/code/CloakBrowser/tests/test_launch.py (commit b1a00ed, B8 batch)
+- ~/code/CloakBrowser/tests/test_launch_context.py (commit b1a00ed, B8 batch)
+- ~/code/CloakBrowser/tests/test_persistent_context.py (commit b1a00ed, B8 batch)
+- ~/code/CloakBrowser/dotnet/src/CloakBrowser/CloakLauncher.cs, Config.cs, LaunchOptions.cs, ViewportDefaults.cs; dotnet/tests/CloakBrowser.Tests/BuildArgsTests.cs, ViewportTests.cs, FontWarningTests.cs (commit b1a00ed, batch D)

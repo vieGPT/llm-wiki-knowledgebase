@@ -5,7 +5,7 @@ category: project
 tags: [browser-automation, chromium, fingerprinting, playwright, stealth]
 source_repo: github.com/CloakHQ/CloakBrowser
 source_cwd_hint: ~/code/CloakBrowser
-sources: [repo:github.com/CloakHQ/CloakBrowser]
+sources: [~/code/CloakBrowser]
 summary: >-
     Stealth Chromium: a custom C++-patched binary plus thin Python/JS/.NET wrappers that launch it through Playwright or Puppeteer with stealth args, GeoIP and humanized input.
 provenance:
@@ -17,7 +17,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: core
 created: 2026-10-31T05:37:09+01:00
-updated: 2026-10-31T06:37:29+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # CloakBrowser
@@ -75,4 +75,4 @@ Top external imports in non-test code (ast-extract):
 
 ## Sources
 
-- `repo:github.com/CloakHQ/CloakBrowser`: `README.md` (commit `b1a00ed`, 26/10/2026) and `ast-extract` output
+- `~/code/CloakBrowser`: `README.md` (commit `b1a00ed`, 26/10/2026) and `ast-extract` output

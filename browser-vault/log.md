@@ -25,3 +25,6 @@ title: Wiki Log
 - [2026-10-31T06:48:40+01:00] LINT issues_found=13 orphans=0 broken_links=0 stale=0 contradictions=4 prov_issues=5 missing_summary=0 fragmented_clusters=0 visibility_issues=0 promotion_candidates=0 synthesis_gaps=0 relationship_issues=0 lifecycle_issues=1 temporal_issues=0 category_fixes=17 schema_gaps=3
 - [2026-10-31T06:53:38+01:00] LINT_FIX pages_updated=12
 - [2026-10-31T07:01:59+01:00] INGEST source="repo:github.com/CloakHQ/CloakBrowser batch=D-dotnet" pages_created=0 pages_updated=10 mode=append
+- [2026-10-31T10:47:04+01:00] INGEST source="ast-extract class stubs (CloakBrowser b1a00ed, CloakBrowser-Manager 11e0043)" pages_created=48 pages_updated=10 mode=append
+- [2026-10-31T10:48:34+01:00] WIKI_UPDATE project=cloakbrowser pages_created=0 pages_updated=0 source_repo=github.com/CloakHQ/CloakBrowser
+- [2026-10-31T10:48:34+01:00] WIKI_UPDATE project=cloakbrowser-manager pages_created=0 pages_updated=0 source_repo=github.com/vieGPT/CloakBrowser-Manager

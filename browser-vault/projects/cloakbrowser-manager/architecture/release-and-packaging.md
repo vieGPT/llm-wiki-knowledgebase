@@ -12,21 +12,21 @@ relationships:
   - target: "[[projects/cloakbrowser/architecture/supply-chain-verification]]"
     type: related_to
 sources:
-  - repo:github.com/vieGPT/CloakBrowser-Manager/packaging/manager.spec
-  - repo:github.com/vieGPT/CloakBrowser-Manager/packaging/build_macos.sh
-  - repo:github.com/vieGPT/CloakBrowser-Manager/packaging/make_universal_app.sh
-  - repo:github.com/vieGPT/CloakBrowser-Manager/packaging/sign_macos_app.sh
-  - repo:github.com/vieGPT/CloakBrowser-Manager/packaging/entitlements.plist
-  - repo:github.com/vieGPT/CloakBrowser-Manager/packaging/build_windows.ps1
-  - repo:github.com/vieGPT/CloakBrowser-Manager/packaging/installer.iss
-  - repo:github.com/vieGPT/CloakBrowser-Manager/packaging/requirements-build.txt
-  - repo:github.com/vieGPT/CloakBrowser-Manager/run.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/run-macos.sh
-  - repo:github.com/vieGPT/CloakBrowser-Manager/run-windows.bat
-  - repo:github.com/vieGPT/CloakBrowser-Manager/Dockerfile
-  - repo:github.com/vieGPT/CloakBrowser-Manager/LICENSE
-  - repo:github.com/vieGPT/CloakBrowser-Manager/.github/workflows/release.yml
-  - repo:github.com/vieGPT/CloakBrowser-Manager/CHANGELOG.md
+  - ~/code/CloakBrowser-Manager/packaging/manager.spec
+  - ~/code/CloakBrowser-Manager/packaging/build_macos.sh
+  - ~/code/CloakBrowser-Manager/packaging/make_universal_app.sh
+  - ~/code/CloakBrowser-Manager/packaging/sign_macos_app.sh
+  - ~/code/CloakBrowser-Manager/packaging/entitlements.plist
+  - ~/code/CloakBrowser-Manager/packaging/build_windows.ps1
+  - ~/code/CloakBrowser-Manager/packaging/installer.iss
+  - ~/code/CloakBrowser-Manager/packaging/requirements-build.txt
+  - ~/code/CloakBrowser-Manager/run.py
+  - ~/code/CloakBrowser-Manager/run-macos.sh
+  - ~/code/CloakBrowser-Manager/run-windows.bat
+  - ~/code/CloakBrowser-Manager/Dockerfile
+  - ~/code/CloakBrowser-Manager/LICENSE
+  - ~/code/CloakBrowser-Manager/.github/workflows/release.yml
+  - ~/code/CloakBrowser-Manager/CHANGELOG.md
 summary: >-
     How the Manager ships: PyInstaller onedir wrapped as a Windows Inno Setup installer and a lipo-fused universal macOS .dmg, a multi-arch Docker image, and a run-from-source path.
 provenance:
@@ -38,7 +38,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T06:19:30+01:00
-updated: 2026-10-31T06:19:30+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Release and packaging
@@ -157,7 +157,7 @@ The Manager code is MIT, copyright 2026 CloakHQ (`LICENSE`). The Chromium binary
 
 ## Sources
 
-Commit `11e0043` of `repo:github.com/vieGPT/CloakBrowser-Manager`:
+Commit `11e0043` of `~/code/CloakBrowser-Manager`:
 
 - packaging/manager.spec, packaging/build_macos.sh, packaging/make_universal_app.sh, packaging/sign_macos_app.sh, packaging/entitlements.plist
 - packaging/build_windows.ps1, packaging/installer.iss, packaging/requirements-build.txt

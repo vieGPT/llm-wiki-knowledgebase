@@ -10,20 +10,20 @@ relationships:
   - target: "[[projects/cloakbrowser/subsystems/humanize-engine]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/examples/integrations/agent_browser.sh
-  - repo:github.com/CloakHQ/CloakBrowser/examples/integrations/browser_use_example.py
-  - repo:github.com/CloakHQ/CloakBrowser/examples/integrations/crawl4ai_example.py
-  - repo:github.com/CloakHQ/CloakBrowser/examples/integrations/aws_lambda/INSTRUCTIONS.md
-  - repo:github.com/CloakHQ/CloakBrowser/examples/basic.py
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/js/examples/stagehand.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/config.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/args.ts
-  - repo:github.com/CloakHQ/CloakBrowser/examples/integrations/crawlee_example.py
-  - repo:github.com/CloakHQ/CloakBrowser/examples/integrations/langchain_loader.py
-  - repo:github.com/CloakHQ/CloakBrowser/examples/integrations/scrapling_example.py
-  - repo:github.com/CloakHQ/CloakBrowser/examples/integrations/selenium_example.py
-  - repo:github.com/CloakHQ/CloakBrowser/examples/integrations/undetected_chromedriver.py
+  - ~/code/CloakBrowser/examples/integrations/agent_browser.sh
+  - ~/code/CloakBrowser/examples/integrations/browser_use_example.py
+  - ~/code/CloakBrowser/examples/integrations/crawl4ai_example.py
+  - ~/code/CloakBrowser/examples/integrations/aws_lambda/INSTRUCTIONS.md
+  - ~/code/CloakBrowser/examples/basic.py
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/js/examples/stagehand.ts
+  - ~/code/CloakBrowser/js/src/config.ts
+  - ~/code/CloakBrowser/js/src/args.ts
+  - ~/code/CloakBrowser/examples/integrations/crawlee_example.py
+  - ~/code/CloakBrowser/examples/integrations/langchain_loader.py
+  - ~/code/CloakBrowser/examples/integrations/scrapling_example.py
+  - ~/code/CloakBrowser/examples/integrations/selenium_example.py
+  - ~/code/CloakBrowser/examples/integrations/undetected_chromedriver.py
 summary: >-
     How third-party tools adopt CloakBrowser: launch the binary with the wrapper's stealth args, connect over CDP to a wrapper-launched browser, or wrap the wrapper itself; humanize stays wrapper-only.
 provenance:
@@ -35,7 +35,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:46:02+01:00
-updated: 2026-10-31T05:52:24+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Framework integration modes
@@ -107,15 +107,19 @@ Design observations:
 - Whether Mode 1 frameworks that inject their own automation flags (for example Selenium's WebDriver) undo binary-level stealth is not discussed. ^[ambiguous]
 - Whether Crawlee's other per-browser features (session pool, fingerprint injection when `header_generator` is left on) conflict with the binary's seed is untested in the repository.
 
+## Class stubs (ast-extract)
+
+- [[projects/cloakbrowser/subsystems/cloak-browser-plugin|CloakBrowserPlugin]]
+
 ## Sources
 
 Commit `b1a00ed` (26/10/2026):
 
-- repo:github.com/CloakHQ/CloakBrowser/examples/integrations/agent_browser.sh
-- repo:github.com/CloakHQ/CloakBrowser/examples/integrations/browser_use_example.py
-- repo:github.com/CloakHQ/CloakBrowser/examples/integrations/crawl4ai_example.py
-- repo:github.com/CloakHQ/CloakBrowser/examples/integrations/aws_lambda/INSTRUCTIONS.md
-- repo:github.com/CloakHQ/CloakBrowser/examples/basic.py
-- repo:github.com/CloakHQ/CloakBrowser/README.md
-- repo:github.com/CloakHQ/CloakBrowser/js/examples/stagehand.ts, js/src/config.ts, js/src/args.ts (commit b1a00ed, B4 batch)
-- repo:github.com/CloakHQ/CloakBrowser/examples/integrations/crawlee_example.py, langchain_loader.py, scrapling_example.py, selenium_example.py, undetected_chromedriver.py (commit b1a00ed, B2 batch)
+- ~/code/CloakBrowser/examples/integrations/agent_browser.sh
+- ~/code/CloakBrowser/examples/integrations/browser_use_example.py
+- ~/code/CloakBrowser/examples/integrations/crawl4ai_example.py
+- ~/code/CloakBrowser/examples/integrations/aws_lambda/INSTRUCTIONS.md
+- ~/code/CloakBrowser/examples/basic.py
+- ~/code/CloakBrowser/README.md
+- ~/code/CloakBrowser/js/examples/stagehand.ts, js/src/config.ts, js/src/args.ts (commit b1a00ed, B4 batch)
+- ~/code/CloakBrowser/examples/integrations/crawlee_example.py, langchain_loader.py, scrapling_example.py, selenium_example.py, undetected_chromedriver.py (commit b1a00ed, B2 batch)

@@ -5,19 +5,19 @@ category: subsystems
 tags: [vnc, docker, remote-desktop, clipboard, websocket]
 aliases: [VNCManager, vnc_manager, KasmVNC viewer, RFB proxy]
 sources:
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/vnc_manager.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/main.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/browser_manager.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_rfb.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_vnc_manager.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_api.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_models.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/entrypoint.sh
-  - repo:github.com/vieGPT/CloakBrowser-Manager/docker-compose.yml
-  - repo:github.com/vieGPT/CloakBrowser-Manager/Dockerfile
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/package.json
-  - repo:github.com/vieGPT/CloakBrowser-Manager/README.md
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/components/ProfileViewer.tsx
+  - ~/code/CloakBrowser-Manager/backend/vnc_manager.py
+  - ~/code/CloakBrowser-Manager/backend/main.py
+  - ~/code/CloakBrowser-Manager/backend/browser_manager.py
+  - ~/code/CloakBrowser-Manager/backend/tests/test_rfb.py
+  - ~/code/CloakBrowser-Manager/backend/tests/test_vnc_manager.py
+  - ~/code/CloakBrowser-Manager/backend/tests/test_api.py
+  - ~/code/CloakBrowser-Manager/backend/tests/test_models.py
+  - ~/code/CloakBrowser-Manager/entrypoint.sh
+  - ~/code/CloakBrowser-Manager/docker-compose.yml
+  - ~/code/CloakBrowser-Manager/Dockerfile
+  - ~/code/CloakBrowser-Manager/frontend/package.json
+  - ~/code/CloakBrowser-Manager/README.md
+  - ~/code/CloakBrowser-Manager/frontend/src/components/ProfileViewer.tsx
 summary: >-
     Linux/Docker-only live viewer: one KasmVNC Xvnc display per running profile, a FastAPI WebSocket proxy that rewrites noVNC's RFB stream for KasmVNC 1.3.3, and a clipboard relay.
 relationships:
@@ -40,7 +40,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T06:21:06+01:00
-updated: 2026-10-31T06:37:29+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # VNC viewer (KasmVNC displays, RFB proxy, clipboard relay)
@@ -154,4 +154,4 @@ KasmVNC sends its clipboard as a proprietary BinaryClipboard message (type 180) 
 
 ## Sources
 
-- `repo:github.com/vieGPT/CloakBrowser-Manager` at commit `11e0043`: `backend/vnc_manager.py`, `backend/main.py` (RFB translator, VNC proxy, clipboard routes), `backend/browser_manager.py` (display launch, clipboard init script), `backend/tests/test_rfb.py`, `backend/tests/test_vnc_manager.py`, `backend/tests/test_api.py`, `backend/tests/test_models.py`, `entrypoint.sh`, `docker-compose.yml`, `Dockerfile`, `frontend/package.json`, `README.md`, `frontend/src/components/ProfileViewer.tsx`
+- `~/code/CloakBrowser-Manager` at commit `11e0043`: `backend/vnc_manager.py`, `backend/main.py` (RFB translator, VNC proxy, clipboard routes), `backend/browser_manager.py` (display launch, clipboard init script), `backend/tests/test_rfb.py`, `backend/tests/test_vnc_manager.py`, `backend/tests/test_api.py`, `backend/tests/test_models.py`, `entrypoint.sh`, `docker-compose.yml`, `Dockerfile`, `frontend/package.json`, `README.md`, `frontend/src/components/ProfileViewer.tsx`

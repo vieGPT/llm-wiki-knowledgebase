@@ -10,14 +10,14 @@ relationships:
   - target: "[[projects/cloakbrowser/detection-vectors/cdp-automation-detection]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_stealth.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_launch.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_launch_context.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_persistent_context.py
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/launch.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/puppeteer.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/humanizeEngine.test.ts
+  - ~/code/CloakBrowser/tests/test_stealth.py
+  - ~/code/CloakBrowser/tests/test_launch.py
+  - ~/code/CloakBrowser/tests/test_launch_context.py
+  - ~/code/CloakBrowser/tests/test_persistent_context.py
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/js/tests/launch.test.ts
+  - ~/code/CloakBrowser/js/tests/puppeteer.test.ts
+  - ~/code/CloakBrowser/js/tests/humanizeEngine.test.ts
 summary: >-
     The first-pass automation checks on navigator and window (webdriver, UA, window.chrome, plugins, languages, CPU/RAM, Client Hints) and how the binary and wrapper make them read like stock Chrome.
 provenance:
@@ -29,7 +29,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: core
 created: 2026-10-31T05:54:19+01:00
-updated: 2026-10-31T06:00:39+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Navigator and hardware properties
@@ -88,9 +88,9 @@ Patching in C++ instead of overriding getters in JavaScript means there is no wr
 
 Commit `b1a00ed` (26/10/2026):
 
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_stealth.py
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_launch.py
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_launch_context.py
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_persistent_context.py
-- repo:github.com/CloakHQ/CloakBrowser/README.md (Test Results, Default Fingerprint, Additional Flags)
-- repo:github.com/CloakHQ/CloakBrowser/js/tests/launch.test.ts, js/tests/puppeteer.test.ts, js/tests/humanizeEngine.test.ts (B6 batch)
+- ~/code/CloakBrowser/tests/test_stealth.py
+- ~/code/CloakBrowser/tests/test_launch.py
+- ~/code/CloakBrowser/tests/test_launch_context.py
+- ~/code/CloakBrowser/tests/test_persistent_context.py
+- ~/code/CloakBrowser/README.md (Test Results, Default Fingerprint, Additional Flags)
+- ~/code/CloakBrowser/js/tests/launch.test.ts, js/tests/puppeteer.test.ts, js/tests/humanizeEngine.test.ts (B6 batch)

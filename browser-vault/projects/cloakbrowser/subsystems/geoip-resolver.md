@@ -12,17 +12,17 @@ relationships:
   - target: "[[projects/cloakbrowser/subsystems/proxy-handling]]"
     type: uses
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/geoip.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/browser.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/__main__.py
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/CHANGELOG.md
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/geoip.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/geoip.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_geoip.py
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/GeoIp.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/tests/CloakBrowser.Tests/MiscTests.cs
+  - ~/code/CloakBrowser/cloakbrowser/geoip.py
+  - ~/code/CloakBrowser/cloakbrowser/browser.py
+  - ~/code/CloakBrowser/cloakbrowser/__main__.py
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/CHANGELOG.md
+  - ~/code/CloakBrowser/js/src/geoip.ts
+  - ~/code/CloakBrowser/js/README.md
+  - ~/code/CloakBrowser/js/tests/geoip.test.ts
+  - ~/code/CloakBrowser/tests/test_geoip.py
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/GeoIp.cs
+  - ~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/MiscTests.cs
 summary: >-
     Optional geoip=True path: discovers the egress IP via echo services through the proxy, maps it with a local GeoLite2 DB to timezone and locale, and reuses the IP for WebRTC.
 provenance:
@@ -34,7 +34,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: core
 created: 2026-10-31T05:45:14+01:00
-updated: 2026-10-31T06:58:25+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # GeoIP resolver
@@ -129,12 +129,12 @@ These details come from the B4 batch reading `js/src/geoip.ts` and `js/README.md
 
 ## Sources
 
-- `repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/geoip.py` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/browser.py` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/__main__.py` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/README.md` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/CHANGELOG.md` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/js/src/geoip.ts`, `js/README.md` (commit `b1a00ed`, B4 batch)
-- `repo:github.com/CloakHQ/CloakBrowser/js/tests/geoip.test.ts` (commit `b1a00ed`, B6 batch)
-- `repo:github.com/CloakHQ/CloakBrowser/tests/test_geoip.py` (commit `b1a00ed`, B7 batch)
-- `repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/GeoIp.cs`, `dotnet/tests/CloakBrowser.Tests/MiscTests.cs` (commit `b1a00ed`, batch D)
+- `~/code/CloakBrowser/cloakbrowser/geoip.py` (commit `b1a00ed`)
+- `~/code/CloakBrowser/cloakbrowser/browser.py` (commit `b1a00ed`)
+- `~/code/CloakBrowser/cloakbrowser/__main__.py` (commit `b1a00ed`)
+- `~/code/CloakBrowser/README.md` (commit `b1a00ed`)
+- `~/code/CloakBrowser/CHANGELOG.md` (commit `b1a00ed`)
+- `~/code/CloakBrowser/js/src/geoip.ts`, `js/README.md` (commit `b1a00ed`, B4 batch)
+- `~/code/CloakBrowser/js/tests/geoip.test.ts` (commit `b1a00ed`, B6 batch)
+- `~/code/CloakBrowser/tests/test_geoip.py` (commit `b1a00ed`, B7 batch)
+- `~/code/CloakBrowser/dotnet/src/CloakBrowser/GeoIp.cs`, `dotnet/tests/CloakBrowser.Tests/MiscTests.cs` (commit `b1a00ed`, batch D)

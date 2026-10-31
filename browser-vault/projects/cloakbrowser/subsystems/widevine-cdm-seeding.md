@@ -8,16 +8,16 @@ relationships:
   - target: "[[projects/cloakbrowser/subsystems/launcher-and-stealth-args]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/widevine.py
-  - repo:github.com/CloakHQ/CloakBrowser/bin/fetch-widevine.py
-  - repo:github.com/CloakHQ/CloakBrowser/bin/docker-entrypoint.sh
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/widevine.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/playwright.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/puppeteer.ts
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_fetch_widevine.py
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/widevine.test.ts
+  - ~/code/CloakBrowser/cloakbrowser/widevine.py
+  - ~/code/CloakBrowser/bin/fetch-widevine.py
+  - ~/code/CloakBrowser/bin/docker-entrypoint.sh
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/dotnet/README.md
+  - ~/code/CloakBrowser/js/src/widevine.ts
+  - ~/code/CloakBrowser/js/src/playwright.ts
+  - ~/code/CloakBrowser/js/src/puppeteer.ts
+  - ~/code/CloakBrowser/tests/test_fetch_widevine.py
+  - ~/code/CloakBrowser/js/tests/widevine.test.ts
 summary: >-
     Pre-writes Chromium's Widevine hint file so a sideloaded CDM works on first launch (Linux only); seeding never downloads, an opt-in fetch-widevine.py pulls and verifies the CDM.
 provenance:
@@ -29,7 +29,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:41:41+01:00
-updated: 2026-10-31T06:10:53+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Widevine CDM seeding
@@ -108,9 +108,9 @@ The suite runs offline. It synthesizes a CRX3 package signed with a throwaway RS
 
 Commit `b1a00ed` (26/10/2026):
 
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/widevine.py
-- repo:github.com/CloakHQ/CloakBrowser/bin/fetch-widevine.py, bin/docker-entrypoint.sh (commit b1a00ed, P2 pass)
-- repo:github.com/CloakHQ/CloakBrowser/README.md
-- repo:github.com/CloakHQ/CloakBrowser/dotnet/README.md
-- repo:github.com/CloakHQ/CloakBrowser/js/src/widevine.ts, js/src/playwright.ts, js/src/puppeteer.ts (commit b1a00ed, B5 batch)
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_fetch_widevine.py, js/tests/widevine.test.ts (commit b1a00ed, B7 batch)
+- ~/code/CloakBrowser/cloakbrowser/widevine.py
+- ~/code/CloakBrowser/bin/fetch-widevine.py, bin/docker-entrypoint.sh (commit b1a00ed, P2 pass)
+- ~/code/CloakBrowser/README.md
+- ~/code/CloakBrowser/dotnet/README.md
+- ~/code/CloakBrowser/js/src/widevine.ts, js/src/playwright.ts, js/src/puppeteer.ts (commit b1a00ed, B5 batch)
+- ~/code/CloakBrowser/tests/test_fetch_widevine.py, js/tests/widevine.test.ts (commit b1a00ed, B7 batch)

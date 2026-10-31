@@ -10,10 +10,10 @@ relationships:
   - target: "[[projects/cloakbrowser/subsystems/profile-seed]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_persistent_context.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_profile_seed.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_stealth.py
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/tests/test_persistent_context.py
+  - ~/code/CloakBrowser/tests/test_profile_seed.py
+  - ~/code/CloakBrowser/tests/test_stealth.py
 summary: >-
     Sites infer private browsing from a small storage quota or an empty profile; CloakBrowser's quota normalization reads as incognito, fixed by a persistent profile and --fingerprint-storage-quota.
 provenance:
@@ -25,7 +25,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:54:19+01:00
-updated: 2026-10-31T05:54:19+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Incognito and storage quota detection
@@ -63,7 +63,7 @@ A persistent profile also keeps its fingerprint seed, so a returning profile is 
 
 Commit `b1a00ed` (26/10/2026):
 
-- repo:github.com/CloakHQ/CloakBrowser/README.md (launch_persistent_context, Additional Flags, Troubleshooting: incognito and FingerprintJS)
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_persistent_context.py
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_profile_seed.py
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_stealth.py
+- ~/code/CloakBrowser/README.md (launch_persistent_context, Additional Flags, Troubleshooting: incognito and FingerprintJS)
+- ~/code/CloakBrowser/tests/test_persistent_context.py
+- ~/code/CloakBrowser/tests/test_profile_seed.py
+- ~/code/CloakBrowser/tests/test_stealth.py

@@ -28,13 +28,13 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/subsystems/diagnostics]]"
     type: related_to
 sources:
-  - repo:github.com/vieGPT/CloakBrowser-Manager/README.md
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/database.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/browser_manager.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/main.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/artifacts.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/CHANGELOG.md
-  - repo:github.com/vieGPT/CloakBrowser-Manager/BINARY-LICENSE.md
+  - ~/code/CloakBrowser-Manager/README.md
+  - ~/code/CloakBrowser-Manager/backend/database.py
+  - ~/code/CloakBrowser-Manager/backend/browser_manager.py
+  - ~/code/CloakBrowser-Manager/backend/main.py
+  - ~/code/CloakBrowser-Manager/backend/artifacts.py
+  - ~/code/CloakBrowser-Manager/CHANGELOG.md
+  - ~/code/CloakBrowser-Manager/BINARY-LICENSE.md
 summary: >-
     Sites link accounts run from one operator by shared signals across profiles: same IP, matching fingerprint parts, shared cookies or files, identical seeds after duplication.
 provenance:
@@ -46,7 +46,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: core
 created: 2026-10-31T06:20:23+01:00
-updated: 2026-10-31T06:46:59+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Cross-profile linkage
@@ -77,7 +77,7 @@ Cross-profile linkage is the detection that matters most to a profile manager: n
 
 ## Sources
 
-- repo:github.com/vieGPT/CloakBrowser-Manager/README.md (commit 11e0043)
-- repo:github.com/vieGPT/CloakBrowser-Manager/backend/database.py, backend/browser_manager.py, backend/main.py, backend/artifacts.py (commit 11e0043)
-- repo:github.com/vieGPT/CloakBrowser-Manager/CHANGELOG.md (commit 11e0043, v0.1.6 and v0.1.8)
-- repo:github.com/vieGPT/CloakBrowser-Manager/BINARY-LICENSE.md (commit 11e0043, version 1.3 of July 2026, Data Collection section)
+- ~/code/CloakBrowser-Manager/README.md (commit 11e0043)
+- ~/code/CloakBrowser-Manager/backend/database.py, backend/browser_manager.py, backend/main.py, backend/artifacts.py (commit 11e0043)
+- ~/code/CloakBrowser-Manager/CHANGELOG.md (commit 11e0043, v0.1.6 and v0.1.8)
+- ~/code/CloakBrowser-Manager/BINARY-LICENSE.md (commit 11e0043, version 1.3 of July 2026, Data Collection section)

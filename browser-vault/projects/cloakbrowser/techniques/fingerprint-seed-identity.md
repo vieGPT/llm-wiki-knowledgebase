@@ -20,10 +20,10 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/techniques/per-profile-identity-isolation]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/CHANGELOG.md
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/config.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/browser.py
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/CHANGELOG.md
+  - ~/code/CloakBrowser/cloakbrowser/config.py
+  - ~/code/CloakBrowser/cloakbrowser/browser.py
 summary: >-
     One integer seed (--fingerprint) deterministically derives a whole coherent device (GPU, screen, CPU, RAM, fonts, noise), so identities are reproducible and internally consistent.
 provenance:
@@ -35,7 +35,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:47:15+01:00
-updated: 2026-10-31T06:37:29+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Fingerprint seed identity
@@ -75,7 +75,7 @@ The wrapper always passes a seed: a random integer in 10000–99999 per launch, 
 
 ## Sources
 
-- `repo:github.com/CloakHQ/CloakBrowser/README.md` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/CHANGELOG.md` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/config.py` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/browser.py` (commit `b1a00ed`)
+- `~/code/CloakBrowser/README.md` (commit `b1a00ed`)
+- `~/code/CloakBrowser/CHANGELOG.md` (commit `b1a00ed`)
+- `~/code/CloakBrowser/cloakbrowser/config.py` (commit `b1a00ed`)
+- `~/code/CloakBrowser/cloakbrowser/browser.py` (commit `b1a00ed`)

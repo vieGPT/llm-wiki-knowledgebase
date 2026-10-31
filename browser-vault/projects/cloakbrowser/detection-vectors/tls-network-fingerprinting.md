@@ -10,8 +10,8 @@ relationships:
   - target: "[[projects/cloakbrowser/detection-vectors/navigator-and-hardware-properties]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_stealth.py
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/tests/test_stealth.py
 summary: >-
     Servers fingerprint the TLS ClientHello (JA3/JA4) and HTTP/2 frames (Akamai) before any JS runs; CloakBrowser matches Chrome by running Chromium's own network stack, not by spoofing.
 provenance:
@@ -23,7 +23,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:54:19+01:00
-updated: 2026-10-31T05:54:19+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # TLS and network fingerprinting
@@ -57,5 +57,5 @@ No test in the suite measures JA3, JA4 or the Akamai fingerprint directly. The "
 
 Commit `b1a00ed` (26/10/2026):
 
-- repo:github.com/CloakHQ/CloakBrowser/README.md (Test Results, FAQ, Troubleshooting: HTTP/2 and SOCKS5, Latest)
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_stealth.py
+- ~/code/CloakBrowser/README.md (Test Results, FAQ, Troubleshooting: HTTP/2 and SOCKS5, Latest)
+- ~/code/CloakBrowser/tests/test_stealth.py

@@ -16,13 +16,13 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/detection-vectors/cross-profile-linkage]]"
     type: related_to
 sources:
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/main.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/database.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/browser_manager.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/models.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/CHANGELOG.md
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_api.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_artifacts.py
+  - ~/code/CloakBrowser-Manager/backend/main.py
+  - ~/code/CloakBrowser-Manager/backend/database.py
+  - ~/code/CloakBrowser-Manager/backend/browser_manager.py
+  - ~/code/CloakBrowser-Manager/backend/models.py
+  - ~/code/CloakBrowser-Manager/CHANGELOG.md
+  - ~/code/CloakBrowser-Manager/backend/tests/test_api.py
+  - ~/code/CloakBrowser-Manager/backend/tests/test_artifacts.py
 summary: >-
     Cloning a profile copies settings and the same seed; with include_browser_state it also snapshots cookies, sessions and storage from the stopped source, publishing the clone only when complete.
 provenance:
@@ -34,7 +34,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T06:27:05+01:00
-updated: 2026-10-31T06:46:59+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Profile duplication with state
@@ -72,6 +72,6 @@ Per-profile files ([[projects/cloakbrowser-manager/subsystems/profile-files-and-
 
 ## Sources
 
-- repo:github.com/vieGPT/CloakBrowser-Manager/backend/main.py (`duplicate_profile`, `_copy_browser_state_to_completion`), backend/database.py, backend/browser_manager.py, backend/models.py (commit 11e0043)
-- repo:github.com/vieGPT/CloakBrowser-Manager/CHANGELOG.md (0.1.1, 0.1.6, 0.1.8) (commit 11e0043)
-- repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_api.py, test_artifacts.py (commit 11e0043)
+- ~/code/CloakBrowser-Manager/backend/main.py (`duplicate_profile`, `_copy_browser_state_to_completion`), backend/database.py, backend/browser_manager.py, backend/models.py (commit 11e0043)
+- ~/code/CloakBrowser-Manager/CHANGELOG.md (0.1.1, 0.1.6, 0.1.8) (commit 11e0043)
+- ~/code/CloakBrowser-Manager/backend/tests/test_api.py, test_artifacts.py (commit 11e0043)

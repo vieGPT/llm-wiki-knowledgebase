@@ -13,24 +13,24 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/subsystems/settings-and-license]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/CHANGELOG.md
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/BINARY-LICENSE.md
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/config.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/download.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/_version.py
-  - repo:github.com/CloakHQ/CloakBrowser/.github/workflows/publish.yml
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/config.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/download.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/update.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/license.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/launch.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/proxy.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/puppeteer.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_free_version_pin.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_config.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_cli.py
+  - ~/code/CloakBrowser/CHANGELOG.md
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/BINARY-LICENSE.md
+  - ~/code/CloakBrowser/cloakbrowser/config.py
+  - ~/code/CloakBrowser/cloakbrowser/download.py
+  - ~/code/CloakBrowser/cloakbrowser/_version.py
+  - ~/code/CloakBrowser/.github/workflows/publish.yml
+  - ~/code/CloakBrowser/js/src/config.ts
+  - ~/code/CloakBrowser/js/src/download.ts
+  - ~/code/CloakBrowser/js/README.md
+  - ~/code/CloakBrowser/js/tests/update.test.ts
+  - ~/code/CloakBrowser/js/tests/license.test.ts
+  - ~/code/CloakBrowser/js/tests/launch.test.ts
+  - ~/code/CloakBrowser/js/tests/proxy.test.ts
+  - ~/code/CloakBrowser/js/tests/puppeteer.test.ts
+  - ~/code/CloakBrowser/tests/test_free_version_pin.py
+  - ~/code/CloakBrowser/tests/test_config.py
+  - ~/code/CloakBrowser/tests/test_cli.py
 summary: >-
     Two version lines (wrapper semver, binary Chromium.build), Stable/Preview channels, free vs Pro builds per platform, exact pins, and a dated history of patch counts.
 provenance:
@@ -42,7 +42,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:41:25+01:00
-updated: 2026-10-31T06:37:29+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Release channels and versioning
@@ -151,13 +151,13 @@ The pattern is a fast rebase cadence (142 → 155 in eight months) with patches 
 
 ## Sources
 
-- `repo:github.com/CloakHQ/CloakBrowser/CHANGELOG.md` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/README.md` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/BINARY-LICENSE.md` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/config.py` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/download.py` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/_version.py` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/.github/workflows/publish.yml` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/js/src/config.ts`, `js/src/download.ts`, `js/README.md` (commit `b1a00ed`, B4 batch)
-- `repo:github.com/CloakHQ/CloakBrowser/js/tests/update.test.ts`, `js/tests/license.test.ts`, `js/tests/launch.test.ts`, `js/tests/proxy.test.ts`, `js/tests/puppeteer.test.ts` (commit `b1a00ed`, B6 batch)
-- `repo:github.com/CloakHQ/CloakBrowser/tests/test_free_version_pin.py`, `tests/test_config.py`, `tests/test_cli.py` (commit `b1a00ed`, B7 batch)
+- `~/code/CloakBrowser/CHANGELOG.md` (commit `b1a00ed`)
+- `~/code/CloakBrowser/README.md` (commit `b1a00ed`)
+- `~/code/CloakBrowser/BINARY-LICENSE.md` (commit `b1a00ed`)
+- `~/code/CloakBrowser/cloakbrowser/config.py` (commit `b1a00ed`)
+- `~/code/CloakBrowser/cloakbrowser/download.py` (commit `b1a00ed`)
+- `~/code/CloakBrowser/cloakbrowser/_version.py` (commit `b1a00ed`)
+- `~/code/CloakBrowser/.github/workflows/publish.yml` (commit `b1a00ed`)
+- `~/code/CloakBrowser/js/src/config.ts`, `js/src/download.ts`, `js/README.md` (commit `b1a00ed`, B4 batch)
+- `~/code/CloakBrowser/js/tests/update.test.ts`, `js/tests/license.test.ts`, `js/tests/launch.test.ts`, `js/tests/proxy.test.ts`, `js/tests/puppeteer.test.ts` (commit `b1a00ed`, B6 batch)
+- `~/code/CloakBrowser/tests/test_free_version_pin.py`, `tests/test_config.py`, `tests/test_cli.py` (commit `b1a00ed`, B7 batch)

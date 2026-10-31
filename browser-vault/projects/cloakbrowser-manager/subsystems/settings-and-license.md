@@ -16,15 +16,15 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/subsystems/browser-manager]]"
     type: related_to
 sources:
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/settings_store.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/env_file.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/main.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/browser_manager.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/models.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/.env.example
-  - repo:github.com/vieGPT/CloakBrowser-Manager/README.md
-  - repo:github.com/vieGPT/CloakBrowser-Manager/CHANGELOG.md
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_api.py
+  - ~/code/CloakBrowser-Manager/backend/settings_store.py
+  - ~/code/CloakBrowser-Manager/backend/env_file.py
+  - ~/code/CloakBrowser-Manager/backend/main.py
+  - ~/code/CloakBrowser-Manager/backend/browser_manager.py
+  - ~/code/CloakBrowser-Manager/backend/models.py
+  - ~/code/CloakBrowser-Manager/.env.example
+  - ~/code/CloakBrowser-Manager/README.md
+  - ~/code/CloakBrowser-Manager/CHANGELOG.md
+  - ~/code/CloakBrowser-Manager/backend/tests/test_api.py
 summary: >-
     One app-wide CloakBrowser license key and release channel, read from env (.env) first, then settings.json; PUT /api/settings saves and hot-applies them, but env wins again at restart.
 provenance:
@@ -36,7 +36,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T06:32:16+01:00
-updated: 2026-10-31T06:32:16+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Settings and license
@@ -88,4 +88,4 @@ At import, `main.py` resolves each value as **environment first, then `settings.
 
 ## Sources
 
-- repo:github.com/vieGPT/CloakBrowser-Manager (commit `11e0043`): `backend/settings_store.py`, `backend/env_file.py`, `backend/main.py` (license config, `_resolve_setting`, `_mask_key`, settings routes, launch error mapping), `backend/browser_manager.py` (`resolve_binary_status`, `is_seat_limit_error`, `license_error_detail`), `backend/models.py` (`SettingsResponse`, `SettingsUpdate`), `.env.example`, `README.md` (CloakBrowser license key), `CHANGELOG.md` (0.1.0, 0.1.4), `backend/tests/test_api.py` (settings tests)
+- ~/code/CloakBrowser-Manager (commit `11e0043`): `backend/settings_store.py`, `backend/env_file.py`, `backend/main.py` (license config, `_resolve_setting`, `_mask_key`, settings routes, launch error mapping), `backend/browser_manager.py` (`resolve_binary_status`, `is_seat_limit_error`, `license_error_detail`), `backend/models.py` (`SettingsResponse`, `SettingsUpdate`), `.env.example`, `README.md` (CloakBrowser license key), `CHANGELOG.md` (0.1.0, 0.1.4), `backend/tests/test_api.py` (settings tests)

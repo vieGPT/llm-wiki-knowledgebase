@@ -10,18 +10,18 @@ relationships:
   - target: "[[projects/cloakbrowser/detection-vectors/navigator-and-hardware-properties]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/playwright.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/puppeteer.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/config.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_config.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_build_args.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/conftest.py
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/launch.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/puppeteer.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/update.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/setup.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/config.ts
+  - ~/code/CloakBrowser/js/src/playwright.ts
+  - ~/code/CloakBrowser/js/src/puppeteer.ts
+  - ~/code/CloakBrowser/js/tests/config.test.ts
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/tests/test_config.py
+  - ~/code/CloakBrowser/tests/test_build_args.py
+  - ~/code/CloakBrowser/tests/conftest.py
+  - ~/code/CloakBrowser/js/tests/launch.test.ts
+  - ~/code/CloakBrowser/js/tests/puppeteer.test.ts
+  - ~/code/CloakBrowser/js/tests/update.test.ts
+  - ~/code/CloakBrowser/js/tests/setup.ts
+  - ~/code/CloakBrowser/js/src/config.ts
 summary: >-
     Detectors compare window, viewport and screen dimensions; an emulated viewport inside a real window gives outerWidth < innerWidth, a physically impossible window.
 provenance:
@@ -33,7 +33,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: core
 created: 2026-10-31T05:46:34+01:00
-updated: 2026-10-31T06:53:05+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Screen and viewport consistency
@@ -87,10 +87,10 @@ Details: [[projects/cloakbrowser/subsystems/launcher-and-stealth-args|Launcher a
 
 ## Sources
 
-- repo:github.com/CloakHQ/CloakBrowser/js/src/playwright.ts (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/js/src/puppeteer.ts (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/js/tests/config.test.ts (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/README.md (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_config.py, tests/test_build_args.py, tests/conftest.py (commit b1a00ed, B7 batch)
-- repo:github.com/CloakHQ/CloakBrowser/js/tests/launch.test.ts, js/tests/puppeteer.test.ts, js/tests/update.test.ts, js/tests/setup.ts (commit b1a00ed, B6 batch)
-- repo:github.com/CloakHQ/CloakBrowser/js/src/config.ts (commit b1a00ed, "identical across seeds" comment)
+- ~/code/CloakBrowser/js/src/playwright.ts (commit b1a00ed)
+- ~/code/CloakBrowser/js/src/puppeteer.ts (commit b1a00ed)
+- ~/code/CloakBrowser/js/tests/config.test.ts (commit b1a00ed)
+- ~/code/CloakBrowser/README.md (commit b1a00ed)
+- ~/code/CloakBrowser/tests/test_config.py, tests/test_build_args.py, tests/conftest.py (commit b1a00ed, B7 batch)
+- ~/code/CloakBrowser/js/tests/launch.test.ts, js/tests/puppeteer.test.ts, js/tests/update.test.ts, js/tests/setup.ts (commit b1a00ed, B6 batch)
+- ~/code/CloakBrowser/js/src/config.ts (commit b1a00ed, "identical across seeds" comment)

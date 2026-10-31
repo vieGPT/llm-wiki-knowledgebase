@@ -16,14 +16,14 @@ relationships:
   - target: "[[projects/cloakbrowser/techniques/platform-persona-spoofing]]"
     type: related_to
 sources:
-  - repo:github.com/vieGPT/CloakBrowser-Manager/CHANGELOG.md
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/browser_manager.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/database.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/main.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/components/ProfileForm.tsx
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_browser_manager.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_api.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_database.py
+  - ~/code/CloakBrowser-Manager/CHANGELOG.md
+  - ~/code/CloakBrowser-Manager/backend/browser_manager.py
+  - ~/code/CloakBrowser-Manager/backend/database.py
+  - ~/code/CloakBrowser-Manager/backend/main.py
+  - ~/code/CloakBrowser-Manager/frontend/src/components/ProfileForm.tsx
+  - ~/code/CloakBrowser-Manager/backend/tests/test_browser_manager.py
+  - ~/code/CloakBrowser-Manager/backend/tests/test_api.py
+  - ~/code/CloakBrowser-Manager/backend/tests/test_database.py
 summary: >-
     v0.1.8 per-profile switch for --fingerprint-portable-cookies so a profile can move to another machine with its logins; only cookies saved while it is on are portable.
 provenance:
@@ -35,7 +35,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T06:32:16+01:00
-updated: 2026-10-31T06:37:29+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Portable cookies
@@ -66,4 +66,4 @@ Portable cookies does not counter a detection vector. It preserves the cookie hi
 
 ## Sources
 
-- repo:github.com/vieGPT/CloakBrowser-Manager (commit `11e0043`): `CHANGELOG.md` (0.1.8), `backend/browser_manager.py` (`_build_fingerprint_args`), `backend/database.py` (column, default, `duplicate_profile`), `backend/main.py` (duplicate route, `_copy_browser_state`), `frontend/src/components/ProfileForm.tsx` (Compatibility section); tests `backend/tests/test_browser_manager.py`, `test_api.py`, `test_database.py`
+- ~/code/CloakBrowser-Manager (commit `11e0043`): `CHANGELOG.md` (0.1.8), `backend/browser_manager.py` (`_build_fingerprint_args`), `backend/database.py` (column, default, `duplicate_profile`), `backend/main.py` (duplicate route, `_copy_browser_state`), `frontend/src/components/ProfileForm.tsx` (Compatibility section); tests `backend/tests/test_browser_manager.py`, `test_api.py`, `test_database.py`

@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-31T07:01:59+01:00
-pages: 71
+updated: 2026-10-31T10:48:34+01:00
+pages: 119
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-31] LINT issues_found=13 orphans=0 broken_links=0 ...
-- [2026-10-31] LINT_FIX pages_updated=12
-- [2026-10-31] INGEST source=repo:github.com/CloakHQ/CloakBrowser batch=D-dotnet pages_created=0 pages_updated=10 ...
+- [2026-10-31] INGEST source=ast-extract class stubs (CloakBrowser b1a00ed, CloakBrowser... pages_created=48 pages_updated=10 ...
+- [2026-10-31] WIKI_UPDATE project=cloakbrowser pages_created=0 pages_updated=0 ...
+- [2026-10-31] WIKI_UPDATE project=cloakbrowser-manager pages_created=0 pages_updated=0 ...
 
 ## Active Threads
 
@@ -21,7 +21,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-The .NET client is a faithful Python-layout port (same constants and gates, pinned Microsoft.Playwright 1.64.1) that replaces monkey-patching with two wrapper mechanisms: Roslyn-generated humanize decorators inside a DispatchProxy license guard; its README is stale on the Playwright pin, CLI commands, BouncyCastle and a non-existent zip-slip guard.
+CloakBrowser is a thin Python/JS/.NET wrapper around a closed C++-patched Chromium: one fingerprint seed derives a coherent device, the wrapper only picks the binary, builds flags (persona, GeoIP timezone/locale, WebRTC IP) and optionally humanizes input. Every detection vector has at least one mitigating technique; TLS, headless and screen coverage rest mostly on the binary and README claims.
+The Manager is policy over that mechanism: one SQLite seed and one user-data dir per profile, its own per-profile CDP endpoint (not cloakserve). Duplicating a profile copies its seed, and the 90,000-value seed range collides around 40 profiles — the main cross-profile linkage risk.
+Code beats docs where they disagree (GeoIP timeout 20 s, welcome banner 1 day, humanized ElementHandles). Both projects are tracked by source_repo and last_commit_synced; run wiki-update per repo after each git pull.
 
 ## Flagged Contradictions
 

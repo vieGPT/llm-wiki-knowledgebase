@@ -12,24 +12,24 @@ relationships:
   - target: "[[projects/cloakbrowser/subsystems/humanize-engine]]"
     type: uses
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/mouse.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/keyboard.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/engine.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/config.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/fields.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/world.py
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/human/mouse.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/human/keyboard.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/human-puppeteer/keyboard.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/human-puppeteer/scroll.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/humanize.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/stealth.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/stealth.puppeteer.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/humanizeEngine.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/humanizePuppeteer.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_humanize_unit.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_humanize_engine.py
+  - ~/code/CloakBrowser/cloakbrowser/human/mouse.py
+  - ~/code/CloakBrowser/cloakbrowser/human/keyboard.py
+  - ~/code/CloakBrowser/cloakbrowser/human/engine.py
+  - ~/code/CloakBrowser/cloakbrowser/human/config.py
+  - ~/code/CloakBrowser/cloakbrowser/human/fields.py
+  - ~/code/CloakBrowser/cloakbrowser/human/world.py
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/js/src/human/mouse.ts
+  - ~/code/CloakBrowser/js/src/human/keyboard.ts
+  - ~/code/CloakBrowser/js/src/human-puppeteer/keyboard.ts
+  - ~/code/CloakBrowser/js/src/human-puppeteer/scroll.ts
+  - ~/code/CloakBrowser/js/tests/humanize.test.ts
+  - ~/code/CloakBrowser/js/tests/stealth.test.ts
+  - ~/code/CloakBrowser/js/tests/stealth.puppeteer.test.ts
+  - ~/code/CloakBrowser/js/tests/humanizeEngine.test.ts
+  - ~/code/CloakBrowser/js/tests/humanizePuppeteer.test.ts
+  - ~/code/CloakBrowser/tests/test_humanize_unit.py
+  - ~/code/CloakBrowser/tests/test_humanize_engine.py
 summary: >-
     How CloakBrowser makes automated input look human: Fitts-law Bézier strokes at 60 Hz, log-normal key timing with rollover and typos, whole-notch wheel scrolling, focus by click.
 provenance:
@@ -41,7 +41,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:41:41+01:00
-updated: 2026-10-31T05:59:07+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Humanized input
@@ -147,13 +147,13 @@ Live behavioural checks are marked `slow` and run by hand. On deviceandbrowserin
 
 Commit `b1a00ed` (26/10/2026):
 
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/mouse.py
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/keyboard.py
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/engine.py
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/config.py
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/fields.py
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/world.py
-- repo:github.com/CloakHQ/CloakBrowser/README.md
-- repo:github.com/CloakHQ/CloakBrowser/js/src/human/mouse.ts, js/src/human/keyboard.ts, js/src/human-puppeteer/keyboard.ts, js/src/human-puppeteer/scroll.ts (commit b1a00ed, B5 batch)
-- repo:github.com/CloakHQ/CloakBrowser/js/tests/humanize.test.ts, stealth.test.ts, stealth.puppeteer.test.ts, humanizeEngine.test.ts, humanizePuppeteer.test.ts (commit b1a00ed, B6 batch)
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_humanize_unit.py, tests/test_humanize_engine.py (commit b1a00ed, B7 batch)
+- ~/code/CloakBrowser/cloakbrowser/human/mouse.py
+- ~/code/CloakBrowser/cloakbrowser/human/keyboard.py
+- ~/code/CloakBrowser/cloakbrowser/human/engine.py
+- ~/code/CloakBrowser/cloakbrowser/human/config.py
+- ~/code/CloakBrowser/cloakbrowser/human/fields.py
+- ~/code/CloakBrowser/cloakbrowser/human/world.py
+- ~/code/CloakBrowser/README.md
+- ~/code/CloakBrowser/js/src/human/mouse.ts, js/src/human/keyboard.ts, js/src/human-puppeteer/keyboard.ts, js/src/human-puppeteer/scroll.ts (commit b1a00ed, B5 batch)
+- ~/code/CloakBrowser/js/tests/humanize.test.ts, stealth.test.ts, stealth.puppeteer.test.ts, humanizeEngine.test.ts, humanizePuppeteer.test.ts (commit b1a00ed, B6 batch)
+- ~/code/CloakBrowser/tests/test_humanize_unit.py, tests/test_humanize_engine.py (commit b1a00ed, B7 batch)

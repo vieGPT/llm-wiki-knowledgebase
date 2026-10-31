@@ -20,10 +20,10 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/techniques/per-profile-network-and-locale]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/CHANGELOG.md
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/geoip.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/browser.py
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/CHANGELOG.md
+  - ~/code/CloakBrowser/cloakbrowser/geoip.py
+  - ~/code/CloakBrowser/cloakbrowser/browser.py
 summary: >-
     Make the browser's timezone, language and WebRTC IP agree with the proxy exit IP, set through native binary flags rather than detectable CDP emulation.
 provenance:
@@ -35,7 +35,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:48:42+01:00
-updated: 2026-10-31T06:37:29+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # GeoIP timezone/locale matching
@@ -79,7 +79,7 @@ The README's recommended anti-bot config combines a residential proxy, `geoip=Tr
 
 ## Sources
 
-- `repo:github.com/CloakHQ/CloakBrowser/README.md` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/CHANGELOG.md` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/geoip.py` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/browser.py` (commit `b1a00ed`)
+- `~/code/CloakBrowser/README.md` (commit `b1a00ed`)
+- `~/code/CloakBrowser/CHANGELOG.md` (commit `b1a00ed`)
+- `~/code/CloakBrowser/cloakbrowser/geoip.py` (commit `b1a00ed`)
+- `~/code/CloakBrowser/cloakbrowser/browser.py` (commit `b1a00ed`)

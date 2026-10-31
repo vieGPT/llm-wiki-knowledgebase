@@ -20,14 +20,14 @@ relationships:
   - target: "[[projects/cloakbrowser/techniques/webrtc-ip-spoofing]]"
     type: related_to
 sources:
-  - repo:github.com/vieGPT/CloakBrowser-Manager/CHANGELOG.md
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/browser_manager.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/database.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/models.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/components/ProfileForm.tsx
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_browser_manager.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_api.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_database.py
+  - ~/code/CloakBrowser-Manager/CHANGELOG.md
+  - ~/code/CloakBrowser-Manager/backend/browser_manager.py
+  - ~/code/CloakBrowser-Manager/backend/database.py
+  - ~/code/CloakBrowser-Manager/backend/models.py
+  - ~/code/CloakBrowser-Manager/frontend/src/components/ProfileForm.tsx
+  - ~/code/CloakBrowser-Manager/backend/tests/test_browser_manager.py
+  - ~/code/CloakBrowser-Manager/backend/tests/test_api.py
+  - ~/code/CloakBrowser-Manager/backend/tests/test_database.py
 summary: >-
     v0.1.8 per-profile switch for CloakBrowser's --fingerprint-transparent-proxy; the Manager refuses launch (400) unless the proxy is one http:// URL with username and password.
 provenance:
@@ -39,7 +39,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T06:32:16+01:00
-updated: 2026-10-31T06:53:05+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Per-profile transparent proxy
@@ -74,4 +74,4 @@ It does not change IP reputation, and it does not affect WebRTC or timezone alig
 
 ## Sources
 
-- repo:github.com/vieGPT/CloakBrowser-Manager (commit `11e0043`): `CHANGELOG.md` (0.1.8), `backend/browser_manager.py` (`_validate_transparent_proxy`, launch path, `_build_fingerprint_args`), `backend/database.py` (column, default), `backend/models.py`, `frontend/src/components/ProfileForm.tsx` (Compatibility section); tests `backend/tests/test_browser_manager.py`, `test_api.py`, `test_database.py`
+- ~/code/CloakBrowser-Manager (commit `11e0043`): `CHANGELOG.md` (0.1.8), `backend/browser_manager.py` (`_validate_transparent_proxy`, launch path, `_build_fingerprint_args`), `backend/database.py` (column, default), `backend/models.py`, `frontend/src/components/ProfileForm.tsx` (Compatibility section); tests `backend/tests/test_browser_manager.py`, `test_api.py`, `test_database.py`

@@ -22,15 +22,15 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/techniques/per-profile-identity-isolation]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/config.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/args.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/fonts.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/human/config.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/human/engine.ts
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/config.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/browser.py
-  - repo:github.com/CloakHQ/CloakBrowser/CHANGELOG.md
+  - ~/code/CloakBrowser/js/src/config.ts
+  - ~/code/CloakBrowser/js/src/args.ts
+  - ~/code/CloakBrowser/js/src/fonts.ts
+  - ~/code/CloakBrowser/js/src/human/config.ts
+  - ~/code/CloakBrowser/js/src/human/engine.ts
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/cloakbrowser/config.py
+  - ~/code/CloakBrowser/cloakbrowser/browser.py
+  - ~/code/CloakBrowser/CHANGELOG.md
 summary: >-
     The wrapper makes Linux/Windows hosts present as a Windows desktop and macOS hosts as a native Mac via --fingerprint-platform, then keeps fonts, input and window geometry consistent with that persona.
 provenance:
@@ -42,7 +42,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:47:03+01:00
-updated: 2026-10-31T06:37:29+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Platform persona spoofing
@@ -100,7 +100,7 @@ Detectors cluster sessions by OS and hardware. A Windows persona puts automation
 
 ## Sources
 
-- `repo:github.com/CloakHQ/CloakBrowser` at commit `b1a00ed`: `js/src/config.ts`, `js/src/args.ts`, `js/src/fonts.ts`, `js/src/human/config.ts`, `js/src/human/engine.ts`, `README.md` (sections "Fingerprint Management", "Default Fingerprint")
-- `repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/config.py` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/browser.py` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/CHANGELOG.md` (commit `b1a00ed`)
+- `~/code/CloakBrowser` at commit `b1a00ed`: `js/src/config.ts`, `js/src/args.ts`, `js/src/fonts.ts`, `js/src/human/config.ts`, `js/src/human/engine.ts`, `README.md` (sections "Fingerprint Management", "Default Fingerprint")
+- `~/code/CloakBrowser/cloakbrowser/config.py` (commit `b1a00ed`)
+- `~/code/CloakBrowser/cloakbrowser/browser.py` (commit `b1a00ed`)
+- `~/code/CloakBrowser/CHANGELOG.md` (commit `b1a00ed`)

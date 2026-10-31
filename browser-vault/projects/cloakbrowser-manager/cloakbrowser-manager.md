@@ -5,7 +5,7 @@ category: project
 tags: [anti-detect, profile-manager, fastapi, react, orchestration]
 source_repo: github.com/vieGPT/CloakBrowser-Manager
 source_cwd_hint: ~/code/CloakBrowser-Manager
-sources: [repo:github.com/vieGPT/CloakBrowser-Manager]
+sources: [~/code/CloakBrowser-Manager]
 summary: >-
     Self-hosted GUI profile manager over the CloakBrowser engine: FastAPI backend, React UI, SQLite; each profile is a persistent separate identity with its own seed, proxy and locale.
 relationships:
@@ -20,7 +20,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: core
 created: 2026-10-31T05:37:09+01:00
-updated: 2026-10-31T06:37:29+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # CloakBrowser-Manager
@@ -80,4 +80,4 @@ Top external imports in non-test code (ast-extract): `lucide-react` (13), `react
 
 ## Sources
 
-- `repo:github.com/vieGPT/CloakBrowser-Manager`: `README.md` (commit `11e0043`, 14/10/2026) and `ast-extract` output
+- `~/code/CloakBrowser-Manager`: `README.md` (commit `11e0043`, 14/10/2026) and `ast-extract` output

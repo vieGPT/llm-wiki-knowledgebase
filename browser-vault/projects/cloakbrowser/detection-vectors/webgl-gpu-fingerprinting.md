@@ -10,8 +10,8 @@ relationships:
   - target: "[[projects/cloakbrowser/detection-vectors/navigator-and-hardware-properties]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/examples/stealth_test.py
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/examples/stealth_test.py
 summary: >-
     Detectors read the WebGL vendor/renderer strings, parameters and rendered output to identify the GPU; CloakBrowser derives a GPU from the seed and persona, with a Windows passthrough mode.
 provenance:
@@ -23,7 +23,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:52:24+01:00
-updated: 2026-10-31T06:37:29+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # WebGL and GPU fingerprinting
@@ -56,5 +56,5 @@ Before running its detector checks, `examples/stealth_test.py` prints the device
 
 Commit `b1a00ed` (26/10/2026):
 
-- repo:github.com/CloakHQ/CloakBrowser/README.md (Latest v0.6.4 notes, Fingerprint Management, Default Fingerprint, Additional Flags)
-- repo:github.com/CloakHQ/CloakBrowser/examples/stealth_test.py (device info printout)
+- ~/code/CloakBrowser/README.md (Latest v0.6.4 notes, Fingerprint Management, Default Fingerprint, Additional Flags)
+- ~/code/CloakBrowser/examples/stealth_test.py (device info printout)

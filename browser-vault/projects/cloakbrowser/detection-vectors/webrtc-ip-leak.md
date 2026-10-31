@@ -12,7 +12,7 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/techniques/per-profile-network-and-locale]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
+  - ~/code/CloakBrowser/README.md
 summary: >-
     A page can open an RTCPeerConnection and read ICE candidates, exposing an IP that differs from the proxy exit IP the HTTP request came from.
 provenance:
@@ -24,7 +24,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:41:22+01:00
-updated: 2026-10-31T06:46:59+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # WebRTC IP leak
@@ -49,4 +49,4 @@ WebRTC lets a page gather network candidates for peer-to-peer connections withou
 
 ## Sources
 
-- repo:github.com/CloakHQ/CloakBrowser/README.md (commit b1a00ed)
+- ~/code/CloakBrowser/README.md (commit b1a00ed)

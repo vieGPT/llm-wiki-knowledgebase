@@ -26,14 +26,14 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/architecture/manager-architecture]]"
     type: related_to
 sources:
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/main.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/diagnostics.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/README.md
-  - repo:github.com/vieGPT/CloakBrowser-Manager/CHANGELOG.md
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_api.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_auth.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_rfb.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/conftest.py
+  - ~/code/CloakBrowser-Manager/backend/main.py
+  - ~/code/CloakBrowser-Manager/backend/diagnostics.py
+  - ~/code/CloakBrowser-Manager/README.md
+  - ~/code/CloakBrowser-Manager/CHANGELOG.md
+  - ~/code/CloakBrowser-Manager/backend/tests/test_api.py
+  - ~/code/CloakBrowser-Manager/backend/tests/test_auth.py
+  - ~/code/CloakBrowser-Manager/backend/tests/test_rfb.py
+  - ~/code/CloakBrowser-Manager/backend/tests/conftest.py
 summary: >-
     backend/main.py, the Manager's hub (degree 57): FastAPI routes for profiles, files, launch/stop, CDP and VNC proxies, settings, status and auth, plus the SPA fallback.
 provenance:
@@ -45,7 +45,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: core
 created: 2026-10-31T06:20:23+01:00
-updated: 2026-10-31T06:53:05+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # API server
@@ -113,7 +113,7 @@ At import the server installs `backend/diagnostics.py` hooks: uncaught exception
 
 ## Sources
 
-- repo:github.com/vieGPT/CloakBrowser-Manager/backend/main.py (commit 11e0043)
-- repo:github.com/vieGPT/CloakBrowser-Manager/backend/diagnostics.py (commit 11e0043)
-- repo:github.com/vieGPT/CloakBrowser-Manager/README.md, CHANGELOG.md (commit 11e0043)
-- repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_api.py, test_auth.py, test_rfb.py, conftest.py (commit 11e0043)
+- ~/code/CloakBrowser-Manager/backend/main.py (commit 11e0043)
+- ~/code/CloakBrowser-Manager/backend/diagnostics.py (commit 11e0043)
+- ~/code/CloakBrowser-Manager/README.md, CHANGELOG.md (commit 11e0043)
+- ~/code/CloakBrowser-Manager/backend/tests/test_api.py, test_auth.py, test_rfb.py, conftest.py (commit 11e0043)

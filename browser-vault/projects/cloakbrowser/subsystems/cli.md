@@ -12,17 +12,17 @@ relationships:
   - target: "[[projects/cloakbrowser/subsystems/geoip-resolver]]"
     type: uses
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/__main__.py
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/CHANGELOG.md
-  - repo:github.com/CloakHQ/CloakBrowser/.github/ISSUE_TEMPLATE/bug_report.md
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/cli.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/download.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_cli.py
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser.Cli/Program.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/Diagnostics.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/tests/CloakBrowser.Tests/DiagnosticsTests.cs
+  - ~/code/CloakBrowser/cloakbrowser/__main__.py
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/CHANGELOG.md
+  - ~/code/CloakBrowser/.github/ISSUE_TEMPLATE/bug_report.md
+  - ~/code/CloakBrowser/js/src/cli.ts
+  - ~/code/CloakBrowser/js/src/download.ts
+  - ~/code/CloakBrowser/js/README.md
+  - ~/code/CloakBrowser/tests/test_cli.py
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser.Cli/Program.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/Diagnostics.cs
+  - ~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/DiagnosticsTests.cs
 summary: >-
     The cloakbrowser CLI (python -m cloakbrowser, npx cloakbrowser, .NET) installs, updates and clears binaries, manages license keys, and runs info diagnostics that mirror launch.
 provenance:
@@ -34,7 +34,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:45:43+01:00
-updated: 2026-10-31T06:58:25+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # CLI
@@ -112,10 +112,10 @@ A "Direct port of Python `cloakbrowser/__main__.py`" written as top-level statem
 
 ## Sources
 
-- `repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/__main__.py` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser.Cli/Program.cs`, `dotnet/src/CloakBrowser.Cli/CloakBrowser.Cli.csproj`, `dotnet/src/CloakBrowser/Diagnostics.cs`, `dotnet/tests/CloakBrowser.Tests/DiagnosticsTests.cs` (commit `b1a00ed`, batch D)
-- `repo:github.com/CloakHQ/CloakBrowser/README.md` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/CHANGELOG.md` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/.github/ISSUE_TEMPLATE/bug_report.md` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/js/src/cli.ts`, `js/src/download.ts`, `js/README.md` (commit `b1a00ed`, B4 batch)
-- `repo:github.com/CloakHQ/CloakBrowser/tests/test_cli.py` (commit `b1a00ed`, B7 batch)
+- `~/code/CloakBrowser/cloakbrowser/__main__.py` (commit `b1a00ed`)
+- `~/code/CloakBrowser/dotnet/src/CloakBrowser.Cli/Program.cs`, `dotnet/src/CloakBrowser.Cli/CloakBrowser.Cli.csproj`, `dotnet/src/CloakBrowser/Diagnostics.cs`, `dotnet/tests/CloakBrowser.Tests/DiagnosticsTests.cs` (commit `b1a00ed`, batch D)
+- `~/code/CloakBrowser/README.md` (commit `b1a00ed`)
+- `~/code/CloakBrowser/CHANGELOG.md` (commit `b1a00ed`)
+- `~/code/CloakBrowser/.github/ISSUE_TEMPLATE/bug_report.md` (commit `b1a00ed`)
+- `~/code/CloakBrowser/js/src/cli.ts`, `js/src/download.ts`, `js/README.md` (commit `b1a00ed`, B4 batch)
+- `~/code/CloakBrowser/tests/test_cli.py` (commit `b1a00ed`, B7 batch)

@@ -13,14 +13,14 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/synthesis/manager-cloakbrowser-responsibility-split]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/BINARY-LICENSE.md
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/__init__.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/browser.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/config.py
-  - repo:github.com/CloakHQ/CloakBrowser/CHANGELOG.md
-  - repo:github.com/CloakHQ/CloakBrowser/LICENSE
-  - repo:github.com/CloakHQ/CloakBrowser/Dockerfile
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/BINARY-LICENSE.md
+  - ~/code/CloakBrowser/cloakbrowser/__init__.py
+  - ~/code/CloakBrowser/cloakbrowser/browser.py
+  - ~/code/CloakBrowser/cloakbrowser/config.py
+  - ~/code/CloakBrowser/CHANGELOG.md
+  - ~/code/CloakBrowser/LICENSE
+  - ~/code/CloakBrowser/Dockerfile
 summary: >-
     CloakBrowser splits into a proprietary C++-patched Chromium binary that holds all fingerprint logic and MIT wrappers that only fetch, verify, flag and launch it.
 provenance:
@@ -32,7 +32,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:41:25+01:00
-updated: 2026-10-31T06:37:29+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Wrapper/binary split
@@ -85,11 +85,11 @@ Details of the wrapper launch pipeline live in [[projects/cloakbrowser/subsystem
 
 ## Sources
 
-- `repo:github.com/CloakHQ/CloakBrowser/README.md` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/BINARY-LICENSE.md` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/__init__.py` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/browser.py` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/config.py` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/CHANGELOG.md` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/LICENSE` (commit `b1a00ed`, P2 pass)
-- `repo:github.com/CloakHQ/CloakBrowser/Dockerfile` (commit `b1a00ed`, P2 pass)
+- `~/code/CloakBrowser/README.md` (commit `b1a00ed`)
+- `~/code/CloakBrowser/BINARY-LICENSE.md` (commit `b1a00ed`)
+- `~/code/CloakBrowser/cloakbrowser/__init__.py` (commit `b1a00ed`)
+- `~/code/CloakBrowser/cloakbrowser/browser.py` (commit `b1a00ed`)
+- `~/code/CloakBrowser/cloakbrowser/config.py` (commit `b1a00ed`)
+- `~/code/CloakBrowser/CHANGELOG.md` (commit `b1a00ed`)
+- `~/code/CloakBrowser/LICENSE` (commit `b1a00ed`, P2 pass)
+- `~/code/CloakBrowser/Dockerfile` (commit `b1a00ed`, P2 pass)

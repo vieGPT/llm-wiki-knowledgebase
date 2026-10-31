@@ -39,9 +39,12 @@
     },
     "~/code/CloakBrowser/js/src/human/world.ts": {
       "content_hash": "39a182c08044f1d69342a953ca913517136608cbe1695a08bef3480cb8ef8eea",
-      "last_ingested": "2026-10-31T04:47:31.323515+00:00",
+      "last_ingested": "2026-10-31T09:47:03.874561+00:00",
       "pages_produced": [
-        "projects/cloakbrowser/subsystems/humanize-engine.md"
+        "projects/cloakbrowser/subsystems/humanize-engine.md",
+        "projects/cloakbrowser/subsystems/page-stalled.md",
+        "projects/cloakbrowser/subsystems/stale-element.md",
+        "projects/cloakbrowser/subsystems/stealth-world-error.md"
       ]
     },
     "~/code/CloakBrowser/js/src/human/worldHelpers.ts": {
@@ -84,8 +87,9 @@
     },
     "~/code/CloakBrowser/js/src/license.ts": {
       "content_hash": "4b6b9b1de32563886fccd6fab35886d5acb13f797e1a7c9462015938e5b2c2ea",
-      "last_ingested": "2026-10-31T04:47:31.844590+00:00",
+      "last_ingested": "2026-10-31T09:47:03.154286+00:00",
       "pages_produced": [
+        "projects/cloakbrowser/subsystems/cloak-browser-license-error.md",
         "projects/cloakbrowser/subsystems/license-and-tiers.md"
       ]
     },
@@ -170,38 +174,54 @@
     },
     "~/code/CloakBrowser/cloakbrowser/human/config.py": {
       "content_hash": "9e0bbf5a44c4dae89ed82bd3b4149aa0654edcf8db4b07dc6d8a0f693419ef16",
-      "last_ingested": "2026-10-31T04:48:41.008323+00:00",
+      "last_ingested": "2026-10-31T09:47:03.602349+00:00",
       "pages_produced": [
+        "projects/cloakbrowser/subsystems/human-config-overrides.md",
         "projects/cloakbrowser/subsystems/humanize-engine.md",
         "projects/cloakbrowser/techniques/humanized-input.md"
       ]
     },
     "~/code/CloakBrowser/cloakbrowser/human/engine.py": {
       "content_hash": "bf74e62e41c0c53f58125983e175c9de4942032bbf830f84d14da549b0396c13",
-      "last_ingested": "2026-10-31T04:48:41.099751+00:00",
+      "last_ingested": "2026-10-31T09:47:04.071055+00:00",
       "pages_produced": [
+        "projects/cloakbrowser/detection-vectors/behavioral-analysis.md",
         "projects/cloakbrowser/subsystems/humanize-engine.md",
-        "projects/cloakbrowser/techniques/humanized-input.md",
         "projects/cloakbrowser/subsystems/humanize-errors.md",
-        "projects/cloakbrowser/detection-vectors/behavioral-analysis.md"
+        "projects/cloakbrowser/subsystems/raw-fallback.md",
+        "projects/cloakbrowser/subsystems/retry.md",
+        "projects/cloakbrowser/techniques/humanized-input.md"
       ]
     },
     "~/code/CloakBrowser/cloakbrowser/human/errors.py": {
       "content_hash": "a1cee051f1a07c2cb37cf82a8844d3ee078a06cef8e5d68249eb2e650edf150e",
-      "last_ingested": "2026-10-31T04:48:41.213472+00:00",
+      "last_ingested": "2026-10-31T09:47:02.494042+00:00",
       "pages_produced": [
-        "projects/cloakbrowser/subsystems/humanize-errors.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md",
+        "projects/cloakbrowser/subsystems/actionability-error.md",
+        "projects/cloakbrowser/subsystems/element-not-attached-error.md",
+        "projects/cloakbrowser/subsystems/element-not-editable-error.md",
+        "projects/cloakbrowser/subsystems/element-not-enabled-error.md",
+        "projects/cloakbrowser/subsystems/element-not-receiving-events-error.md",
+        "projects/cloakbrowser/subsystems/element-not-stable-error.md",
+        "projects/cloakbrowser/subsystems/element-not-visible-error.md",
+        "projects/cloakbrowser/subsystems/element-target-changed-error.md",
         "projects/cloakbrowser/subsystems/humanize-engine.md",
-        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md"
+        "projects/cloakbrowser/subsystems/humanize-errors.md",
+        "projects/cloakbrowser/subsystems/stealth-dom-error.md",
+        "projects/cloakbrowser/subsystems/stealth-evaluation-error.md",
+        "projects/cloakbrowser/subsystems/stealth-world-unavailable-error.md",
+        "projects/cloakbrowser/subsystems/unsupported-humanize-selector-error.md"
       ]
     },
     "~/code/CloakBrowser/cloakbrowser/human/fields.py": {
       "content_hash": "0e915ae8d2ffce3a5158ac8e65425e35707fcb95698e37bf445069c6a2502e13",
-      "last_ingested": "2026-10-31T04:48:41.324208+00:00",
+      "last_ingested": "2026-10-31T09:47:03.505703+00:00",
       "pages_produced": [
+        "projects/cloakbrowser/subsystems/field-kind-error.md",
         "projects/cloakbrowser/subsystems/humanize-engine.md",
-        "projects/cloakbrowser/techniques/humanized-input.md",
-        "projects/cloakbrowser/subsystems/humanize-errors.md"
+        "projects/cloakbrowser/subsystems/humanize-errors.md",
+        "projects/cloakbrowser/techniques/humanized-input.md"
       ]
     },
     "~/code/CloakBrowser/cloakbrowser/human/injected.py": {
@@ -215,21 +235,23 @@
     },
     "~/code/CloakBrowser/cloakbrowser/human/keyboard.py": {
       "content_hash": "0ba519195f63f101da77fc7bddcdaeb2989b7f1c7207f421ff01a367ffa43765",
-      "last_ingested": "2026-10-31T04:48:41.531155+00:00",
+      "last_ingested": "2026-10-31T09:47:04.276802+00:00",
       "pages_produced": [
-        "projects/cloakbrowser/subsystems/humanize-engine.md",
-        "projects/cloakbrowser/techniques/humanized-input.md",
         "projects/cloakbrowser/detection-vectors/behavioral-analysis.md",
-        "projects/cloakbrowser/detection-vectors/cdp-automation-detection.md"
+        "projects/cloakbrowser/detection-vectors/cdp-automation-detection.md",
+        "projects/cloakbrowser/subsystems/humanize-engine.md",
+        "projects/cloakbrowser/subsystems/raw-keyboard.md",
+        "projects/cloakbrowser/techniques/humanized-input.md"
       ]
     },
     "~/code/CloakBrowser/cloakbrowser/human/mouse.py": {
       "content_hash": "0d7c18132b8f90342a8b37cf60e86439e78af9ad0a2024f25e68628227a71798",
-      "last_ingested": "2026-10-31T04:48:41.631387+00:00",
+      "last_ingested": "2026-10-31T09:47:04.368886+00:00",
       "pages_produced": [
+        "projects/cloakbrowser/detection-vectors/behavioral-analysis.md",
         "projects/cloakbrowser/subsystems/humanize-engine.md",
-        "projects/cloakbrowser/techniques/humanized-input.md",
-        "projects/cloakbrowser/detection-vectors/behavioral-analysis.md"
+        "projects/cloakbrowser/subsystems/raw-mouse.md",
+        "projects/cloakbrowser/techniques/humanized-input.md"
       ]
     },
     "~/code/CloakBrowser/cloakbrowser/human/patch.py": {
@@ -242,20 +264,24 @@
     },
     "~/code/CloakBrowser/cloakbrowser/human/world.py": {
       "content_hash": "6a30fd56877e9b038a26dc47827a4d34d26911ecb220b2ea7370784b732f2564",
-      "last_ingested": "2026-10-31T04:48:41.823652+00:00",
+      "last_ingested": "2026-10-31T09:47:03.780073+00:00",
       "pages_produced": [
+        "projects/cloakbrowser/detection-vectors/cdp-automation-detection.md",
         "projects/cloakbrowser/subsystems/humanize-engine.md",
-        "projects/cloakbrowser/techniques/humanized-input.md",
         "projects/cloakbrowser/subsystems/humanize-errors.md",
-        "projects/cloakbrowser/detection-vectors/cdp-automation-detection.md"
+        "projects/cloakbrowser/subsystems/page-stalled.md",
+        "projects/cloakbrowser/subsystems/stale-element.md",
+        "projects/cloakbrowser/subsystems/stealth-world-error.md",
+        "projects/cloakbrowser/techniques/humanized-input.md"
       ]
     },
     "~/code/CloakBrowser/cloakbrowser/license.py": {
       "content_hash": "2023d1316d40e0cbc491cad161ed3ff85d049749caa0562daae56f4daa9d18f2",
-      "last_ingested": "2026-10-31T05:11:10.034130+00:00",
+      "last_ingested": "2026-10-31T09:47:03.056937+00:00",
       "pages_produced": [
-        "projects/cloakbrowser/subsystems/license-and-tiers.md",
-        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md"
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md",
+        "projects/cloakbrowser/subsystems/cloak-browser-license-error.md",
+        "projects/cloakbrowser/subsystems/license-and-tiers.md"
       ]
     },
     "~/code/CloakBrowser/cloakbrowser/widevine.py": {
@@ -449,13 +475,14 @@
     },
     "~/code/CloakBrowser/js/src/download.ts": {
       "content_hash": "da92c0ad2eb7be0c003d2c6d92ea78c56e0cfaf620237d767a73cc5a0db3d295",
-      "last_ingested": "2026-10-31T04:48:57.344889+00:00",
+      "last_ingested": "2026-10-31T09:47:02.922545+00:00",
       "pages_produced": [
-        "projects/cloakbrowser/subsystems/binary-download-and-verification.md",
-        "projects/cloakbrowser/architecture/supply-chain-verification.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md",
         "projects/cloakbrowser/architecture/release-channels-and-versioning.md",
-        "projects/cloakbrowser/subsystems/cli.md",
-        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md"
+        "projects/cloakbrowser/architecture/supply-chain-verification.md",
+        "projects/cloakbrowser/subsystems/binary-download-and-verification.md",
+        "projects/cloakbrowser/subsystems/binary-verification-error.md",
+        "projects/cloakbrowser/subsystems/cli.md"
       ]
     },
     "~/code/CloakBrowser/js/src/fonts.ts": {
@@ -486,20 +513,34 @@
     },
     "~/code/CloakBrowser/js/src/human/engine.ts": {
       "content_hash": "67872fbaed5639dcd00672c4d446b5bdd97f81f7b47d557d566cd7f124107ccc",
-      "last_ingested": "2026-10-31T04:48:57.705228+00:00",
+      "last_ingested": "2026-10-31T09:47:04.173717+00:00",
       "pages_produced": [
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md",
         "projects/cloakbrowser/subsystems/humanize-engine.md",
         "projects/cloakbrowser/subsystems/humanize-errors.md",
-        "projects/cloakbrowser/techniques/platform-persona-spoofing.md",
-        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md"
+        "projects/cloakbrowser/subsystems/raw-fallback.md",
+        "projects/cloakbrowser/subsystems/retry.md",
+        "projects/cloakbrowser/techniques/platform-persona-spoofing.md"
       ]
     },
     "~/code/CloakBrowser/js/src/human/errors.ts": {
       "content_hash": "8c8fdd2c10657622fd0ca429463b36f383b21b458065791dc0ce2b7609eb3b0d",
-      "last_ingested": "2026-10-31T04:48:57.791605+00:00",
+      "last_ingested": "2026-10-31T09:47:02.640653+00:00",
       "pages_produced": [
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md",
+        "projects/cloakbrowser/subsystems/actionability-error.md",
+        "projects/cloakbrowser/subsystems/element-not-attached-error.md",
+        "projects/cloakbrowser/subsystems/element-not-editable-error.md",
+        "projects/cloakbrowser/subsystems/element-not-enabled-error.md",
+        "projects/cloakbrowser/subsystems/element-not-receiving-events-error.md",
+        "projects/cloakbrowser/subsystems/element-not-stable-error.md",
+        "projects/cloakbrowser/subsystems/element-not-visible-error.md",
+        "projects/cloakbrowser/subsystems/element-target-changed-error.md",
         "projects/cloakbrowser/subsystems/humanize-errors.md",
-        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md"
+        "projects/cloakbrowser/subsystems/stealth-dom-error.md",
+        "projects/cloakbrowser/subsystems/stealth-evaluation-error.md",
+        "projects/cloakbrowser/subsystems/stealth-world-unavailable-error.md",
+        "projects/cloakbrowser/subsystems/unsupported-humanize-selector-error.md"
       ]
     },
     "~/code/CloakBrowser/js/src/human/fields.ts": {
@@ -646,18 +687,20 @@
     },
     "~/code/CloakBrowser/cloakbrowser/browser.py": {
       "content_hash": "9f225c0f5074e0ff86c02753127374277b80afd395c3b020c735a43d1f0bc27d",
-      "last_ingested": "2026-10-31T05:11:10.456587+00:00",
+      "last_ingested": "2026-10-31T09:47:03.969892+00:00",
       "pages_produced": [
-        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md",
         "projects/cloakbrowser/architecture/wrapper-binary-split.md",
-        "projects/cloakbrowser/subsystems/geoip-resolver.md",
-        "projects/cloakbrowser/techniques/fingerprint-seed-identity.md",
-        "projects/cloakbrowser/techniques/platform-persona-spoofing.md",
-        "projects/cloakbrowser/techniques/geoip-timezone-locale-matching.md",
-        "projects/cloakbrowser/detection-vectors/timezone-locale-ip-consistency.md",
         "projects/cloakbrowser/detection-vectors/font-fingerprinting.md",
+        "projects/cloakbrowser/detection-vectors/timezone-locale-ip-consistency.md",
+        "projects/cloakbrowser/subsystems/geoip-resolver.md",
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md",
+        "projects/cloakbrowser/subsystems/profile-seed.md",
         "projects/cloakbrowser/subsystems/proxy-handling.md",
-        "projects/cloakbrowser/subsystems/profile-seed.md"
+        "projects/cloakbrowser/subsystems/proxy-settings-required.md",
+        "projects/cloakbrowser/subsystems/proxy-settings.md",
+        "projects/cloakbrowser/techniques/fingerprint-seed-identity.md",
+        "projects/cloakbrowser/techniques/geoip-timezone-locale-matching.md",
+        "projects/cloakbrowser/techniques/platform-persona-spoofing.md"
       ]
     },
     "~/code/CloakBrowser/cloakbrowser/config.py": {
@@ -677,11 +720,12 @@
     },
     "~/code/CloakBrowser/cloakbrowser/download.py": {
       "content_hash": "c41c1f7c09af7b4443e75755e278a45acb85ace1c32799ee4204f7467d67bc50",
-      "last_ingested": "2026-10-31T05:11:10.159067+00:00",
+      "last_ingested": "2026-10-31T09:47:02.794272+00:00",
       "pages_produced": [
-        "projects/cloakbrowser/subsystems/binary-download-and-verification.md",
-        "projects/cloakbrowser/architecture/supply-chain-verification.md",
         "projects/cloakbrowser/architecture/release-channels-and-versioning.md",
+        "projects/cloakbrowser/architecture/supply-chain-verification.md",
+        "projects/cloakbrowser/subsystems/binary-download-and-verification.md",
+        "projects/cloakbrowser/subsystems/binary-verification-error.md",
         "projects/cloakbrowser/subsystems/license-and-tiers.md"
       ]
     },
@@ -701,9 +745,10 @@
     },
     "~/code/CloakBrowser/examples/integrations/crawlee_example.py": {
       "content_hash": "72c751d06df105275dbf118c9ec769441a544ca3db1174e2995d52dcbd0441a2",
-      "last_ingested": "2026-10-31T04:56:41.811957+00:00",
+      "last_ingested": "2026-10-31T09:47:03.407541+00:00",
       "pages_produced": [
-        "projects/cloakbrowser/architecture/framework-integration-modes.md"
+        "projects/cloakbrowser/architecture/framework-integration-modes.md",
+        "projects/cloakbrowser/subsystems/cloak-browser-plugin.md"
       ]
     },
     "~/code/CloakBrowser/examples/integrations/langchain_loader.py": {
@@ -1452,10 +1497,11 @@
     },
     "~/code/CloakBrowser-Manager/frontend/src/lib/api.ts": {
       "content_hash": "9a3238c5f9861129a81fe4484ddb5c94cde1bd72fac49ade4530139986059636",
-      "last_ingested": "2026-10-31T05:24:23.489175+00:00",
+      "last_ingested": "2026-10-31T09:47:04.469898+00:00",
       "pages_produced": [
-        "projects/cloakbrowser-manager/subsystems/frontend-api-client.md",
-        "projects/cloakbrowser-manager/architecture/platform-modes.md"
+        "projects/cloakbrowser-manager/architecture/platform-modes.md",
+        "projects/cloakbrowser-manager/subsystems/api-error.md",
+        "projects/cloakbrowser-manager/subsystems/frontend-api-client.md"
       ]
     },
     "~/code/CloakBrowser-Manager/frontend/src/main.tsx": {
@@ -1704,31 +1750,34 @@
     },
     "~/code/CloakBrowser-Manager/backend/artifacts.py": {
       "content_hash": "8452b70e605107170904885fd385dcdd71bc2144966850a64301c07686c3ccf5",
-      "last_ingested": "2026-10-31T05:27:42.619657+00:00",
+      "last_ingested": "2026-10-31T09:47:04.585288+00:00",
       "pages_produced": [
-        "projects/cloakbrowser-manager/subsystems/profile-files-and-artifacts.md",
-        "projects/cloakbrowser-manager/techniques/per-profile-identity-isolation.md",
+        "projects/cloakbrowser-manager/architecture/platform-modes.md",
         "projects/cloakbrowser-manager/detection-vectors/cross-profile-linkage.md",
-        "projects/cloakbrowser-manager/architecture/platform-modes.md"
+        "projects/cloakbrowser-manager/subsystems/artifact-quota-exceeded.md",
+        "projects/cloakbrowser-manager/subsystems/artifact-too-large.md",
+        "projects/cloakbrowser-manager/subsystems/profile-files-and-artifacts.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-identity-isolation.md"
       ]
     },
     "~/code/CloakBrowser-Manager/backend/browser_manager.py": {
       "content_hash": "2b0526dd5ef252149b898d451947813dbec0977033617cba6f83a07056bc650d",
-      "last_ingested": "2026-10-31T05:34:10.427526+00:00",
+      "last_ingested": "2026-10-31T09:47:04.799403+00:00",
       "pages_produced": [
-        "projects/cloakbrowser-manager/subsystems/browser-manager.md",
         "projects/cloakbrowser-manager/architecture/manager-architecture.md",
-        "projects/cloakbrowser-manager/techniques/per-profile-identity-isolation.md",
-        "projects/cloakbrowser-manager/techniques/per-profile-network-and-locale.md",
+        "projects/cloakbrowser-manager/architecture/platform-modes.md",
+        "projects/cloakbrowser-manager/detection-vectors/cross-profile-linkage.md",
+        "projects/cloakbrowser-manager/subsystems/browser-manager.md",
+        "projects/cloakbrowser-manager/subsystems/diagnostics.md",
+        "projects/cloakbrowser-manager/subsystems/profile-busy-error.md",
+        "projects/cloakbrowser-manager/subsystems/settings-and-license.md",
         "projects/cloakbrowser-manager/techniques/cdp-endpoint-proxying.md",
         "projects/cloakbrowser-manager/techniques/download-capture.md",
-        "projects/cloakbrowser-manager/techniques/profile-duplication-with-state.md",
-        "projects/cloakbrowser-manager/detection-vectors/cross-profile-linkage.md",
-        "projects/cloakbrowser-manager/architecture/platform-modes.md",
-        "projects/cloakbrowser-manager/subsystems/settings-and-license.md",
-        "projects/cloakbrowser-manager/subsystems/diagnostics.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-identity-isolation.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-network-and-locale.md",
         "projects/cloakbrowser-manager/techniques/per-profile-transparent-proxy.md",
-        "projects/cloakbrowser-manager/techniques/portable-cookies.md"
+        "projects/cloakbrowser-manager/techniques/portable-cookies.md",
+        "projects/cloakbrowser-manager/techniques/profile-duplication-with-state.md"
       ]
     },
     "~/code/CloakBrowser-Manager/backend/database.py": {
@@ -1791,14 +1840,32 @@
     },
     "~/code/CloakBrowser-Manager/backend/models.py": {
       "content_hash": "44aa60fe01f0491e915867e9ba1741f3242ade32d44d24db5310579f3cf2e2a3",
-      "last_ingested": "2026-10-31T05:34:10.543539+00:00",
+      "last_ingested": "2026-10-31T09:47:04.689218+00:00",
       "pages_produced": [
         "projects/cloakbrowser-manager/subsystems/api-models.md",
-        "projects/cloakbrowser-manager/techniques/profile-duplication-with-state.md",
-        "projects/cloakbrowser-manager/techniques/per-profile-network-and-locale.md",
-        "projects/cloakbrowser-manager/subsystems/settings-and-license.md",
+        "projects/cloakbrowser-manager/subsystems/artifact-response.md",
+        "projects/cloakbrowser-manager/subsystems/clipboard-request.md",
         "projects/cloakbrowser-manager/subsystems/diagnostics.md",
-        "projects/cloakbrowser-manager/techniques/per-profile-transparent-proxy.md"
+        "projects/cloakbrowser-manager/subsystems/launch-response.md",
+        "projects/cloakbrowser-manager/subsystems/login-request.md",
+        "projects/cloakbrowser-manager/subsystems/profile-create.md",
+        "projects/cloakbrowser-manager/subsystems/profile-duplicate-request.md",
+        "projects/cloakbrowser-manager/subsystems/profile-response.md",
+        "projects/cloakbrowser-manager/subsystems/profile-status-response.md",
+        "projects/cloakbrowser-manager/subsystems/profile-update.md",
+        "projects/cloakbrowser-manager/subsystems/proxy-test-request.md",
+        "projects/cloakbrowser-manager/subsystems/proxy-test-response.md",
+        "projects/cloakbrowser-manager/subsystems/reorder-request.md",
+        "projects/cloakbrowser-manager/subsystems/settings-and-license.md",
+        "projects/cloakbrowser-manager/subsystems/settings-response.md",
+        "projects/cloakbrowser-manager/subsystems/settings-update.md",
+        "projects/cloakbrowser-manager/subsystems/status-response.md",
+        "projects/cloakbrowser-manager/subsystems/tag-create.md",
+        "projects/cloakbrowser-manager/subsystems/tag-response.md",
+        "projects/cloakbrowser-manager/subsystems/update-check-response.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-network-and-locale.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-transparent-proxy.md",
+        "projects/cloakbrowser-manager/techniques/profile-duplication-with-state.md"
       ]
     },
     "~/code/CloakBrowser-Manager/backend/requirements.txt": {
@@ -2600,6 +2667,143 @@
       "last_ingested": "2026-10-31T06:01:52.548022+00:00",
       "pages_produced": [
         "projects/cloakbrowser/subsystems/dotnet-client.md"
+      ]
+    }
+  },
+  "projects": {
+    "cloakbrowser": {
+      "source_repo": "github.com/CloakHQ/CloakBrowser",
+      "source_cwd_hint": "~/code/CloakBrowser",
+      "last_synced": "2026-10-31T10:48:23+01:00",
+      "last_commit_synced": "b1a00eda61efe71da2a1a38831fa6fe861f5d91d",
+      "pages_in_vault": [
+        "projects/cloakbrowser/architecture/aws-lambda-deployment.md",
+        "projects/cloakbrowser/architecture/framework-integration-modes.md",
+        "projects/cloakbrowser/architecture/playwright-vs-puppeteer-backends.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md",
+        "projects/cloakbrowser/architecture/release-channels-and-versioning.md",
+        "projects/cloakbrowser/architecture/supply-chain-verification.md",
+        "projects/cloakbrowser/architecture/wrapper-binary-split.md",
+        "projects/cloakbrowser/cloakbrowser.md",
+        "projects/cloakbrowser/detection-vectors/audio-fingerprinting.md",
+        "projects/cloakbrowser/detection-vectors/behavioral-analysis.md",
+        "projects/cloakbrowser/detection-vectors/canvas-fingerprinting.md",
+        "projects/cloakbrowser/detection-vectors/cdp-automation-detection.md",
+        "projects/cloakbrowser/detection-vectors/fingerprint-tampering-detection.md",
+        "projects/cloakbrowser/detection-vectors/font-fingerprinting.md",
+        "projects/cloakbrowser/detection-vectors/headless-detection.md",
+        "projects/cloakbrowser/detection-vectors/incognito-storage-quota-detection.md",
+        "projects/cloakbrowser/detection-vectors/navigator-and-hardware-properties.md",
+        "projects/cloakbrowser/detection-vectors/proxy-and-network-signals.md",
+        "projects/cloakbrowser/detection-vectors/screen-viewport-consistency.md",
+        "projects/cloakbrowser/detection-vectors/timezone-locale-ip-consistency.md",
+        "projects/cloakbrowser/detection-vectors/tls-network-fingerprinting.md",
+        "projects/cloakbrowser/detection-vectors/webgl-gpu-fingerprinting.md",
+        "projects/cloakbrowser/detection-vectors/webrtc-ip-leak.md",
+        "projects/cloakbrowser/subsystems/actionability-error.md",
+        "projects/cloakbrowser/subsystems/binary-download-and-verification.md",
+        "projects/cloakbrowser/subsystems/binary-verification-error.md",
+        "projects/cloakbrowser/subsystems/cli.md",
+        "projects/cloakbrowser/subsystems/cloak-browser-license-error.md",
+        "projects/cloakbrowser/subsystems/cloak-browser-plugin.md",
+        "projects/cloakbrowser/subsystems/cloakserve-cdp-server.md",
+        "projects/cloakbrowser/subsystems/dotnet-client.md",
+        "projects/cloakbrowser/subsystems/element-not-attached-error.md",
+        "projects/cloakbrowser/subsystems/element-not-editable-error.md",
+        "projects/cloakbrowser/subsystems/element-not-enabled-error.md",
+        "projects/cloakbrowser/subsystems/element-not-receiving-events-error.md",
+        "projects/cloakbrowser/subsystems/element-not-stable-error.md",
+        "projects/cloakbrowser/subsystems/element-not-visible-error.md",
+        "projects/cloakbrowser/subsystems/element-target-changed-error.md",
+        "projects/cloakbrowser/subsystems/field-kind-error.md",
+        "projects/cloakbrowser/subsystems/geoip-resolver.md",
+        "projects/cloakbrowser/subsystems/human-config-overrides.md",
+        "projects/cloakbrowser/subsystems/humanize-engine.md",
+        "projects/cloakbrowser/subsystems/humanize-errors.md",
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md",
+        "projects/cloakbrowser/subsystems/license-and-tiers.md",
+        "projects/cloakbrowser/subsystems/page-stalled.md",
+        "projects/cloakbrowser/subsystems/profile-seed.md",
+        "projects/cloakbrowser/subsystems/proxy-handling.md",
+        "projects/cloakbrowser/subsystems/proxy-settings-required.md",
+        "projects/cloakbrowser/subsystems/proxy-settings.md",
+        "projects/cloakbrowser/subsystems/raw-fallback.md",
+        "projects/cloakbrowser/subsystems/raw-keyboard.md",
+        "projects/cloakbrowser/subsystems/raw-mouse.md",
+        "projects/cloakbrowser/subsystems/retry.md",
+        "projects/cloakbrowser/subsystems/stale-element.md",
+        "projects/cloakbrowser/subsystems/stealth-dom-error.md",
+        "projects/cloakbrowser/subsystems/stealth-evaluation-error.md",
+        "projects/cloakbrowser/subsystems/stealth-world-error.md",
+        "projects/cloakbrowser/subsystems/stealth-world-unavailable-error.md",
+        "projects/cloakbrowser/subsystems/unsupported-humanize-selector-error.md",
+        "projects/cloakbrowser/subsystems/widevine-cdm-seeding.md",
+        "projects/cloakbrowser/synthesis/detection-service-test-matrix.md",
+        "projects/cloakbrowser/techniques/cdp-traffic-minimization.md",
+        "projects/cloakbrowser/techniques/fingerprint-seed-identity.md",
+        "projects/cloakbrowser/techniques/geoip-timezone-locale-matching.md",
+        "projects/cloakbrowser/techniques/humanized-input.md",
+        "projects/cloakbrowser/techniques/noise-injection.md",
+        "projects/cloakbrowser/techniques/persistent-profile-warmup.md",
+        "projects/cloakbrowser/techniques/platform-persona-spoofing.md",
+        "projects/cloakbrowser/techniques/proxy-signal-removal.md",
+        "projects/cloakbrowser/techniques/source-level-chromium-patches.md",
+        "projects/cloakbrowser/techniques/webrtc-ip-spoofing.md"
+      ]
+    },
+    "cloakbrowser-manager": {
+      "source_repo": "github.com/vieGPT/CloakBrowser-Manager",
+      "source_cwd_hint": "~/code/CloakBrowser-Manager",
+      "last_synced": "2026-10-31T10:48:23+01:00",
+      "last_commit_synced": "11e0043d9c65828f347c0e10fcf4c15e196a05ca",
+      "pages_in_vault": [
+        "projects/cloakbrowser-manager/architecture/authentication-model.md",
+        "projects/cloakbrowser-manager/architecture/manager-architecture.md",
+        "projects/cloakbrowser-manager/architecture/platform-modes.md",
+        "projects/cloakbrowser-manager/architecture/release-and-packaging.md",
+        "projects/cloakbrowser-manager/cloakbrowser-manager.md",
+        "projects/cloakbrowser-manager/detection-vectors/cross-profile-linkage.md",
+        "projects/cloakbrowser-manager/subsystems/api-error.md",
+        "projects/cloakbrowser-manager/subsystems/api-models.md",
+        "projects/cloakbrowser-manager/subsystems/api-server.md",
+        "projects/cloakbrowser-manager/subsystems/artifact-quota-exceeded.md",
+        "projects/cloakbrowser-manager/subsystems/artifact-response.md",
+        "projects/cloakbrowser-manager/subsystems/artifact-too-large.md",
+        "projects/cloakbrowser-manager/subsystems/browser-manager.md",
+        "projects/cloakbrowser-manager/subsystems/clipboard-request.md",
+        "projects/cloakbrowser-manager/subsystems/diagnostics.md",
+        "projects/cloakbrowser-manager/subsystems/frontend-api-client.md",
+        "projects/cloakbrowser-manager/subsystems/frontend-ui.md",
+        "projects/cloakbrowser-manager/subsystems/launch-response.md",
+        "projects/cloakbrowser-manager/subsystems/login-request.md",
+        "projects/cloakbrowser-manager/subsystems/profile-busy-error.md",
+        "projects/cloakbrowser-manager/subsystems/profile-create.md",
+        "projects/cloakbrowser-manager/subsystems/profile-database.md",
+        "projects/cloakbrowser-manager/subsystems/profile-duplicate-request.md",
+        "projects/cloakbrowser-manager/subsystems/profile-files-and-artifacts.md",
+        "projects/cloakbrowser-manager/subsystems/profile-response.md",
+        "projects/cloakbrowser-manager/subsystems/profile-status-response.md",
+        "projects/cloakbrowser-manager/subsystems/profile-update.md",
+        "projects/cloakbrowser-manager/subsystems/proxy-test-request.md",
+        "projects/cloakbrowser-manager/subsystems/proxy-test-response.md",
+        "projects/cloakbrowser-manager/subsystems/reorder-request.md",
+        "projects/cloakbrowser-manager/subsystems/runtime-and-binary.md",
+        "projects/cloakbrowser-manager/subsystems/settings-and-license.md",
+        "projects/cloakbrowser-manager/subsystems/settings-response.md",
+        "projects/cloakbrowser-manager/subsystems/settings-update.md",
+        "projects/cloakbrowser-manager/subsystems/status-response.md",
+        "projects/cloakbrowser-manager/subsystems/tag-create.md",
+        "projects/cloakbrowser-manager/subsystems/tag-response.md",
+        "projects/cloakbrowser-manager/subsystems/update-check-response.md",
+        "projects/cloakbrowser-manager/subsystems/vnc-viewer.md",
+        "projects/cloakbrowser-manager/synthesis/manager-cloakbrowser-responsibility-split.md",
+        "projects/cloakbrowser-manager/techniques/cdp-endpoint-proxying.md",
+        "projects/cloakbrowser-manager/techniques/download-capture.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-identity-isolation.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-network-and-locale.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-transparent-proxy.md",
+        "projects/cloakbrowser-manager/techniques/portable-cookies.md",
+        "projects/cloakbrowser-manager/techniques/profile-duplication-with-state.md"
       ]
     }
   }

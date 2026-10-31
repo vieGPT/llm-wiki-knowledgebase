@@ -22,12 +22,12 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/techniques/per-profile-transparent-proxy]]"
     type: related_to
 sources:
-  - repo:github.com/vieGPT/CloakBrowser-Manager/README.md
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/components/ProfileForm.tsx
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/components/ProfileList.tsx
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/browser_manager.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/models.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/CHANGELOG.md
+  - ~/code/CloakBrowser-Manager/README.md
+  - ~/code/CloakBrowser-Manager/frontend/src/components/ProfileForm.tsx
+  - ~/code/CloakBrowser-Manager/frontend/src/components/ProfileList.tsx
+  - ~/code/CloakBrowser-Manager/backend/browser_manager.py
+  - ~/code/CloakBrowser-Manager/backend/models.py
+  - ~/code/CloakBrowser-Manager/CHANGELOG.md
 summary: >-
     Each profile carries its own proxy, timezone, locale and GeoIP switch; the Manager validates and tests the proxy, then lets CloakBrowser align timezone and language with the exit IP.
 provenance:
@@ -39,7 +39,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T06:22:07+01:00
-updated: 2026-10-31T06:53:05+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Per-profile network and locale
@@ -81,4 +81,4 @@ Detectors compare the IP's location with the browser's timezone, language and We
 
 ## Sources
 
-- repo:github.com/vieGPT/CloakBrowser-Manager (commit `11e0043`): `README.md` (Features), `frontend/src/components/ProfileForm.tsx` (Network and Compatibility sections), `frontend/src/components/ProfileList.tsx`, `backend/browser_manager.py` (launch options, `test_proxy`, `_normalize_proxy`, `_validate_transparent_proxy`), `backend/models.py`, `CHANGELOG.md` (0.1.8)
+- ~/code/CloakBrowser-Manager (commit `11e0043`): `README.md` (Features), `frontend/src/components/ProfileForm.tsx` (Network and Compatibility sections), `frontend/src/components/ProfileList.tsx`, `backend/browser_manager.py` (launch options, `test_proxy`, `_normalize_proxy`, `_validate_transparent_proxy`), `backend/models.py`, `CHANGELOG.md` (0.1.8)

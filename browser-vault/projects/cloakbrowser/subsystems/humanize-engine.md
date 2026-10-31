@@ -14,46 +14,46 @@ relationships:
   - target: "[[projects/cloakbrowser/techniques/platform-persona-spoofing]]"
     type: uses
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/engine.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/patch.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/world.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/injected.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/mouse.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/keyboard.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/fields.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/config.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/errors.py
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/human/engine.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/human/config.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/human/fields.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/human/index.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/human/injected.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/human/keyboard.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/human/mouse.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/human/patch.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/human/world.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/human/worldHelpers.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/human-puppeteer/index.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/humanizeEngine.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/humanizeHarness.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/humanize.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/stealth.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/stealth.puppeteer.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/humanizePuppeteer.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_humanize_engine.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_humanize_unit.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_humanize_unit.mjs
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_human_visual.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_human_visual.mjs
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_resolver_sources_match.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_stealth_dom_browser.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_stealth_unit.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_stealth_reproduction_110.py
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/Human/HumanEngine.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/Human/InjectedSource.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/Wrappers/HumanCursor.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/tests/CloakBrowser.Tests/HumanEngine/HumanEngineBrowserTests.cs
+  - ~/code/CloakBrowser/cloakbrowser/human/engine.py
+  - ~/code/CloakBrowser/cloakbrowser/human/patch.py
+  - ~/code/CloakBrowser/cloakbrowser/human/world.py
+  - ~/code/CloakBrowser/cloakbrowser/human/injected.py
+  - ~/code/CloakBrowser/cloakbrowser/human/mouse.py
+  - ~/code/CloakBrowser/cloakbrowser/human/keyboard.py
+  - ~/code/CloakBrowser/cloakbrowser/human/fields.py
+  - ~/code/CloakBrowser/cloakbrowser/human/config.py
+  - ~/code/CloakBrowser/cloakbrowser/human/errors.py
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/js/src/human/engine.ts
+  - ~/code/CloakBrowser/js/src/human/config.ts
+  - ~/code/CloakBrowser/js/src/human/fields.ts
+  - ~/code/CloakBrowser/js/src/human/index.ts
+  - ~/code/CloakBrowser/js/src/human/injected.ts
+  - ~/code/CloakBrowser/js/src/human/keyboard.ts
+  - ~/code/CloakBrowser/js/src/human/mouse.ts
+  - ~/code/CloakBrowser/js/src/human/patch.ts
+  - ~/code/CloakBrowser/js/src/human/world.ts
+  - ~/code/CloakBrowser/js/src/human/worldHelpers.ts
+  - ~/code/CloakBrowser/js/src/human-puppeteer/index.ts
+  - ~/code/CloakBrowser/js/tests/humanizeEngine.test.ts
+  - ~/code/CloakBrowser/js/tests/humanizeHarness.ts
+  - ~/code/CloakBrowser/js/tests/humanize.test.ts
+  - ~/code/CloakBrowser/js/tests/stealth.test.ts
+  - ~/code/CloakBrowser/js/tests/stealth.puppeteer.test.ts
+  - ~/code/CloakBrowser/js/tests/humanizePuppeteer.test.ts
+  - ~/code/CloakBrowser/tests/test_humanize_engine.py
+  - ~/code/CloakBrowser/tests/test_humanize_unit.py
+  - ~/code/CloakBrowser/tests/test_humanize_unit.mjs
+  - ~/code/CloakBrowser/tests/test_human_visual.py
+  - ~/code/CloakBrowser/tests/test_human_visual.mjs
+  - ~/code/CloakBrowser/tests/test_resolver_sources_match.py
+  - ~/code/CloakBrowser/tests/test_stealth_dom_browser.py
+  - ~/code/CloakBrowser/tests/test_stealth_unit.py
+  - ~/code/CloakBrowser/tests/test_stealth_reproduction_110.py
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/Human/HumanEngine.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/Human/InjectedSource.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/Wrappers/HumanCursor.cs
+  - ~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/HumanEngine/HumanEngineBrowserTests.cs
 summary: >-
     The cloakbrowser.human package (mirrored in TS and C#): one pipeline (resolve, wait, wheel-scroll, curved move, hit-check, press/type) replacing Playwright actions when humanize=True.
 provenance:
@@ -65,7 +65,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: core
 created: 2026-10-31T05:41:41+01:00
-updated: 2026-10-31T06:54:01+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Humanize engine
@@ -268,26 +268,32 @@ The `.mjs` and `test_human_visual.*` scripts are manual: they run against `js/di
 - Resolved by tests: the README warning that `ElementHandle` objects from `page.query_selector()` "bypass all patches" is stale. Both test suites pin humanized handle clicks, typing, fills and hovers, matching `patch.py`.
 - The TypeScript mirror matches the pipeline, presets, field rules and the host-platform dropdown check (see "TypeScript port" above). `patch.ts`, `world.ts`, `worldHelpers.ts`, `mouse.ts` and `keyboard.ts` were compared in the B5 batch (see above); the remaining Python-only difference noted is which internals `install` checks. See [[projects/cloakbrowser/architecture/python-js-wrapper-parity|Python/JS wrapper parity]].
 
+## Class stubs (ast-extract)
+
+- [[projects/cloakbrowser/subsystems/human-config-overrides|HumanConfigOverrides]]
+- [[projects/cloakbrowser/subsystems/raw-keyboard|RawKeyboard]]
+- [[projects/cloakbrowser/subsystems/raw-mouse|RawMouse]]
+
 ## Sources
 
 Commit `b1a00ed` (26/10/2026):
 
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/engine.py
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/patch.py
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/world.py
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/injected.py
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/mouse.py
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/keyboard.py
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/fields.py
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/config.py
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/errors.py
-- repo:github.com/CloakHQ/CloakBrowser/README.md
-- repo:github.com/CloakHQ/CloakBrowser/js/src/human/engine.ts, js/src/human/config.ts, js/src/human/fields.ts (commit b1a00ed, B4 batch)
-- repo:github.com/CloakHQ/CloakBrowser/js/src/human/index.ts, injected.ts, keyboard.ts, mouse.ts, patch.ts, world.ts, worldHelpers.ts and js/src/human-puppeteer/index.ts (commit b1a00ed, B5 batch)
-- repo:github.com/CloakHQ/CloakBrowser/js/tests/humanizeEngine.test.ts, humanizeHarness.ts, humanize.test.ts, stealth.test.ts, stealth.puppeteer.test.ts, humanizePuppeteer.test.ts (commit b1a00ed, B6 batch)
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_humanize_engine.py, tests/test_humanize_unit.py, tests/test_humanize_unit.mjs, tests/test_human_visual.py, tests/test_human_visual.mjs (commit b1a00ed, B7 batch)
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_resolver_sources_match.py (commit b1a00ed, B8 batch)
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_stealth_dom_browser.py (commit b1a00ed, B8 batch)
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_stealth_unit.py (commit b1a00ed, B8 batch)
-- repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/Human/ (HumanEngine.cs, HumanEngine.Actions.cs, HumanWorld.cs, InjectedSource.cs, HumanMouse.cs, HumanKeyboard.cs, HumanConfig.cs, HumanScroll.cs, Actionability.cs, Fields.cs), dotnet/src/CloakBrowser/Wrappers/ (HumanCursor.cs, HumanizedMouse.cs, HumanizedKeyboard.cs), dotnet/tests/CloakBrowser.Tests/HumanEngine/HumanEngineBrowserTests.cs, Human/TimeoutBudgetTests.cs, Human/SelectorParityBrowserTests.cs, Human/NonAsciiKeyboardTests.cs (commit b1a00ed, batch D)
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_stealth_reproduction_110.py (commit b1a00ed, B8 batch)
+- ~/code/CloakBrowser/cloakbrowser/human/engine.py
+- ~/code/CloakBrowser/cloakbrowser/human/patch.py
+- ~/code/CloakBrowser/cloakbrowser/human/world.py
+- ~/code/CloakBrowser/cloakbrowser/human/injected.py
+- ~/code/CloakBrowser/cloakbrowser/human/mouse.py
+- ~/code/CloakBrowser/cloakbrowser/human/keyboard.py
+- ~/code/CloakBrowser/cloakbrowser/human/fields.py
+- ~/code/CloakBrowser/cloakbrowser/human/config.py
+- ~/code/CloakBrowser/cloakbrowser/human/errors.py
+- ~/code/CloakBrowser/README.md
+- ~/code/CloakBrowser/js/src/human/engine.ts, js/src/human/config.ts, js/src/human/fields.ts (commit b1a00ed, B4 batch)
+- ~/code/CloakBrowser/js/src/human/index.ts, injected.ts, keyboard.ts, mouse.ts, patch.ts, world.ts, worldHelpers.ts and js/src/human-puppeteer/index.ts (commit b1a00ed, B5 batch)
+- ~/code/CloakBrowser/js/tests/humanizeEngine.test.ts, humanizeHarness.ts, humanize.test.ts, stealth.test.ts, stealth.puppeteer.test.ts, humanizePuppeteer.test.ts (commit b1a00ed, B6 batch)
+- ~/code/CloakBrowser/tests/test_humanize_engine.py, tests/test_humanize_unit.py, tests/test_humanize_unit.mjs, tests/test_human_visual.py, tests/test_human_visual.mjs (commit b1a00ed, B7 batch)
+- ~/code/CloakBrowser/tests/test_resolver_sources_match.py (commit b1a00ed, B8 batch)
+- ~/code/CloakBrowser/tests/test_stealth_dom_browser.py (commit b1a00ed, B8 batch)
+- ~/code/CloakBrowser/tests/test_stealth_unit.py (commit b1a00ed, B8 batch)
+- ~/code/CloakBrowser/dotnet/src/CloakBrowser/Human/ (HumanEngine.cs, HumanEngine.Actions.cs, HumanWorld.cs, InjectedSource.cs, HumanMouse.cs, HumanKeyboard.cs, HumanConfig.cs, HumanScroll.cs, Actionability.cs, Fields.cs), dotnet/src/CloakBrowser/Wrappers/ (HumanCursor.cs, HumanizedMouse.cs, HumanizedKeyboard.cs), dotnet/tests/CloakBrowser.Tests/HumanEngine/HumanEngineBrowserTests.cs, Human/TimeoutBudgetTests.cs, Human/SelectorParityBrowserTests.cs, Human/NonAsciiKeyboardTests.cs (commit b1a00ed, batch D)
+- ~/code/CloakBrowser/tests/test_stealth_reproduction_110.py (commit b1a00ed, B8 batch)

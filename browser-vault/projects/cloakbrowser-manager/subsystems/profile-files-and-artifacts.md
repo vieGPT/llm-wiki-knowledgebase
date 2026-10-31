@@ -10,14 +10,14 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/techniques/download-capture]]"
     type: implements
 sources:
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/artifacts.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/downloads.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/main.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/database.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/README.md
-  - repo:github.com/vieGPT/CloakBrowser-Manager/CHANGELOG.md
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_artifacts.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_downloads.py
+  - ~/code/CloakBrowser-Manager/backend/artifacts.py
+  - ~/code/CloakBrowser-Manager/backend/downloads.py
+  - ~/code/CloakBrowser-Manager/backend/main.py
+  - ~/code/CloakBrowser-Manager/backend/database.py
+  - ~/code/CloakBrowser-Manager/README.md
+  - ~/code/CloakBrowser-Manager/CHANGELOG.md
+  - ~/code/CloakBrowser-Manager/backend/tests/test_artifacts.py
+  - ~/code/CloakBrowser-Manager/backend/tests/test_downloads.py
 summary: >-
     Per-profile file store (v0.1.6): streamed uploads and captured downloads live beside, not inside, the profile dir, with per-profile caps, crash reclaim and a GTK file-chooser view under Docker.
 provenance:
@@ -29,7 +29,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T06:27:05+01:00
-updated: 2026-10-31T06:46:59+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Profile files and artifacts
@@ -108,8 +108,13 @@ At startup `reclaim_all()` deletes half-written `.incoming-*` files and artifact
 - **Restarts.** After a restart, `reconcile_interrupted()` marks leftover `pending` rows `failed` and empties the staging directory; `ready` rows are untouched. A pending download can be deleted only once its browser is gone; while the browser runs, deletion and download both return 409 "still in progress".
 - **CDP session.** Replies are matched to calls by id, not arrival order, and a refused call raises. A closed socket fails pending calls at once, and malformed messages do not end capture. A refused re-arm drops the session so it reconnects. A session that armed successfully earns a fresh reconnect budget of two attempts. Tracking survives a reconnect: a completion that arrives on the new socket still publishes the file.
 
+## Class stubs (ast-extract)
+
+- [[projects/cloakbrowser-manager/subsystems/artifact-quota-exceeded|ArtifactQuotaExceeded]]
+- [[projects/cloakbrowser-manager/subsystems/artifact-too-large|ArtifactTooLarge]]
+
 ## Sources
 
-- repo:github.com/vieGPT/CloakBrowser-Manager/backend/artifacts.py, backend/downloads.py, backend/main.py, backend/database.py (commit 11e0043)
-- repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_artifacts.py, backend/tests/test_downloads.py (commit 11e0043)
-- repo:github.com/vieGPT/CloakBrowser-Manager/README.md (Profile files), CHANGELOG.md (0.1.6, 08/10/2026) (commit 11e0043)
+- ~/code/CloakBrowser-Manager/backend/artifacts.py, backend/downloads.py, backend/main.py, backend/database.py (commit 11e0043)
+- ~/code/CloakBrowser-Manager/backend/tests/test_artifacts.py, backend/tests/test_downloads.py (commit 11e0043)
+- ~/code/CloakBrowser-Manager/README.md (Profile files), CHANGELOG.md (0.1.6, 08/10/2026) (commit 11e0043)

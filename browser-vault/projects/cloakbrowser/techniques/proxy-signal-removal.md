@@ -16,8 +16,8 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/techniques/per-profile-transparent-proxy]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/proxy.ts
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/js/src/proxy.ts
 summary: >-
     Binary-level patches that hide that traffic goes through a proxy: zeroed DNS/connect/SSL timing, stripped proxy headers, transparent proxy mode, and SOCKS5 routing.
 provenance:
@@ -29,7 +29,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:41:22+01:00
-updated: 2026-10-31T06:46:59+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Proxy signal removal
@@ -67,5 +67,5 @@ A proxy changes the exit IP but leaves traces a page can measure: connection-pha
 
 ## Sources
 
-- repo:github.com/CloakHQ/CloakBrowser/README.md (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/js/src/proxy.ts (commit b1a00ed)
+- ~/code/CloakBrowser/README.md (commit b1a00ed)
+- ~/code/CloakBrowser/js/src/proxy.ts (commit b1a00ed)

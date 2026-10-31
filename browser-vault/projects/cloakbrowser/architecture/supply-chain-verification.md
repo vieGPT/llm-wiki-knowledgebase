@@ -9,19 +9,19 @@ relationships:
   - target: "[[projects/cloakbrowser/architecture/release-channels-and-versioning]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/config.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/download.py
-  - repo:github.com/CloakHQ/CloakBrowser/.github/workflows/attest-release.yml
-  - repo:github.com/CloakHQ/CloakBrowser/.github/workflows/publish.yml
-  - repo:github.com/CloakHQ/CloakBrowser/.github/workflows/ci.yml
-  - repo:github.com/CloakHQ/CloakBrowser/.github/dependabot.yml
-  - repo:github.com/CloakHQ/CloakBrowser/bin/fetch-widevine.py
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/CHANGELOG.md
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/download.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/config.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/signature.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/update.test.ts
+  - ~/code/CloakBrowser/cloakbrowser/config.py
+  - ~/code/CloakBrowser/cloakbrowser/download.py
+  - ~/code/CloakBrowser/.github/workflows/attest-release.yml
+  - ~/code/CloakBrowser/.github/workflows/publish.yml
+  - ~/code/CloakBrowser/.github/workflows/ci.yml
+  - ~/code/CloakBrowser/.github/dependabot.yml
+  - ~/code/CloakBrowser/bin/fetch-widevine.py
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/CHANGELOG.md
+  - ~/code/CloakBrowser/js/src/download.ts
+  - ~/code/CloakBrowser/js/src/config.ts
+  - ~/code/CloakBrowser/js/tests/signature.test.ts
+  - ~/code/CloakBrowser/js/tests/update.test.ts
 summary: >-
     Layered trust: pinned Ed25519 signature over versioned SHA256SUMS at every download, plus GPG tags, Sigstore attestations, Cosign-signed images and OIDC publishing.
 provenance:
@@ -33,7 +33,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:41:25+01:00
-updated: 2026-10-31T06:01:42+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Supply-chain verification
@@ -100,14 +100,14 @@ The attestation workflow downloads already-published release assets and attests 
 
 ## Sources
 
-- `repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/config.py` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/download.py` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/.github/workflows/attest-release.yml` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/.github/workflows/publish.yml` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/.github/workflows/ci.yml` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/.github/dependabot.yml` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/bin/fetch-widevine.py` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/README.md` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/CHANGELOG.md` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/js/src/download.ts`, `js/src/config.ts` (commit `b1a00ed`, B4 batch)
-- `repo:github.com/CloakHQ/CloakBrowser/js/tests/signature.test.ts`, `js/tests/update.test.ts` (commit `b1a00ed`, B6 batch)
+- `~/code/CloakBrowser/cloakbrowser/config.py` (commit `b1a00ed`)
+- `~/code/CloakBrowser/cloakbrowser/download.py` (commit `b1a00ed`)
+- `~/code/CloakBrowser/.github/workflows/attest-release.yml` (commit `b1a00ed`)
+- `~/code/CloakBrowser/.github/workflows/publish.yml` (commit `b1a00ed`)
+- `~/code/CloakBrowser/.github/workflows/ci.yml` (commit `b1a00ed`)
+- `~/code/CloakBrowser/.github/dependabot.yml` (commit `b1a00ed`)
+- `~/code/CloakBrowser/bin/fetch-widevine.py` (commit `b1a00ed`)
+- `~/code/CloakBrowser/README.md` (commit `b1a00ed`)
+- `~/code/CloakBrowser/CHANGELOG.md` (commit `b1a00ed`)
+- `~/code/CloakBrowser/js/src/download.ts`, `js/src/config.ts` (commit `b1a00ed`, B4 batch)
+- `~/code/CloakBrowser/js/tests/signature.test.ts`, `js/tests/update.test.ts` (commit `b1a00ed`, B6 batch)

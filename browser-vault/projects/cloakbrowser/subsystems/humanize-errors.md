@@ -8,14 +8,14 @@ relationships:
   - target: "[[projects/cloakbrowser/subsystems/humanize-engine]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/errors.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/fields.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/world.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/engine.py
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/human/errors.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/human/engine.ts
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_humanize_unit.py
+  - ~/code/CloakBrowser/cloakbrowser/human/errors.py
+  - ~/code/CloakBrowser/cloakbrowser/human/fields.py
+  - ~/code/CloakBrowser/cloakbrowser/human/world.py
+  - ~/code/CloakBrowser/cloakbrowser/human/engine.py
+  - ~/code/CloakBrowser/dotnet/README.md
+  - ~/code/CloakBrowser/js/src/human/errors.ts
+  - ~/code/CloakBrowser/js/src/human/engine.ts
+  - ~/code/CloakBrowser/tests/test_humanize_unit.py
 summary: >-
     The two legacy humanize error hierarchies (ActionabilityError with 7 children, StealthDomError with 3), kept importable for compatibility while the engine raises Playwright errors.
 provenance:
@@ -27,7 +27,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:41:41+01:00
-updated: 2026-10-31T05:59:07+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Humanize errors
@@ -102,14 +102,35 @@ Engine-internal signals in TS are `Retry` (not exported) and the exported `RawFa
 
 - Resolved for TypeScript (see above): compatibility only, and nothing in `js/src` throws these classes. The .NET client still throws them from its standalone checks.
 
+## Class stubs (ast-extract)
+
+- [[projects/cloakbrowser/subsystems/actionability-error|ActionabilityError]]
+- [[projects/cloakbrowser/subsystems/element-not-attached-error|ElementNotAttachedError]]
+- [[projects/cloakbrowser/subsystems/element-not-editable-error|ElementNotEditableError]]
+- [[projects/cloakbrowser/subsystems/element-not-enabled-error|ElementNotEnabledError]]
+- [[projects/cloakbrowser/subsystems/element-not-receiving-events-error|ElementNotReceivingEventsError]]
+- [[projects/cloakbrowser/subsystems/element-not-stable-error|ElementNotStableError]]
+- [[projects/cloakbrowser/subsystems/element-not-visible-error|ElementNotVisibleError]]
+- [[projects/cloakbrowser/subsystems/element-target-changed-error|ElementTargetChangedError]]
+- [[projects/cloakbrowser/subsystems/field-kind-error|FieldKindError]]
+- [[projects/cloakbrowser/subsystems/page-stalled|PageStalled]]
+- [[projects/cloakbrowser/subsystems/raw-fallback|RawFallback]]
+- [[projects/cloakbrowser/subsystems/retry|Retry]]
+- [[projects/cloakbrowser/subsystems/stale-element|StaleElement]]
+- [[projects/cloakbrowser/subsystems/stealth-dom-error|StealthDomError]]
+- [[projects/cloakbrowser/subsystems/stealth-evaluation-error|StealthEvaluationError]]
+- [[projects/cloakbrowser/subsystems/stealth-world-error|StealthWorldError]]
+- [[projects/cloakbrowser/subsystems/stealth-world-unavailable-error|StealthWorldUnavailableError]]
+- [[projects/cloakbrowser/subsystems/unsupported-humanize-selector-error|UnsupportedHumanizeSelectorError]]
+
 ## Sources
 
 Commit `b1a00ed` (26/10/2026):
 
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/errors.py
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/fields.py
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/world.py
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/engine.py
-- repo:github.com/CloakHQ/CloakBrowser/dotnet/README.md
-- repo:github.com/CloakHQ/CloakBrowser/js/src/human/errors.ts, js/src/human/engine.ts (commit b1a00ed, B4 batch)
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_humanize_unit.py (commit b1a00ed, B7 batch)
+- ~/code/CloakBrowser/cloakbrowser/human/errors.py
+- ~/code/CloakBrowser/cloakbrowser/human/fields.py
+- ~/code/CloakBrowser/cloakbrowser/human/world.py
+- ~/code/CloakBrowser/cloakbrowser/human/engine.py
+- ~/code/CloakBrowser/dotnet/README.md
+- ~/code/CloakBrowser/js/src/human/errors.ts, js/src/human/engine.ts (commit b1a00ed, B4 batch)
+- ~/code/CloakBrowser/tests/test_humanize_unit.py (commit b1a00ed, B7 batch)

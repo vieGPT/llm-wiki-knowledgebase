@@ -14,10 +14,10 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/techniques/per-profile-network-and-locale]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/CHANGELOG.md
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/geoip.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/browser.py
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/CHANGELOG.md
+  - ~/code/CloakBrowser/cloakbrowser/geoip.py
+  - ~/code/CloakBrowser/cloakbrowser/browser.py
 summary: >-
     Detectors compare the IP's geolocation with the browser's timezone, language and WebRTC IP; a proxied browser on the host's UTC clock and en-US locale contradicts itself.
 provenance:
@@ -29,7 +29,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: core
 created: 2026-10-31T05:49:08+01:00
-updated: 2026-10-31T06:37:29+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Timezone/locale/IP consistency
@@ -78,7 +78,7 @@ Implementation: [[projects/cloakbrowser/subsystems/geoip-resolver|GeoIP resolver
 
 ## Sources
 
-- `repo:github.com/CloakHQ/CloakBrowser/README.md` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/CHANGELOG.md` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/geoip.py` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/browser.py` (commit `b1a00ed`)
+- `~/code/CloakBrowser/README.md` (commit `b1a00ed`)
+- `~/code/CloakBrowser/CHANGELOG.md` (commit `b1a00ed`)
+- `~/code/CloakBrowser/cloakbrowser/geoip.py` (commit `b1a00ed`)
+- `~/code/CloakBrowser/cloakbrowser/browser.py` (commit `b1a00ed`)

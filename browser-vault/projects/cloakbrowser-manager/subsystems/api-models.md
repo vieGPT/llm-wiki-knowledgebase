@@ -20,11 +20,11 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/techniques/cdp-endpoint-proxying]]"
     type: related_to
 sources:
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/models.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/main.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/runtime.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_models.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_api.py
+  - ~/code/CloakBrowser-Manager/backend/models.py
+  - ~/code/CloakBrowser-Manager/backend/main.py
+  - ~/code/CloakBrowser-Manager/backend/runtime.py
+  - ~/code/CloakBrowser-Manager/backend/tests/test_models.py
+  - ~/code/CloakBrowser-Manager/backend/tests/test_api.py
 summary: >-
     The 18 Pydantic v2 BaseModel classes in backend/models.py that define the Manager API's request and response shapes; inputs forbid unknown fields and constrain enums.
 provenance:
@@ -36,7 +36,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T06:27:05+01:00
-updated: 2026-10-31T06:46:59+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # API models
@@ -80,7 +80,28 @@ updated: 2026-10-31T06:46:59+01:00
 
 - `ProfileStatusResponse` lacks the `last_error` field that `BrowserManager.get_status()` returns; with Pydantic's default `extra="ignore"`, the per-profile status route probably drops post-handshake license denials. ^[ambiguous]
 
+## Class stubs (ast-extract)
+
+- [[projects/cloakbrowser-manager/subsystems/artifact-response|ArtifactResponse]]
+- [[projects/cloakbrowser-manager/subsystems/clipboard-request|ClipboardRequest]]
+- [[projects/cloakbrowser-manager/subsystems/launch-response|LaunchResponse]]
+- [[projects/cloakbrowser-manager/subsystems/login-request|LoginRequest]]
+- [[projects/cloakbrowser-manager/subsystems/profile-create|ProfileCreate]]
+- [[projects/cloakbrowser-manager/subsystems/profile-duplicate-request|ProfileDuplicateRequest]]
+- [[projects/cloakbrowser-manager/subsystems/profile-response|ProfileResponse]]
+- [[projects/cloakbrowser-manager/subsystems/profile-status-response|ProfileStatusResponse]]
+- [[projects/cloakbrowser-manager/subsystems/profile-update|ProfileUpdate]]
+- [[projects/cloakbrowser-manager/subsystems/proxy-test-request|ProxyTestRequest]]
+- [[projects/cloakbrowser-manager/subsystems/proxy-test-response|ProxyTestResponse]]
+- [[projects/cloakbrowser-manager/subsystems/reorder-request|ReorderRequest]]
+- [[projects/cloakbrowser-manager/subsystems/settings-response|SettingsResponse]]
+- [[projects/cloakbrowser-manager/subsystems/settings-update|SettingsUpdate]]
+- [[projects/cloakbrowser-manager/subsystems/status-response|StatusResponse]]
+- [[projects/cloakbrowser-manager/subsystems/tag-create|TagCreate]]
+- [[projects/cloakbrowser-manager/subsystems/tag-response|TagResponse]]
+- [[projects/cloakbrowser-manager/subsystems/update-check-response|UpdateCheckResponse]]
+
 ## Sources
 
-- repo:github.com/vieGPT/CloakBrowser-Manager/backend/models.py, backend/main.py, backend/runtime.py (commit 11e0043)
-- repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_models.py, backend/tests/test_api.py (commit 11e0043)
+- ~/code/CloakBrowser-Manager/backend/models.py, backend/main.py, backend/runtime.py (commit 11e0043)
+- ~/code/CloakBrowser-Manager/backend/tests/test_models.py, backend/tests/test_api.py (commit 11e0043)

@@ -20,35 +20,35 @@ relationships:
   - target: "[[projects/cloakbrowser/techniques/humanized-input]]"
     type: implements
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/CloakBrowser.sln
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/CloakBrowser.csproj
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/CloakLauncher.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/LaunchOptions.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/Handles.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/Config.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/ProxyResolver.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/ViewportDefaults.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/Download.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/License.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/GeoIp.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/Widevine.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/Diagnostics.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/CloakLog.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/Human/HumanEngine.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/Human/InjectedSource.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/Human/Actionability.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/Human/HumanPage.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/Human/HumanConfig.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/Wrappers/Humanize.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/Wrappers/HumanizedPage.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser.Generators/InterfaceDelegationGenerator.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser.Cli/Program.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/examples/CloakBrowser.Examples/Program.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/tests/CloakBrowser.Tests/IsolatedCacheDir.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/tests/CloakBrowser.Tests/BrowserFactAttribute.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/tests/CloakBrowser.Tests/Wrappers/LicenseGuardCompositionTests.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/tests/CloakBrowser.Tests/Wrappers/FakeProxy.cs
+  - ~/code/CloakBrowser/dotnet/README.md
+  - ~/code/CloakBrowser/dotnet/CloakBrowser.sln
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/CloakBrowser.csproj
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/CloakLauncher.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/LaunchOptions.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/Handles.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/Config.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/ProxyResolver.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/ViewportDefaults.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/Download.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/License.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/GeoIp.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/Widevine.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/Diagnostics.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/CloakLog.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/Human/HumanEngine.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/Human/InjectedSource.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/Human/Actionability.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/Human/HumanPage.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/Human/HumanConfig.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/Wrappers/Humanize.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/Wrappers/HumanizedPage.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser.Generators/InterfaceDelegationGenerator.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser.Cli/Program.cs
+  - ~/code/CloakBrowser/dotnet/examples/CloakBrowser.Examples/Program.cs
+  - ~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/IsolatedCacheDir.cs
+  - ~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/BrowserFactAttribute.cs
+  - ~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/Wrappers/LicenseGuardCompositionTests.cs
+  - ~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/Wrappers/FakeProxy.cs
 summary: >-
     The C# port (NuGet CloakBrowser 0.6.4, .NET 8, Microsoft.Playwright 1.64.1): async-only launcher, Roslyn-generated humanize decorators, DispatchProxy license guard.
 provenance:
@@ -60,7 +60,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:41:41+01:00
-updated: 2026-10-31T06:54:01+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # .NET client
@@ -150,7 +150,7 @@ Checked at commit b1a00ed (26/10/2026):
 
 ## Sources
 
-Commit `b1a00ed` (26/10/2026), `repo:github.com/CloakHQ/CloakBrowser`:
+Commit `b1a00ed` (26/10/2026), `~/code/CloakBrowser`:
 
 - `dotnet/README.md`, `dotnet/CloakBrowser.sln`, `dotnet/src/CloakBrowser/CloakBrowser.csproj`
 - `dotnet/src/CloakBrowser/`: `CloakLauncher.cs`, `LaunchOptions.cs`, `Handles.cs`, `Config.cs`, `ProxyResolver.cs`, `ViewportDefaults.cs`, `Download.cs`, `License.cs`, `GeoIp.cs`, `Widevine.cs`, `Diagnostics.cs`, `CloakLog.cs`

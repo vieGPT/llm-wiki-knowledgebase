@@ -16,8 +16,8 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/detection-vectors/cross-profile-linkage]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/proxy.ts
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/js/src/proxy.ts
 summary: >-
     What detectors learn from the network path: exit-IP reputation, proxy timing and header traces, HTTP/2 first-visit challenges, and side channels that bypass the proxy.
 provenance:
@@ -29,7 +29,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:41:22+01:00
-updated: 2026-10-31T06:46:59+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Proxy and network signals
@@ -69,5 +69,5 @@ Anti-bot systems look at how a request arrived, not only at what the browser rep
 
 ## Sources
 
-- repo:github.com/CloakHQ/CloakBrowser/README.md (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/js/src/proxy.ts (commit b1a00ed)
+- ~/code/CloakBrowser/README.md (commit b1a00ed)
+- ~/code/CloakBrowser/js/src/proxy.ts (commit b1a00ed)

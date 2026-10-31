@@ -10,11 +10,11 @@ relationships:
   - target: "[[projects/cloakbrowser/architecture/framework-integration-modes]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/examples/integrations/aws_lambda/Dockerfile
-  - repo:github.com/CloakHQ/CloakBrowser/examples/integrations/aws_lambda/INSTRUCTIONS.md
-  - repo:github.com/CloakHQ/CloakBrowser/examples/integrations/aws_lambda/lambda-entrypoint.sh
-  - repo:github.com/CloakHQ/CloakBrowser/examples/integrations/aws_lambda/lambda_handler.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_lambda_security.py
+  - ~/code/CloakBrowser/examples/integrations/aws_lambda/Dockerfile
+  - ~/code/CloakBrowser/examples/integrations/aws_lambda/INSTRUCTIONS.md
+  - ~/code/CloakBrowser/examples/integrations/aws_lambda/lambda-entrypoint.sh
+  - ~/code/CloakBrowser/examples/integrations/aws_lambda/lambda_handler.py
+  - ~/code/CloakBrowser/tests/test_lambda_security.py
 summary: >-
     A container image layered on cloakhq/cloakbrowser that runs one-shot headed scrapes in AWS Lambda via Xvfb, with a dual-mode entrypoint, retry strategies and SSRF-guarded URLs.
 provenance:
@@ -26,7 +26,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:46:02+01:00
-updated: 2026-10-31T06:10:53+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # AWS Lambda deployment
@@ -111,8 +111,8 @@ Two of these pins are weaker than the rest. That callers cannot inject `_strateg
 
 Commit `b1a00ed` (26/10/2026):
 
-- repo:github.com/CloakHQ/CloakBrowser/examples/integrations/aws_lambda/Dockerfile (commit b1a00ed, P2 pass)
-- repo:github.com/CloakHQ/CloakBrowser/examples/integrations/aws_lambda/INSTRUCTIONS.md
-- repo:github.com/CloakHQ/CloakBrowser/examples/integrations/aws_lambda/lambda-entrypoint.sh
-- repo:github.com/CloakHQ/CloakBrowser/examples/integrations/aws_lambda/lambda_handler.py
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_lambda_security.py (commit b1a00ed, B8 batch)
+- ~/code/CloakBrowser/examples/integrations/aws_lambda/Dockerfile (commit b1a00ed, P2 pass)
+- ~/code/CloakBrowser/examples/integrations/aws_lambda/INSTRUCTIONS.md
+- ~/code/CloakBrowser/examples/integrations/aws_lambda/lambda-entrypoint.sh
+- ~/code/CloakBrowser/examples/integrations/aws_lambda/lambda_handler.py
+- ~/code/CloakBrowser/tests/test_lambda_security.py (commit b1a00ed, B8 batch)

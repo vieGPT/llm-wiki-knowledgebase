@@ -22,29 +22,29 @@ relationships:
   - target: "[[projects/cloakbrowser/detection-vectors/webgl-gpu-fingerprinting]]"
     type: related_to
 sources:
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/App.tsx
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/hooks/useProfiles.ts
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/hooks/useProfiles.test.ts
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/components/ProfileForm.tsx
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/components/ProfileForm.test.tsx
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/components/ProfileList.tsx
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/components/ProfileViewer.tsx
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/components/ProfileFiles.tsx
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/components/ProfileFiles.test.tsx
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/components/NativeWindowStatus.tsx
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/components/NativeWindowStatus.test.tsx
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/components/CdpEndpointButton.tsx
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/components/LaunchButton.tsx
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/components/LaunchErrorBanner.tsx
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/components/LoginPage.tsx
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/components/SettingsPanel.tsx
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/components/StatusIndicator.tsx
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/components/SystemStatusBadge.tsx
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/components/UpdateBanner.tsx
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/lib/api.test.ts
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/package.json
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/index.html
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/postcss.config.js
+  - ~/code/CloakBrowser-Manager/frontend/src/App.tsx
+  - ~/code/CloakBrowser-Manager/frontend/src/hooks/useProfiles.ts
+  - ~/code/CloakBrowser-Manager/frontend/src/hooks/useProfiles.test.ts
+  - ~/code/CloakBrowser-Manager/frontend/src/components/ProfileForm.tsx
+  - ~/code/CloakBrowser-Manager/frontend/src/components/ProfileForm.test.tsx
+  - ~/code/CloakBrowser-Manager/frontend/src/components/ProfileList.tsx
+  - ~/code/CloakBrowser-Manager/frontend/src/components/ProfileViewer.tsx
+  - ~/code/CloakBrowser-Manager/frontend/src/components/ProfileFiles.tsx
+  - ~/code/CloakBrowser-Manager/frontend/src/components/ProfileFiles.test.tsx
+  - ~/code/CloakBrowser-Manager/frontend/src/components/NativeWindowStatus.tsx
+  - ~/code/CloakBrowser-Manager/frontend/src/components/NativeWindowStatus.test.tsx
+  - ~/code/CloakBrowser-Manager/frontend/src/components/CdpEndpointButton.tsx
+  - ~/code/CloakBrowser-Manager/frontend/src/components/LaunchButton.tsx
+  - ~/code/CloakBrowser-Manager/frontend/src/components/LaunchErrorBanner.tsx
+  - ~/code/CloakBrowser-Manager/frontend/src/components/LoginPage.tsx
+  - ~/code/CloakBrowser-Manager/frontend/src/components/SettingsPanel.tsx
+  - ~/code/CloakBrowser-Manager/frontend/src/components/StatusIndicator.tsx
+  - ~/code/CloakBrowser-Manager/frontend/src/components/SystemStatusBadge.tsx
+  - ~/code/CloakBrowser-Manager/frontend/src/components/UpdateBanner.tsx
+  - ~/code/CloakBrowser-Manager/frontend/src/lib/api.test.ts
+  - ~/code/CloakBrowser-Manager/frontend/package.json
+  - ~/code/CloakBrowser-Manager/frontend/index.html
+  - ~/code/CloakBrowser-Manager/frontend/postcss.config.js
 summary: >-
     The Manager's React single-page app: auth gate, profile list and form, a 3 s status poll, license and update banners, and two running views (noVNC canvas on Linux, native-window card elsewhere).
 provenance:
@@ -56,7 +56,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T06:20:42+01:00
-updated: 2026-10-31T06:37:29+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Frontend UI
@@ -152,4 +152,4 @@ As of commit `11e0043`, `frontend/package.json` (package `cloakbrowser-manager`,
 
 ## Sources
 
-- repo:github.com/vieGPT/CloakBrowser-Manager (commit `11e0043`): `frontend/src/App.tsx`, `frontend/src/hooks/useProfiles.ts`, `frontend/src/hooks/useProfiles.test.ts`, `frontend/src/components/ProfileForm.tsx`, `frontend/src/components/ProfileForm.test.tsx`, `frontend/src/components/ProfileList.tsx`, `frontend/src/components/ProfileViewer.tsx`, `frontend/src/components/ProfileFiles.tsx`, `frontend/src/components/ProfileFiles.test.tsx`, `frontend/src/components/NativeWindowStatus.tsx`, `frontend/src/components/NativeWindowStatus.test.tsx`, `frontend/src/components/CdpEndpointButton.tsx`, `frontend/src/components/LaunchButton.tsx`, `frontend/src/components/LaunchErrorBanner.tsx`, `frontend/src/components/LoginPage.tsx`, `frontend/src/components/SettingsPanel.tsx`, `frontend/src/components/StatusIndicator.tsx`, `frontend/src/components/SystemStatusBadge.tsx`, `frontend/src/components/UpdateBanner.tsx`, `frontend/src/lib/api.test.ts`, `frontend/package.json`, `frontend/index.html`, `frontend/postcss.config.js`, `frontend/package-lock.json` (lockfile only)
+- ~/code/CloakBrowser-Manager (commit `11e0043`): `frontend/src/App.tsx`, `frontend/src/hooks/useProfiles.ts`, `frontend/src/hooks/useProfiles.test.ts`, `frontend/src/components/ProfileForm.tsx`, `frontend/src/components/ProfileForm.test.tsx`, `frontend/src/components/ProfileList.tsx`, `frontend/src/components/ProfileViewer.tsx`, `frontend/src/components/ProfileFiles.tsx`, `frontend/src/components/ProfileFiles.test.tsx`, `frontend/src/components/NativeWindowStatus.tsx`, `frontend/src/components/NativeWindowStatus.test.tsx`, `frontend/src/components/CdpEndpointButton.tsx`, `frontend/src/components/LaunchButton.tsx`, `frontend/src/components/LaunchErrorBanner.tsx`, `frontend/src/components/LoginPage.tsx`, `frontend/src/components/SettingsPanel.tsx`, `frontend/src/components/StatusIndicator.tsx`, `frontend/src/components/SystemStatusBadge.tsx`, `frontend/src/components/UpdateBanner.tsx`, `frontend/src/lib/api.test.ts`, `frontend/package.json`, `frontend/index.html`, `frontend/postcss.config.js`, `frontend/package-lock.json` (lockfile only)

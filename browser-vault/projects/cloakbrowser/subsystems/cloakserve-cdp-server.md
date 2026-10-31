@@ -22,14 +22,14 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/techniques/cdp-endpoint-proxying]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/bin/cloakserve
-  - repo:github.com/CloakHQ/CloakBrowser/bin/cloaktest
-  - repo:github.com/CloakHQ/CloakBrowser/Dockerfile
-  - repo:github.com/CloakHQ/CloakBrowser/bin/docker-entrypoint.sh
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/CHANGELOG.md
-  - repo:github.com/CloakHQ/CloakBrowser/.github/workflows/publish.yml
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_cloakserve.py
+  - ~/code/CloakBrowser/bin/cloakserve
+  - ~/code/CloakBrowser/bin/cloaktest
+  - ~/code/CloakBrowser/Dockerfile
+  - ~/code/CloakBrowser/bin/docker-entrypoint.sh
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/CHANGELOG.md
+  - ~/code/CloakBrowser/.github/workflows/publish.yml
+  - ~/code/CloakBrowser/tests/test_cloakserve.py
 summary: >-
     cloakserve, the Docker image's CDP multiplexer: one directly launched Chrome per fingerprint seed behind one port, query-param identities, origin guard, idle reaping, Xvfb/openbox display.
 provenance:
@@ -41,7 +41,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:46:10+01:00
-updated: 2026-10-31T06:37:29+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # cloakserve CDP server
@@ -188,11 +188,11 @@ The file defines `TestHandlerURLRewriting` twice. The second class, which only r
 
 ## Sources
 
-- `repo:github.com/CloakHQ/CloakBrowser/bin/cloakserve` (commit `b1a00ed`, P2 pass)
-- `repo:github.com/CloakHQ/CloakBrowser/bin/cloaktest` (commit `b1a00ed`, P2 pass)
-- `repo:github.com/CloakHQ/CloakBrowser/Dockerfile` (commit `b1a00ed`, P2 pass)
-- `repo:github.com/CloakHQ/CloakBrowser/bin/docker-entrypoint.sh` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/README.md` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/CHANGELOG.md` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/.github/workflows/publish.yml` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/tests/test_cloakserve.py` (commit `b1a00ed`, B7 batch)
+- `~/code/CloakBrowser/bin/cloakserve` (commit `b1a00ed`, P2 pass)
+- `~/code/CloakBrowser/bin/cloaktest` (commit `b1a00ed`, P2 pass)
+- `~/code/CloakBrowser/Dockerfile` (commit `b1a00ed`, P2 pass)
+- `~/code/CloakBrowser/bin/docker-entrypoint.sh` (commit `b1a00ed`)
+- `~/code/CloakBrowser/README.md` (commit `b1a00ed`)
+- `~/code/CloakBrowser/CHANGELOG.md` (commit `b1a00ed`)
+- `~/code/CloakBrowser/.github/workflows/publish.yml` (commit `b1a00ed`)
+- `~/code/CloakBrowser/tests/test_cloakserve.py` (commit `b1a00ed`, B7 batch)

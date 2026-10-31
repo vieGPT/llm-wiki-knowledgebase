@@ -10,14 +10,14 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/techniques/cdp-endpoint-proxying]]"
     type: related_to
 sources:
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/downloads.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/main.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/browser_manager.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/README.md
-  - repo:github.com/vieGPT/CloakBrowser-Manager/CHANGELOG.md
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_downloads.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_api.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_browser_manager.py
+  - ~/code/CloakBrowser-Manager/backend/downloads.py
+  - ~/code/CloakBrowser-Manager/backend/main.py
+  - ~/code/CloakBrowser-Manager/backend/browser_manager.py
+  - ~/code/CloakBrowser-Manager/README.md
+  - ~/code/CloakBrowser-Manager/CHANGELOG.md
+  - ~/code/CloakBrowser-Manager/backend/tests/test_downloads.py
+  - ~/code/CloakBrowser-Manager/backend/tests/test_api.py
+  - ~/code/CloakBrowser-Manager/backend/tests/test_browser_manager.py
 summary: >-
     Under Docker the Manager holds its own CDP socket per browser, stages GUID-named downloads, publishes on completion and re-arms when a client that changed download behaviour detaches.
 provenance:
@@ -29,7 +29,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T06:27:05+01:00
-updated: 2026-10-31T06:53:05+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Download capture
@@ -68,6 +68,6 @@ The README says capture is "re-armed as soon as a proxied CDP connection closes"
 
 ## Sources
 
-- repo:github.com/vieGPT/CloakBrowser-Manager/backend/downloads.py, backend/main.py, backend/browser_manager.py (commit 11e0043)
-- repo:github.com/vieGPT/CloakBrowser-Manager/README.md (Profile files), CHANGELOG.md (0.1.6) (commit 11e0043)
-- repo:github.com/vieGPT/CloakBrowser-Manager/backend/tests/test_downloads.py, test_api.py, test_browser_manager.py (commit 11e0043)
+- ~/code/CloakBrowser-Manager/backend/downloads.py, backend/main.py, backend/browser_manager.py (commit 11e0043)
+- ~/code/CloakBrowser-Manager/README.md (Profile files), CHANGELOG.md (0.1.6) (commit 11e0043)
+- ~/code/CloakBrowser-Manager/backend/tests/test_downloads.py, test_api.py, test_browser_manager.py (commit 11e0043)

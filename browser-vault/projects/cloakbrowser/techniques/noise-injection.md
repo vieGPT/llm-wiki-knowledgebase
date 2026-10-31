@@ -16,8 +16,8 @@ relationships:
   - target: "[[projects/cloakbrowser/detection-vectors/fingerprint-tampering-detection]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/examples/stealth_test.py
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/examples/stealth_test.py
 summary: >-
     Seed-derived noise the binary adds to canvas, WebGL and audio readouts to vary fingerprints per identity; can be turned off with --fingerprint-noise=false when ML flags it as tampering.
 provenance:
@@ -29,7 +29,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:41:41+01:00
-updated: 2026-10-31T05:52:24+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Noise injection
@@ -72,5 +72,5 @@ The README's FingerprintJS troubleshooting table lists "Browser tampering — no
 
 Commit `b1a00ed` (26/10/2026):
 
-- repo:github.com/CloakHQ/CloakBrowser/README.md
-- repo:github.com/CloakHQ/CloakBrowser/examples/stealth_test.py (B2)
+- ~/code/CloakBrowser/README.md
+- ~/code/CloakBrowser/examples/stealth_test.py (B2)

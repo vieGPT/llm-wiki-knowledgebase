@@ -10,47 +10,47 @@ relationships:
   - target: "[[projects/cloakbrowser/subsystems/launcher-and-stealth-args]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/js/package.json
-  - repo:github.com/CloakHQ/CloakBrowser/js/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/config.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/args.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/download.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/geoip.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/fonts.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/cli.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/human/engine.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/human/fields.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/human/config.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/human/errors.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/examples/stealth-test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/license.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/widevine.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/injected.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/human/errors.py
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/tests/conftest.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_config.py
-  - repo:github.com/CloakHQ/CloakBrowser/js/tsconfig.json
-  - repo:github.com/CloakHQ/CloakBrowser/js/vitest.config.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/widevine.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/tests/__init__.py
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/CloakBrowser.csproj
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/CloakLauncher.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/Config.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/ProxyResolver.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/Handles.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/Download.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/License.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/GeoIp.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/Widevine.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/Human/HumanEngine.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/Human/HumanScroll.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/Human/WorldHelpers.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser.Generators/InterfaceDelegationGenerator.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser.Cli/Program.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/tests/CloakBrowser.Tests/IsolatedCacheDir.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/tests/CloakBrowser.Tests/LicenseTests.cs
+  - ~/code/CloakBrowser/js/package.json
+  - ~/code/CloakBrowser/js/README.md
+  - ~/code/CloakBrowser/js/src/config.ts
+  - ~/code/CloakBrowser/js/src/args.ts
+  - ~/code/CloakBrowser/js/src/download.ts
+  - ~/code/CloakBrowser/js/src/geoip.ts
+  - ~/code/CloakBrowser/js/src/fonts.ts
+  - ~/code/CloakBrowser/js/src/cli.ts
+  - ~/code/CloakBrowser/js/src/human/engine.ts
+  - ~/code/CloakBrowser/js/src/human/fields.ts
+  - ~/code/CloakBrowser/js/src/human/config.ts
+  - ~/code/CloakBrowser/js/src/human/errors.ts
+  - ~/code/CloakBrowser/js/examples/stealth-test.ts
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/cloakbrowser/license.py
+  - ~/code/CloakBrowser/cloakbrowser/widevine.py
+  - ~/code/CloakBrowser/cloakbrowser/human/injected.py
+  - ~/code/CloakBrowser/cloakbrowser/human/errors.py
+  - ~/code/CloakBrowser/dotnet/README.md
+  - ~/code/CloakBrowser/tests/conftest.py
+  - ~/code/CloakBrowser/tests/test_config.py
+  - ~/code/CloakBrowser/js/tsconfig.json
+  - ~/code/CloakBrowser/js/vitest.config.ts
+  - ~/code/CloakBrowser/js/tests/widevine.test.ts
+  - ~/code/CloakBrowser/tests/__init__.py
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/CloakBrowser.csproj
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/CloakLauncher.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/Config.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/ProxyResolver.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/Handles.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/Download.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/License.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/GeoIp.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/Widevine.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/Human/HumanEngine.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/Human/HumanScroll.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/Human/WorldHelpers.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser.Generators/InterfaceDelegationGenerator.cs
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser.Cli/Program.cs
+  - ~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/IsolatedCacheDir.cs
+  - ~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/LicenseTests.cs
 summary: >-
     How the Python, TypeScript and C# wrappers mirror each other module by module, share one on-disk cache, and handle runtime differences (base64, NaN, buffers, sealed interfaces).
 provenance:
@@ -62,7 +62,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:42:16+01:00
-updated: 2026-10-31T06:54:01+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Python/JS wrapper parity
@@ -180,7 +180,7 @@ The code comments name each spot where a runtime would otherwise diverge:
 
 ## Sources
 
-- `repo:github.com/CloakHQ/CloakBrowser` at commit `b1a00ed`: `js/package.json`, `js/README.md`, `js/src/config.ts`, `js/src/args.ts`, `js/src/download.ts`, `js/src/geoip.ts`, `js/src/fonts.ts`, `js/src/cli.ts`, `js/src/human/engine.ts`, `js/src/human/fields.ts`, `js/src/human/config.ts`, `js/src/human/errors.ts`, `js/examples/stealth-test.ts`; Python counterparts in `cloakbrowser/` consulted for comparison; `README.md`
+- `~/code/CloakBrowser` at commit `b1a00ed`: `js/package.json`, `js/README.md`, `js/src/config.ts`, `js/src/args.ts`, `js/src/download.ts`, `js/src/geoip.ts`, `js/src/fonts.ts`, `js/src/cli.ts`, `js/src/human/engine.ts`, `js/src/human/fields.ts`, `js/src/human/config.ts`, `js/src/human/errors.ts`, `js/examples/stealth-test.ts`; Python counterparts in `cloakbrowser/` consulted for comparison; `README.md`
 - B1 additions at commit `b1a00ed`: `cloakbrowser/license.py`, `cloakbrowser/widevine.py`, `cloakbrowser/human/injected.py`, `cloakbrowser/human/errors.py`, `dotnet/README.md`
 - B7 additions at commit `b1a00ed`: `tests/conftest.py`, `tests/__init__.py`, `tests/test_config.py`, `js/tsconfig.json`, `js/vitest.config.ts`, `js/tests/widevine.test.ts`
 - Batch D (.NET source) at commit `b1a00ed`: `dotnet/src/CloakBrowser/CloakBrowser.csproj`, `CloakLauncher.cs`, `Config.cs`, `ProxyResolver.cs`, `Handles.cs`, `Download.cs`, `License.cs`, `GeoIp.cs`, `Widevine.cs`, `Human/HumanEngine.cs`, `Human/HumanScroll.cs`, `Human/WorldHelpers.cs`; `dotnet/src/CloakBrowser.Generators/InterfaceDelegationGenerator.cs`; `dotnet/src/CloakBrowser.Cli/Program.cs`; `dotnet/tests/CloakBrowser.Tests/IsolatedCacheDir.cs`, `LicenseTests.cs`

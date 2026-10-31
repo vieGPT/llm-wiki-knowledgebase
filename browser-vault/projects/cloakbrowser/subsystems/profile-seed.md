@@ -12,19 +12,19 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/subsystems/profile-database]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/profile-seed.ts
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/config.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/browser.py
-  - repo:github.com/CloakHQ/CloakBrowser/bin/cloakserve
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/playwright.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/puppeteer.ts
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/profile-seed.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/launch.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/puppeteer.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_profile_seed.py
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/Config.cs
-  - repo:github.com/CloakHQ/CloakBrowser/dotnet/tests/CloakBrowser.Tests/ProfileSeedTests.cs
+  - ~/code/CloakBrowser/js/src/profile-seed.ts
+  - ~/code/CloakBrowser/cloakbrowser/config.py
+  - ~/code/CloakBrowser/cloakbrowser/browser.py
+  - ~/code/CloakBrowser/bin/cloakserve
+  - ~/code/CloakBrowser/js/src/playwright.ts
+  - ~/code/CloakBrowser/js/src/puppeteer.ts
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/js/tests/profile-seed.test.ts
+  - ~/code/CloakBrowser/js/tests/launch.test.ts
+  - ~/code/CloakBrowser/js/tests/puppeteer.test.ts
+  - ~/code/CloakBrowser/tests/test_profile_seed.py
+  - ~/code/CloakBrowser/dotnet/src/CloakBrowser/Config.cs
+  - ~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/ProfileSeedTests.cs
 summary: >-
     A persistent profile stores its fingerprint seed in .cloakbrowser-seed inside userDataDir, so the same profile presents the same device identity on every launch.
 provenance:
@@ -36,7 +36,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:41:22+01:00
-updated: 2026-10-31T06:58:25+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Profile seed persistence
@@ -120,12 +120,12 @@ How the seed affects incognito-style checks is on [[projects/cloakbrowser/detect
 
 ## Sources
 
-- repo:github.com/CloakHQ/CloakBrowser/js/src/profile-seed.ts (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/config.py, cloakbrowser/browser.py (commit b1a00ed, P2 pass)
-- repo:github.com/CloakHQ/CloakBrowser/bin/cloakserve (commit b1a00ed, P2 pass)
-- repo:github.com/CloakHQ/CloakBrowser/js/src/playwright.ts (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/js/src/puppeteer.ts (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/README.md (commit b1a00ed)
-- repo:github.com/CloakHQ/CloakBrowser/js/tests/profile-seed.test.ts, js/tests/launch.test.ts, js/tests/puppeteer.test.ts (commit b1a00ed, B6 batch)
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_profile_seed.py (commit b1a00ed, B8 batch)
-- repo:github.com/CloakHQ/CloakBrowser/dotnet/src/CloakBrowser/Config.cs, dotnet/tests/CloakBrowser.Tests/ProfileSeedTests.cs (commit b1a00ed, batch D)
+- ~/code/CloakBrowser/js/src/profile-seed.ts (commit b1a00ed)
+- ~/code/CloakBrowser/cloakbrowser/config.py, cloakbrowser/browser.py (commit b1a00ed, P2 pass)
+- ~/code/CloakBrowser/bin/cloakserve (commit b1a00ed, P2 pass)
+- ~/code/CloakBrowser/js/src/playwright.ts (commit b1a00ed)
+- ~/code/CloakBrowser/js/src/puppeteer.ts (commit b1a00ed)
+- ~/code/CloakBrowser/README.md (commit b1a00ed)
+- ~/code/CloakBrowser/js/tests/profile-seed.test.ts, js/tests/launch.test.ts, js/tests/puppeteer.test.ts (commit b1a00ed, B6 batch)
+- ~/code/CloakBrowser/tests/test_profile_seed.py (commit b1a00ed, B8 batch)
+- ~/code/CloakBrowser/dotnet/src/CloakBrowser/Config.cs, dotnet/tests/CloakBrowser.Tests/ProfileSeedTests.cs (commit b1a00ed, batch D)

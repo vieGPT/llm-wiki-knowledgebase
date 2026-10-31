@@ -12,17 +12,17 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/subsystems/diagnostics]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/fonts.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/args.ts
-  - repo:github.com/CloakHQ/CloakBrowser/js/src/cli.ts
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/browser.py
-  - repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/__main__.py
-  - repo:github.com/CloakHQ/CloakBrowser/CHANGELOG.md
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_font_warning.py
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_cli.py
-  - repo:github.com/CloakHQ/CloakBrowser/js/tests/fonts.test.ts
-  - repo:github.com/CloakHQ/CloakBrowser/Dockerfile
+  - ~/code/CloakBrowser/js/src/fonts.ts
+  - ~/code/CloakBrowser/js/src/args.ts
+  - ~/code/CloakBrowser/js/src/cli.ts
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/cloakbrowser/browser.py
+  - ~/code/CloakBrowser/cloakbrowser/__main__.py
+  - ~/code/CloakBrowser/CHANGELOG.md
+  - ~/code/CloakBrowser/tests/test_font_warning.py
+  - ~/code/CloakBrowser/tests/test_cli.py
+  - ~/code/CloakBrowser/js/tests/fonts.test.ts
+  - ~/code/CloakBrowser/Dockerfile
 summary: >-
     Detectors enumerate installed fonts and hash emoji/text renders; a Linux host spoofing Windows or macOS leaks its real font set unless the persona's fonts are installed.
 provenance:
@@ -34,7 +34,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: core
 created: 2026-10-31T05:46:33+01:00
-updated: 2026-10-31T06:53:05+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Font fingerprinting
@@ -124,10 +124,10 @@ The seed can perturb how fonts are measured or reported, but a canvas hash of re
 
 ## Sources
 
-- `repo:github.com/CloakHQ/CloakBrowser` at commit `b1a00ed`: `js/src/fonts.ts`, `js/src/args.ts`, `js/src/cli.ts`, `README.md` (section "Font Setup on Linux", flag table)
-- `repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/browser.py` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/Dockerfile` (commit `b1a00ed`, P2 pass)
-- `repo:github.com/CloakHQ/CloakBrowser/cloakbrowser/__main__.py` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/CHANGELOG.md` (commit `b1a00ed`)
-- `repo:github.com/CloakHQ/CloakBrowser/tests/test_font_warning.py`, `tests/test_cli.py` (commit `b1a00ed`, B7 batch)
-- `repo:github.com/CloakHQ/CloakBrowser/js/tests/fonts.test.ts` (commit `b1a00ed`, B6 batch)
+- `~/code/CloakBrowser` at commit `b1a00ed`: `js/src/fonts.ts`, `js/src/args.ts`, `js/src/cli.ts`, `README.md` (section "Font Setup on Linux", flag table)
+- `~/code/CloakBrowser/cloakbrowser/browser.py` (commit `b1a00ed`)
+- `~/code/CloakBrowser/Dockerfile` (commit `b1a00ed`, P2 pass)
+- `~/code/CloakBrowser/cloakbrowser/__main__.py` (commit `b1a00ed`)
+- `~/code/CloakBrowser/CHANGELOG.md` (commit `b1a00ed`)
+- `~/code/CloakBrowser/tests/test_font_warning.py`, `tests/test_cli.py` (commit `b1a00ed`, B7 batch)
+- `~/code/CloakBrowser/js/tests/fonts.test.ts` (commit `b1a00ed`, B6 batch)

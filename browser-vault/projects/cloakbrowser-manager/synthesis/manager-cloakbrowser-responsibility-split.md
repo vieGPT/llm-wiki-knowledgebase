@@ -44,14 +44,14 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/techniques/cdp-endpoint-proxying]]"
     type: related_to
 sources:
-  - repo:github.com/vieGPT/CloakBrowser-Manager/README.md
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/browser_manager.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/database.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/App.tsx
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/components/ProfileForm.tsx
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/components/ProfileViewer.tsx
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/components/SystemStatusBadge.tsx
-  - repo:github.com/vieGPT/CloakBrowser-Manager/frontend/src/components/SettingsPanel.tsx
+  - ~/code/CloakBrowser-Manager/README.md
+  - ~/code/CloakBrowser-Manager/backend/browser_manager.py
+  - ~/code/CloakBrowser-Manager/backend/database.py
+  - ~/code/CloakBrowser-Manager/frontend/src/App.tsx
+  - ~/code/CloakBrowser-Manager/frontend/src/components/ProfileForm.tsx
+  - ~/code/CloakBrowser-Manager/frontend/src/components/ProfileViewer.tsx
+  - ~/code/CloakBrowser-Manager/frontend/src/components/SystemStatusBadge.tsx
+  - ~/code/CloakBrowser-Manager/frontend/src/components/SettingsPanel.tsx
 summary: >-
     Page-by-page map of which CloakBrowser subsystems and techniques the Manager relies on, and what it adds: profile storage, lifecycle, viewers, files, auth and license UI. No fingerprint logic.
 provenance:
@@ -63,7 +63,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T06:22:37+01:00
-updated: 2026-10-31T06:37:29+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Manager vs CloakBrowser responsibility split
@@ -112,4 +112,4 @@ updated: 2026-10-31T06:37:29+01:00
 
 ## Sources
 
-- repo:github.com/vieGPT/CloakBrowser-Manager (commit `11e0043`): `README.md` (Features, license key), `backend/browser_manager.py` (imports from `cloakbrowser`, launch options, `_build_fingerprint_args`, `resolve_binary_status`, `test_proxy`), `backend/database.py` (seed default and re-roll), `frontend/src/App.tsx`, `frontend/src/components/ProfileForm.tsx`, `frontend/src/components/ProfileViewer.tsx`, `frontend/src/components/SystemStatusBadge.tsx`, `frontend/src/components/SettingsPanel.tsx`
+- ~/code/CloakBrowser-Manager (commit `11e0043`): `README.md` (Features, license key), `backend/browser_manager.py` (imports from `cloakbrowser`, launch options, `_build_fingerprint_args`, `resolve_binary_status`, `test_proxy`), `backend/database.py` (seed default and re-roll), `frontend/src/App.tsx`, `frontend/src/components/ProfileForm.tsx`, `frontend/src/components/ProfileViewer.tsx`, `frontend/src/components/SystemStatusBadge.tsx`, `frontend/src/components/SettingsPanel.tsx`

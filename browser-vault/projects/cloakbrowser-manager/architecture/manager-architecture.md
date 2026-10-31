@@ -22,17 +22,17 @@ relationships:
   - target: "[[projects/cloakbrowser/architecture/wrapper-binary-split]]"
     type: related_to
 sources:
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/main.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/browser_manager.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/database.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/runtime.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/settings_store.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/env_file.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/backend/requirements.txt
-  - repo:github.com/vieGPT/CloakBrowser-Manager/app_entry.py
-  - repo:github.com/vieGPT/CloakBrowser-Manager/.github/workflows/ci.yml
-  - repo:github.com/vieGPT/CloakBrowser-Manager/README.md
-  - repo:github.com/vieGPT/CloakBrowser-Manager/CHANGELOG.md
+  - ~/code/CloakBrowser-Manager/backend/main.py
+  - ~/code/CloakBrowser-Manager/backend/browser_manager.py
+  - ~/code/CloakBrowser-Manager/backend/database.py
+  - ~/code/CloakBrowser-Manager/backend/runtime.py
+  - ~/code/CloakBrowser-Manager/backend/settings_store.py
+  - ~/code/CloakBrowser-Manager/backend/env_file.py
+  - ~/code/CloakBrowser-Manager/backend/requirements.txt
+  - ~/code/CloakBrowser-Manager/app_entry.py
+  - ~/code/CloakBrowser-Manager/.github/workflows/ci.yml
+  - ~/code/CloakBrowser-Manager/README.md
+  - ~/code/CloakBrowser-Manager/CHANGELOG.md
 summary: >-
     One FastAPI process serves the React SPA and a REST/WebSocket API, stores profiles in SQLite and drives one CloakBrowser persistent context per running profile.
 provenance:
@@ -44,7 +44,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: core
 created: 2026-10-31T06:20:23+01:00
-updated: 2026-10-31T06:37:29+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Manager architecture
@@ -103,9 +103,9 @@ License key and release channel: environment (including `.env`) beats `settings.
 
 ## Sources
 
-- repo:github.com/vieGPT/CloakBrowser-Manager/backend/main.py, backend/browser_manager.py, backend/database.py (commit 11e0043)
-- repo:github.com/vieGPT/CloakBrowser-Manager/backend/runtime.py, backend/settings_store.py, backend/env_file.py (commit 11e0043)
-- repo:github.com/vieGPT/CloakBrowser-Manager/backend/requirements.txt (commit 11e0043)
-- repo:github.com/vieGPT/CloakBrowser-Manager/app_entry.py (commit 11e0043)
-- repo:github.com/vieGPT/CloakBrowser-Manager/.github/workflows/ci.yml (commit 11e0043)
-- repo:github.com/vieGPT/CloakBrowser-Manager/README.md, CHANGELOG.md (commit 11e0043, v0.1.8 of 14/10/2026)
+- ~/code/CloakBrowser-Manager/backend/main.py, backend/browser_manager.py, backend/database.py (commit 11e0043)
+- ~/code/CloakBrowser-Manager/backend/runtime.py, backend/settings_store.py, backend/env_file.py (commit 11e0043)
+- ~/code/CloakBrowser-Manager/backend/requirements.txt (commit 11e0043)
+- ~/code/CloakBrowser-Manager/app_entry.py (commit 11e0043)
+- ~/code/CloakBrowser-Manager/.github/workflows/ci.yml (commit 11e0043)
+- ~/code/CloakBrowser-Manager/README.md, CHANGELOG.md (commit 11e0043, v0.1.8 of 14/10/2026)

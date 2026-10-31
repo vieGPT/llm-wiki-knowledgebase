@@ -12,8 +12,8 @@ relationships:
   - target: "[[projects/cloakbrowser-manager/techniques/per-profile-identity-isolation]]"
     type: related_to
 sources:
-  - repo:github.com/CloakHQ/CloakBrowser/README.md
-  - repo:github.com/CloakHQ/CloakBrowser/tests/test_stealth.py
+  - ~/code/CloakBrowser/README.md
+  - ~/code/CloakBrowser/tests/test_stealth.py
 summary: >-
     Detectors flag a fingerprint as tampered when readouts look perturbed or contradict the claimed platform; CloakBrowser's noise and persona spoofing can trigger it, so some configs turn noise off.
 provenance:
@@ -25,7 +25,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-31
 tier: supporting
 created: 2026-10-31T05:54:19+01:00
-updated: 2026-10-31T06:37:29+01:00
+updated: 2026-10-31T10:47:25+01:00
 ---
 
 # Fingerprint tampering detection
@@ -68,5 +68,5 @@ The defaults keep noise on. The live suite in `tests/test_stealth.py` still expe
 
 Commit `b1a00ed` (26/10/2026):
 
-- repo:github.com/CloakHQ/CloakBrowser/README.md (Why CloakBrowser, Default Fingerprint, Additional Flags, Troubleshooting: Detected by FingerprintJS)
-- repo:github.com/CloakHQ/CloakBrowser/tests/test_stealth.py
+- ~/code/CloakBrowser/README.md (Why CloakBrowser, Default Fingerprint, Additional Flags, Troubleshooting: Detected by FingerprintJS)
+- ~/code/CloakBrowser/tests/test_stealth.py
