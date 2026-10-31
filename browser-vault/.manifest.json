@@ -1,0 +1,2606 @@
+{
+  "sources": {
+    "~/code/CloakBrowser/js/src/human/index.ts": {
+      "content_hash": "7460feab86bbadcb0960f7507a2eacd7537947c738f7509d090e5200f928eeb0",
+      "last_ingested": "2026-10-31T04:47:30.817257+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/src/human/injected.ts": {
+      "content_hash": "be09255dafea6666ac3a879b23a3b137b20216f7701bc7476a00275e8a685cb1",
+      "last_ingested": "2026-10-31T04:47:30.944680+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/src/human/keyboard.ts": {
+      "content_hash": "ebe0edae43afaecf76931d43567ae4ddd5c700aa6aad8a4f22ca6a5526888425",
+      "last_ingested": "2026-10-31T04:47:31.037702+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md",
+        "projects/cloakbrowser/techniques/humanized-input.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/src/human/mouse.ts": {
+      "content_hash": "63720a85cf5f79802eeae4b521b57cc606e8095b2b04b748e2c88d8b7a7ab869",
+      "last_ingested": "2026-10-31T04:47:31.150907+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md",
+        "projects/cloakbrowser/techniques/humanized-input.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/src/human/patch.ts": {
+      "content_hash": "c09a296ca3ced7aeaa7a9a23c32f4551150850f80da63c2dc9ef6e158b767388",
+      "last_ingested": "2026-10-31T04:47:31.239804+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/src/human/world.ts": {
+      "content_hash": "39a182c08044f1d69342a953ca913517136608cbe1695a08bef3480cb8ef8eea",
+      "last_ingested": "2026-10-31T04:47:31.323515+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/src/human/worldHelpers.ts": {
+      "content_hash": "5bf5ad2648a138070f187e2c083ee8bb647007d43eb1ac3c1d51e91118340bea",
+      "last_ingested": "2026-10-31T04:47:31.413472+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/src/human-puppeteer/index.ts": {
+      "content_hash": "423fe33138302eeae5d6baefa87a26135a93718726e0e37b255ddd9d95b5d540",
+      "last_ingested": "2026-10-31T04:47:31.496782+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/playwright-vs-puppeteer-backends.md",
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/src/human-puppeteer/keyboard.ts": {
+      "content_hash": "a2f31c48926529d3b59b8768fcc9f00413af2f1e6396123696c3cce7e81d24b5",
+      "last_ingested": "2026-10-31T04:47:31.584601+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/playwright-vs-puppeteer-backends.md",
+        "projects/cloakbrowser/techniques/humanized-input.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/src/human-puppeteer/scroll.ts": {
+      "content_hash": "85119ce351eed58abed5a8ddca202c5332ef6398a2ac8a2c80cdc3703ea4f6ce",
+      "last_ingested": "2026-10-31T04:47:31.670001+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/playwright-vs-puppeteer-backends.md",
+        "projects/cloakbrowser/techniques/humanized-input.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/src/index.ts": {
+      "content_hash": "c19374264f1bfd12cf942a4b206f6b144519ac2c09bf90003da90192640f4003",
+      "last_ingested": "2026-10-31T04:47:31.762441+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/playwright-vs-puppeteer-backends.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/src/license.ts": {
+      "content_hash": "4b6b9b1de32563886fccd6fab35886d5acb13f797e1a7c9462015938e5b2c2ea",
+      "last_ingested": "2026-10-31T04:47:31.844590+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/license-and-tiers.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/src/playwright.ts": {
+      "content_hash": "9b5dafb6c33ae73484ae3170b2f12eb994c44629db6ec2aa842346c299d62603",
+      "last_ingested": "2026-10-31T04:47:31.926859+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/playwright-vs-puppeteer-backends.md",
+        "projects/cloakbrowser/subsystems/proxy-handling.md",
+        "projects/cloakbrowser/subsystems/profile-seed.md",
+        "projects/cloakbrowser/techniques/webrtc-ip-spoofing.md",
+        "projects/cloakbrowser/techniques/persistent-profile-warmup.md",
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md",
+        "projects/cloakbrowser/subsystems/license-and-tiers.md",
+        "projects/cloakbrowser/subsystems/widevine-cdm-seeding.md",
+        "projects/cloakbrowser/detection-vectors/screen-viewport-consistency.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/src/profile-seed.ts": {
+      "content_hash": "ea9fa81d82f9fa905cefe38af3b6a08a3e0a8221a59cc2d0b5683c6804bb4858",
+      "last_ingested": "2026-10-31T04:47:32.007479+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/profile-seed.md",
+        "projects/cloakbrowser/techniques/persistent-profile-warmup.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/src/proxy.ts": {
+      "content_hash": "2eb1a0012b824b640c7947944c749298ebbc151e232bc78ce85753ec756e4f84",
+      "last_ingested": "2026-10-31T04:47:32.112034+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/proxy-handling.md",
+        "projects/cloakbrowser/techniques/proxy-signal-removal.md",
+        "projects/cloakbrowser/detection-vectors/proxy-and-network-signals.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/src/puppeteer.ts": {
+      "content_hash": "3cb012e15163cee935ab7b31d49fc0a1d42eab9874e8b7b3876fef583d2ce3c5",
+      "last_ingested": "2026-10-31T04:47:32.210961+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/playwright-vs-puppeteer-backends.md",
+        "projects/cloakbrowser/subsystems/proxy-handling.md",
+        "projects/cloakbrowser/subsystems/profile-seed.md",
+        "projects/cloakbrowser/techniques/webrtc-ip-spoofing.md",
+        "projects/cloakbrowser/techniques/persistent-profile-warmup.md",
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md",
+        "projects/cloakbrowser/subsystems/license-and-tiers.md",
+        "projects/cloakbrowser/subsystems/widevine-cdm-seeding.md",
+        "projects/cloakbrowser/detection-vectors/screen-viewport-consistency.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/src/types.ts": {
+      "content_hash": "b10123706d9bddd65cc9f51e4514cfa96f2e06641d7826c440e5de2c48a4ee90",
+      "last_ingested": "2026-10-31T04:47:32.300832+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/proxy-handling.md",
+        "projects/cloakbrowser/architecture/playwright-vs-puppeteer-backends.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/src/widevine.ts": {
+      "content_hash": "c64d85f43894daba98ec0cd1a2ecefcf6e1d08c5fdad5b5f95248d1d58b40400",
+      "last_ingested": "2026-10-31T04:47:32.402658+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/widevine-cdm-seeding.md",
+        "projects/cloakbrowser/techniques/persistent-profile-warmup.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/tests/cli.test.ts": {
+      "content_hash": "b327f5d4679e99a71d4f5490b3b61c611386bf9687b8aa6bbda1ed748f192988",
+      "last_ingested": "2026-10-31T04:47:32.500039+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/license-and-tiers.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/tests/config.test.ts": {
+      "content_hash": "23318a62d231391823ce31708a199e657db2d9e8d205aa0b76ae85784db83291",
+      "last_ingested": "2026-10-31T04:47:32.596902+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md",
+        "projects/cloakbrowser/techniques/webrtc-ip-spoofing.md",
+        "projects/cloakbrowser/detection-vectors/screen-viewport-consistency.md"
+      ]
+    },
+    "~/code/CloakBrowser/cloakbrowser/human/config.py": {
+      "content_hash": "9e0bbf5a44c4dae89ed82bd3b4149aa0654edcf8db4b07dc6d8a0f693419ef16",
+      "last_ingested": "2026-10-31T04:48:41.008323+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md",
+        "projects/cloakbrowser/techniques/humanized-input.md"
+      ]
+    },
+    "~/code/CloakBrowser/cloakbrowser/human/engine.py": {
+      "content_hash": "bf74e62e41c0c53f58125983e175c9de4942032bbf830f84d14da549b0396c13",
+      "last_ingested": "2026-10-31T04:48:41.099751+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md",
+        "projects/cloakbrowser/techniques/humanized-input.md",
+        "projects/cloakbrowser/subsystems/humanize-errors.md",
+        "projects/cloakbrowser/detection-vectors/behavioral-analysis.md"
+      ]
+    },
+    "~/code/CloakBrowser/cloakbrowser/human/errors.py": {
+      "content_hash": "a1cee051f1a07c2cb37cf82a8844d3ee078a06cef8e5d68249eb2e650edf150e",
+      "last_ingested": "2026-10-31T04:48:41.213472+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-errors.md",
+        "projects/cloakbrowser/subsystems/humanize-engine.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md"
+      ]
+    },
+    "~/code/CloakBrowser/cloakbrowser/human/fields.py": {
+      "content_hash": "0e915ae8d2ffce3a5158ac8e65425e35707fcb95698e37bf445069c6a2502e13",
+      "last_ingested": "2026-10-31T04:48:41.324208+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md",
+        "projects/cloakbrowser/techniques/humanized-input.md",
+        "projects/cloakbrowser/subsystems/humanize-errors.md"
+      ]
+    },
+    "~/code/CloakBrowser/cloakbrowser/human/injected.py": {
+      "content_hash": "8bfbc3e4be4ab7377e93b4abbd922e00064a957af80ed669f35cd89c55098002",
+      "last_ingested": "2026-10-31T04:48:41.425073+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md",
+        "projects/cloakbrowser/detection-vectors/cdp-automation-detection.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md"
+      ]
+    },
+    "~/code/CloakBrowser/cloakbrowser/human/keyboard.py": {
+      "content_hash": "0ba519195f63f101da77fc7bddcdaeb2989b7f1c7207f421ff01a367ffa43765",
+      "last_ingested": "2026-10-31T04:48:41.531155+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md",
+        "projects/cloakbrowser/techniques/humanized-input.md",
+        "projects/cloakbrowser/detection-vectors/behavioral-analysis.md",
+        "projects/cloakbrowser/detection-vectors/cdp-automation-detection.md"
+      ]
+    },
+    "~/code/CloakBrowser/cloakbrowser/human/mouse.py": {
+      "content_hash": "0d7c18132b8f90342a8b37cf60e86439e78af9ad0a2024f25e68628227a71798",
+      "last_ingested": "2026-10-31T04:48:41.631387+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md",
+        "projects/cloakbrowser/techniques/humanized-input.md",
+        "projects/cloakbrowser/detection-vectors/behavioral-analysis.md"
+      ]
+    },
+    "~/code/CloakBrowser/cloakbrowser/human/patch.py": {
+      "content_hash": "c4e1165422f555cd1ace3bb6d42090ce60438a9e3d8645649f312023543c0e79",
+      "last_ingested": "2026-10-31T04:48:41.735506+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md",
+        "projects/cloakbrowser/detection-vectors/cdp-automation-detection.md"
+      ]
+    },
+    "~/code/CloakBrowser/cloakbrowser/human/world.py": {
+      "content_hash": "6a30fd56877e9b038a26dc47827a4d34d26911ecb220b2ea7370784b732f2564",
+      "last_ingested": "2026-10-31T04:48:41.823652+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md",
+        "projects/cloakbrowser/techniques/humanized-input.md",
+        "projects/cloakbrowser/subsystems/humanize-errors.md",
+        "projects/cloakbrowser/detection-vectors/cdp-automation-detection.md"
+      ]
+    },
+    "~/code/CloakBrowser/cloakbrowser/license.py": {
+      "content_hash": "2023d1316d40e0cbc491cad161ed3ff85d049749caa0562daae56f4daa9d18f2",
+      "last_ingested": "2026-10-31T05:11:10.034130+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/license-and-tiers.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md"
+      ]
+    },
+    "~/code/CloakBrowser/cloakbrowser/widevine.py": {
+      "content_hash": "37235de8598abd2a3bf56c98cdd5323c1aefcfd9a0fb210f6d50aafff8a76b6e",
+      "last_ingested": "2026-10-31T04:48:42.013157+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/widevine-cdm-seeding.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/README.md": {
+      "content_hash": "aa9fb13cbb9cb902ce62868eda9d5725e26491051ffb7f04f87409aa218a98af",
+      "last_ingested": "2026-10-31T04:48:42.124205+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md",
+        "projects/cloakbrowser/subsystems/humanize-errors.md",
+        "projects/cloakbrowser/subsystems/license-and-tiers.md",
+        "projects/cloakbrowser/subsystems/widevine-cdm-seeding.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md",
+        "projects/cloakbrowser/detection-vectors/headless-detection.md"
+      ]
+    },
+    "~/code/CloakBrowser/examples/basic.py": {
+      "content_hash": "fb82a2944282c36e28c82d0d1127cebef421f502da5d352e30b8dba9a77980fd",
+      "last_ingested": "2026-10-31T04:48:42.221867+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/framework-integration-modes.md"
+      ]
+    },
+    "~/code/CloakBrowser/examples/fingerprint_scan_test.py": {
+      "content_hash": "b67b84056def56411b481226cd3062ca7dec7c2c833d8c2bba4d2fae69b7717a",
+      "last_ingested": "2026-10-31T04:48:42.303177+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/detection-vectors/headless-detection.md",
+        "projects/cloakbrowser/detection-vectors/cdp-automation-detection.md"
+      ]
+    },
+    "~/code/CloakBrowser/examples/integrations/agent_browser.sh": {
+      "content_hash": "e97310d46be137721b45b51f9c2cf16f8c711ea687bb942804e4c3dcd96fb6a0",
+      "last_ingested": "2026-10-31T04:48:42.390097+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/framework-integration-modes.md"
+      ]
+    },
+    "~/code/CloakBrowser/examples/integrations/aws_lambda/INSTRUCTIONS.md": {
+      "content_hash": "e6fc2b5f7fed871b4d97db2275470a91a35cc139c99c74710282890e9c6531f8",
+      "last_ingested": "2026-10-31T04:48:42.474873+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/aws-lambda-deployment.md",
+        "projects/cloakbrowser/architecture/framework-integration-modes.md",
+        "projects/cloakbrowser/detection-vectors/headless-detection.md"
+      ]
+    },
+    "~/code/CloakBrowser/examples/integrations/aws_lambda/lambda-entrypoint.sh": {
+      "content_hash": "5c62873e1e6d00b7584a93770ae4218f29ce12b99d8e512cc4593abf9bf8ace0",
+      "last_ingested": "2026-10-31T04:48:42.599165+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/aws-lambda-deployment.md",
+        "projects/cloakbrowser/detection-vectors/headless-detection.md"
+      ]
+    },
+    "~/code/CloakBrowser/examples/integrations/aws_lambda/lambda_handler.py": {
+      "content_hash": "9e1525af9cc38d65d8528c9e030bbd1026171731727b44783111c78edc23b936",
+      "last_ingested": "2026-10-31T04:48:42.691803+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/aws-lambda-deployment.md"
+      ]
+    },
+    "~/code/CloakBrowser/examples/integrations/browser_use_example.py": {
+      "content_hash": "0e60ec1190b8e284b1f83929235100b7993083ee29a02a87cd2c3d2949f0bfe6",
+      "last_ingested": "2026-10-31T04:48:42.784369+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/framework-integration-modes.md"
+      ]
+    },
+    "~/code/CloakBrowser/examples/integrations/crawl4ai_example.py": {
+      "content_hash": "e92c8b9c7e8e3550b4ecdef8f8d124e69b0505aa3e840841ef2367bb6cd5d577",
+      "last_ingested": "2026-10-31T04:48:42.868026+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/framework-integration-modes.md"
+      ]
+    },
+    "~/code/CloakBrowser/images/recaptcha_v3_score_09.png": {
+      "content_hash": "e452c52f411dc0ac054b9e42c0a7b23145122da13511a00b545e22a7718a526a",
+      "last_ingested": "2026-10-31T04:48:56.184699+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/synthesis/detection-service-test-matrix.md"
+      ]
+    },
+    "~/code/CloakBrowser/images/turnstile_non_interactive.png": {
+      "content_hash": "b0b5e5f2e7559d423826dc021656ec4e534e3d0891168d89f6f9ce8b741af411",
+      "last_ingested": "2026-10-31T04:48:56.296039+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/synthesis/detection-service-test-matrix.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/README.md": {
+      "content_hash": "dd85ce0f04ed3f1da026e09e8f42e33bc5412f60480f0104ff608bd8017c4c94",
+      "last_ingested": "2026-10-31T04:48:56.374301+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md",
+        "projects/cloakbrowser/architecture/playwright-vs-puppeteer-backends.md",
+        "projects/cloakbrowser/subsystems/binary-download-and-verification.md",
+        "projects/cloakbrowser/subsystems/geoip-resolver.md",
+        "projects/cloakbrowser/subsystems/cli.md",
+        "projects/cloakbrowser/architecture/release-channels-and-versioning.md",
+        "projects/cloakbrowser/synthesis/detection-service-test-matrix.md",
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/examples/basic-playwright.ts": {
+      "content_hash": "a8c767de8cfb7d49c9b534d6804c05524bd871097a11213740986ad12ef608c0",
+      "last_ingested": "2026-10-31T04:48:56.464408+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/playwright-vs-puppeteer-backends.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/examples/basic-puppeteer.ts": {
+      "content_hash": "656acef2d0ebc1a5537f239de75c9e215104e3e35ab433f35e67e96e187885ad",
+      "last_ingested": "2026-10-31T04:48:56.549751+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/playwright-vs-puppeteer-backends.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/examples/persistent-context.ts": {
+      "content_hash": "0fec999efacbcbce87713a397bbf13b67b8389749016ea4db359bd962a9303b9",
+      "last_ingested": "2026-10-31T04:49:04.239303+00:00",
+      "pages_produced": []
+    },
+    "~/code/CloakBrowser/js/examples/stagehand.ts": {
+      "content_hash": "536b4059fc36591c2bb3e06998e341e5362143f36d6c17cbb9d58147daff301a",
+      "last_ingested": "2026-10-31T04:48:56.735195+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/framework-integration-modes.md",
+        "projects/cloakbrowser/subsystems/binary-download-and-verification.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/examples/stealth-test.ts": {
+      "content_hash": "95f983bc0253af91205517b487b1285d504cd8a2d239fdea60143993083473d7",
+      "last_ingested": "2026-10-31T04:48:56.823177+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/synthesis/detection-service-test-matrix.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/package-lock.json": {
+      "content_hash": "dc77ecd1b5ba8b285c9830dc6e1d4271054319590a110bf36c3bddbc714e323a",
+      "last_ingested": "2026-10-31T04:48:56.910805+00:00",
+      "pages_produced": []
+    },
+    "~/code/CloakBrowser/js/package.json": {
+      "content_hash": "168739653822dfff2945f8a470a8033866a4afb3efe8b4a13ca7cf4a74e7e4f9",
+      "last_ingested": "2026-10-31T04:48:56.990836+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md",
+        "projects/cloakbrowser/architecture/playwright-vs-puppeteer-backends.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/src/args.ts": {
+      "content_hash": "4ef234a5f3cf1e7ea7cb45ba304da32c00023267d84fa6e0667813adf4338575",
+      "last_ingested": "2026-10-31T04:48:57.071310+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md",
+        "projects/cloakbrowser/techniques/platform-persona-spoofing.md",
+        "projects/cloakbrowser/detection-vectors/font-fingerprinting.md",
+        "projects/cloakbrowser/architecture/framework-integration-modes.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/src/cli.ts": {
+      "content_hash": "0e9c0872f0784f74ec1d9aa0bd9f7e4459782c4c8f8c9fa9f8a1d589486c617a",
+      "last_ingested": "2026-10-31T04:48:57.162194+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/cli.md",
+        "projects/cloakbrowser/detection-vectors/font-fingerprinting.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/src/config.ts": {
+      "content_hash": "ad3044c919652b2f226786b2e2cc13420c31783e58186cc4460a19dffbce518c",
+      "last_ingested": "2026-10-31T04:48:57.253928+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md",
+        "projects/cloakbrowser/architecture/release-channels-and-versioning.md",
+        "projects/cloakbrowser/architecture/supply-chain-verification.md",
+        "projects/cloakbrowser/subsystems/binary-download-and-verification.md",
+        "projects/cloakbrowser/techniques/platform-persona-spoofing.md",
+        "projects/cloakbrowser/architecture/framework-integration-modes.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/src/download.ts": {
+      "content_hash": "da92c0ad2eb7be0c003d2c6d92ea78c56e0cfaf620237d767a73cc5a0db3d295",
+      "last_ingested": "2026-10-31T04:48:57.344889+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/binary-download-and-verification.md",
+        "projects/cloakbrowser/architecture/supply-chain-verification.md",
+        "projects/cloakbrowser/architecture/release-channels-and-versioning.md",
+        "projects/cloakbrowser/subsystems/cli.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/src/fonts.ts": {
+      "content_hash": "a646be522532f8d81981f109e9b2c17c7d0cfc1057ffb299bb83b22896f4db94",
+      "last_ingested": "2026-10-31T04:48:57.436871+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/detection-vectors/font-fingerprinting.md",
+        "projects/cloakbrowser/techniques/platform-persona-spoofing.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/src/geoip.ts": {
+      "content_hash": "45168e9a62c85e0f16349f74fe3cd4d054960b2e26d3ff27741b638336b93b2d",
+      "last_ingested": "2026-10-31T04:48:57.533281+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/geoip-resolver.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/src/human/config.ts": {
+      "content_hash": "21dbd64a832b266229b507202ccc8a552c6f59bf8572ebd7128254441409f737",
+      "last_ingested": "2026-10-31T04:48:57.619072+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md",
+        "projects/cloakbrowser/techniques/platform-persona-spoofing.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/src/human/engine.ts": {
+      "content_hash": "67872fbaed5639dcd00672c4d446b5bdd97f81f7b47d557d566cd7f124107ccc",
+      "last_ingested": "2026-10-31T04:48:57.705228+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md",
+        "projects/cloakbrowser/subsystems/humanize-errors.md",
+        "projects/cloakbrowser/techniques/platform-persona-spoofing.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/src/human/errors.ts": {
+      "content_hash": "8c8fdd2c10657622fd0ca429463b36f383b21b458065791dc0ce2b7609eb3b0d",
+      "last_ingested": "2026-10-31T04:48:57.791605+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-errors.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/src/human/fields.ts": {
+      "content_hash": "4c435db0a2a24c33d0c80a12f56687f88dd774baf8ab5dc1d71fd5b324dd3256",
+      "last_ingested": "2026-10-31T04:48:57.877498+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md"
+      ]
+    },
+    "~/code/CloakBrowser/.github/FUNDING.yml": {
+      "content_hash": "33e9b986dd0fb9ce8de5175ce632fda0b810119f80a8d016e8e4322ff6826c4a",
+      "last_ingested": "2026-10-31T04:50:17.052140+00:00",
+      "pages_produced": []
+    },
+    "~/code/CloakBrowser/.github/ISSUE_TEMPLATE/bug_report.md": {
+      "content_hash": "02662c5ae1197a2bc9827bdefbd80fe5f510d85a35054b3d8c361efbc3fb65c0",
+      "last_ingested": "2026-10-31T04:50:17.139835+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/cli.md"
+      ]
+    },
+    "~/code/CloakBrowser/.github/ISSUE_TEMPLATE/config.yml": {
+      "content_hash": "13064e7bea658e01e718b414fbb7b3b244f36411fe25ee2055c151f7b534547a",
+      "last_ingested": "2026-10-31T04:50:17.227627+00:00",
+      "pages_produced": []
+    },
+    "~/code/CloakBrowser/.github/dependabot.yml": {
+      "content_hash": "5a81eecda72948dde97900ebf1f34a293f65057d6c428961da61de5937cff7ab",
+      "last_ingested": "2026-10-31T04:50:17.313445+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/supply-chain-verification.md"
+      ]
+    },
+    "~/code/CloakBrowser/.github/workflows/attest-release.yml": {
+      "content_hash": "c98f4861436540d00abd489be997223823d0f5edd24aa5d7d9cf2ea81d5c6885",
+      "last_ingested": "2026-10-31T04:50:17.399298+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/supply-chain-verification.md"
+      ]
+    },
+    "~/code/CloakBrowser/.github/workflows/ci.yml": {
+      "content_hash": "06393fbfc56f33604739d7863e9cde416b3b1ee5d60cef7edb9e4c340d2d09bc",
+      "last_ingested": "2026-10-31T04:50:17.487433+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/supply-chain-verification.md"
+      ]
+    },
+    "~/code/CloakBrowser/.github/workflows/publish.yml": {
+      "content_hash": "7bc8b1bcbd3b6dfe82bb211b108fb5a9f83b7a389701a2dfbb10a7edae349401",
+      "last_ingested": "2026-10-31T04:50:17.585341+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/supply-chain-verification.md",
+        "projects/cloakbrowser/architecture/release-channels-and-versioning.md",
+        "projects/cloakbrowser/subsystems/cloakserve-cdp-server.md"
+      ]
+    },
+    "~/code/CloakBrowser/BINARY-LICENSE.md": {
+      "content_hash": "a959b6f9db58f7e273694368659140e9d82960d964ab48b5f6cf9c4545cc2981",
+      "last_ingested": "2026-10-31T04:50:17.689741+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/wrapper-binary-split.md",
+        "projects/cloakbrowser/architecture/release-channels-and-versioning.md",
+        "projects/cloakbrowser/techniques/source-level-chromium-patches.md"
+      ]
+    },
+    "~/code/CloakBrowser/CHANGELOG.md": {
+      "content_hash": "b81fb0b045ba93fe4131e0c9ddee6625fe7809f34010460b069372010e654cb6",
+      "last_ingested": "2026-10-31T04:50:17.782442+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/release-channels-and-versioning.md",
+        "projects/cloakbrowser/architecture/wrapper-binary-split.md",
+        "projects/cloakbrowser/architecture/supply-chain-verification.md",
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md",
+        "projects/cloakbrowser/subsystems/binary-download-and-verification.md",
+        "projects/cloakbrowser/subsystems/geoip-resolver.md",
+        "projects/cloakbrowser/subsystems/cli.md",
+        "projects/cloakbrowser/subsystems/cloakserve-cdp-server.md",
+        "projects/cloakbrowser/techniques/source-level-chromium-patches.md",
+        "projects/cloakbrowser/techniques/fingerprint-seed-identity.md",
+        "projects/cloakbrowser/techniques/platform-persona-spoofing.md",
+        "projects/cloakbrowser/techniques/geoip-timezone-locale-matching.md",
+        "projects/cloakbrowser/detection-vectors/timezone-locale-ip-consistency.md",
+        "projects/cloakbrowser/detection-vectors/font-fingerprinting.md"
+      ]
+    },
+    "~/code/CloakBrowser/README.md": {
+      "content_hash": "a41ac19da33115737b8bfee445a7ee4009df707ad85ba01d098b1d02d91b3b04",
+      "last_ingested": "2026-10-31T04:50:17.874367+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/wrapper-binary-split.md",
+        "projects/cloakbrowser/architecture/release-channels-and-versioning.md",
+        "projects/cloakbrowser/architecture/supply-chain-verification.md",
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md",
+        "projects/cloakbrowser/subsystems/binary-download-and-verification.md",
+        "projects/cloakbrowser/subsystems/geoip-resolver.md",
+        "projects/cloakbrowser/subsystems/cli.md",
+        "projects/cloakbrowser/subsystems/cloakserve-cdp-server.md",
+        "projects/cloakbrowser/techniques/source-level-chromium-patches.md",
+        "projects/cloakbrowser/techniques/fingerprint-seed-identity.md",
+        "projects/cloakbrowser/techniques/geoip-timezone-locale-matching.md",
+        "projects/cloakbrowser/detection-vectors/timezone-locale-ip-consistency.md"
+      ]
+    },
+    "~/code/CloakBrowser/bin/docker-entrypoint.sh": {
+      "content_hash": "c686560cc0d46c4df7db58454e0fdf469f364d8c25f770f401b2bd9dbe1cf9f7",
+      "last_ingested": "2026-10-31T05:11:10.251973+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/cloakserve-cdp-server.md",
+        "projects/cloakbrowser/subsystems/widevine-cdm-seeding.md"
+      ]
+    },
+    "~/code/CloakBrowser/bin/fetch-widevine.py": {
+      "content_hash": "befcdb16e144931d4e28a54f5c1a73242c0a8070849ebf70d64ff5a86a8e777d",
+      "last_ingested": "2026-10-31T05:11:10.351511+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/supply-chain-verification.md",
+        "projects/cloakbrowser/subsystems/widevine-cdm-seeding.md"
+      ]
+    },
+    "~/code/CloakBrowser/cloakbrowser/__init__.py": {
+      "content_hash": "3221d68a12bb8ebe21d8201362baf90f64f670ae65b4a1a2e1f99d6f6608e233",
+      "last_ingested": "2026-10-31T04:50:18.185702+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/wrapper-binary-split.md",
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md"
+      ]
+    },
+    "~/code/CloakBrowser/cloakbrowser/__main__.py": {
+      "content_hash": "117a4d7671d4bd8c9e96263e9699f69f2ba673e6175df63c3a61c16cb4ec593f",
+      "last_ingested": "2026-10-31T04:50:18.277079+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/cli.md",
+        "projects/cloakbrowser/subsystems/geoip-resolver.md",
+        "projects/cloakbrowser/detection-vectors/font-fingerprinting.md"
+      ]
+    },
+    "~/code/CloakBrowser/cloakbrowser/_version.py": {
+      "content_hash": "58c9af9b629e6fbeb2333f0e2ff8787ca4f7e17a62fb50557c28939f6406cf3e",
+      "last_ingested": "2026-10-31T04:50:18.375998+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/release-channels-and-versioning.md"
+      ]
+    },
+    "~/code/CloakBrowser/cloakbrowser/browser.py": {
+      "content_hash": "9f225c0f5074e0ff86c02753127374277b80afd395c3b020c735a43d1f0bc27d",
+      "last_ingested": "2026-10-31T05:11:10.456587+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md",
+        "projects/cloakbrowser/architecture/wrapper-binary-split.md",
+        "projects/cloakbrowser/subsystems/geoip-resolver.md",
+        "projects/cloakbrowser/techniques/fingerprint-seed-identity.md",
+        "projects/cloakbrowser/techniques/platform-persona-spoofing.md",
+        "projects/cloakbrowser/techniques/geoip-timezone-locale-matching.md",
+        "projects/cloakbrowser/detection-vectors/timezone-locale-ip-consistency.md",
+        "projects/cloakbrowser/detection-vectors/font-fingerprinting.md",
+        "projects/cloakbrowser/subsystems/proxy-handling.md",
+        "projects/cloakbrowser/subsystems/profile-seed.md"
+      ]
+    },
+    "~/code/CloakBrowser/cloakbrowser/config.py": {
+      "content_hash": "08785d32c4d8426a7caa55c8190ceb53ca83952c4a7017f1d27ca46b1dfd103a",
+      "last_ingested": "2026-10-31T05:11:10.554242+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md",
+        "projects/cloakbrowser/architecture/wrapper-binary-split.md",
+        "projects/cloakbrowser/architecture/release-channels-and-versioning.md",
+        "projects/cloakbrowser/architecture/supply-chain-verification.md",
+        "projects/cloakbrowser/subsystems/binary-download-and-verification.md",
+        "projects/cloakbrowser/techniques/source-level-chromium-patches.md",
+        "projects/cloakbrowser/techniques/fingerprint-seed-identity.md",
+        "projects/cloakbrowser/techniques/platform-persona-spoofing.md",
+        "projects/cloakbrowser/subsystems/profile-seed.md"
+      ]
+    },
+    "~/code/CloakBrowser/cloakbrowser/download.py": {
+      "content_hash": "c41c1f7c09af7b4443e75755e278a45acb85ace1c32799ee4204f7467d67bc50",
+      "last_ingested": "2026-10-31T05:11:10.159067+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/binary-download-and-verification.md",
+        "projects/cloakbrowser/architecture/supply-chain-verification.md",
+        "projects/cloakbrowser/architecture/release-channels-and-versioning.md",
+        "projects/cloakbrowser/subsystems/license-and-tiers.md"
+      ]
+    },
+    "~/code/CloakBrowser/cloakbrowser/geoip.py": {
+      "content_hash": "f53914491b1d8c46b96a0020ab5042a7ff266a3d459366d8680c7b967b02ac87",
+      "last_ingested": "2026-10-31T04:50:18.751762+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/geoip-resolver.md",
+        "projects/cloakbrowser/techniques/geoip-timezone-locale-matching.md",
+        "projects/cloakbrowser/detection-vectors/timezone-locale-ip-consistency.md"
+      ]
+    },
+    "~/code/CloakBrowser/cloakbrowser/human/__init__.py": {
+      "content_hash": "8a66361a074b8e2a5fe443855a6dacfc2d49dd2cdb777fb466392464fc31fadf",
+      "last_ingested": "2026-10-31T04:50:18.842372+00:00",
+      "pages_produced": []
+    },
+    "~/code/CloakBrowser/examples/integrations/crawlee_example.py": {
+      "content_hash": "72c751d06df105275dbf118c9ec769441a544ca3db1174e2995d52dcbd0441a2",
+      "last_ingested": "2026-10-31T04:56:41.811957+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/framework-integration-modes.md"
+      ]
+    },
+    "~/code/CloakBrowser/examples/integrations/langchain_loader.py": {
+      "content_hash": "ffe258b513915ea81d9f244072ff356e0bab106c0368f35c2932cb1d77126302",
+      "last_ingested": "2026-10-31T04:56:41.937524+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/framework-integration-modes.md",
+        "projects/cloakbrowser/techniques/cdp-traffic-minimization.md"
+      ]
+    },
+    "~/code/CloakBrowser/examples/integrations/scrapling_example.py": {
+      "content_hash": "73d72272a9356c7c0cda1cbd71574b32dfb7b9cef61f2804061c15fdb9435e20",
+      "last_ingested": "2026-10-31T04:56:42.026317+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/framework-integration-modes.md"
+      ]
+    },
+    "~/code/CloakBrowser/examples/integrations/selenium_example.py": {
+      "content_hash": "2aad4e27fd3e4a4fd08d2e551ce6da8e23fc3a8d5405d144621feed6fb81a6cf",
+      "last_ingested": "2026-10-31T04:56:42.112253+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/framework-integration-modes.md",
+        "projects/cloakbrowser/detection-vectors/cdp-automation-detection.md"
+      ]
+    },
+    "~/code/CloakBrowser/examples/integrations/undetected_chromedriver.py": {
+      "content_hash": "b83efad6d55a4a5793fb4f35c0a26416dbda7cb43ae4ff766ac1a7d8c7ce418e",
+      "last_ingested": "2026-10-31T04:56:42.195749+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/framework-integration-modes.md",
+        "projects/cloakbrowser/detection-vectors/cdp-automation-detection.md"
+      ]
+    },
+    "~/code/CloakBrowser/examples/persistent_context.py": {
+      "content_hash": "3d347a63a70aff13c16cfe68d0b5407ee0d854ecd3be55c88517e56e72fe2bfa",
+      "last_ingested": "2026-10-31T04:56:42.281264+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/techniques/persistent-profile-warmup.md"
+      ]
+    },
+    "~/code/CloakBrowser/examples/recaptcha_score.py": {
+      "content_hash": "2f43f88b35056a7491c7c27a3386053d764317fc0be37990033d2a243b3d4d6f",
+      "last_ingested": "2026-10-31T04:56:42.366353+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/synthesis/detection-service-test-matrix.md",
+        "projects/cloakbrowser/techniques/cdp-traffic-minimization.md"
+      ]
+    },
+    "~/code/CloakBrowser/examples/stealth_test.py": {
+      "content_hash": "e1242986f3a42b734f179b19166a961508376bdae6e6285322e69c2a710a49f5",
+      "last_ingested": "2026-10-31T04:56:42.451134+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/synthesis/detection-service-test-matrix.md",
+        "projects/cloakbrowser/techniques/cdp-traffic-minimization.md",
+        "projects/cloakbrowser/detection-vectors/cdp-automation-detection.md",
+        "projects/cloakbrowser/detection-vectors/canvas-fingerprinting.md",
+        "projects/cloakbrowser/detection-vectors/webgl-gpu-fingerprinting.md",
+        "projects/cloakbrowser/techniques/noise-injection.md"
+      ]
+    },
+    "~/code/CloakBrowser/images/browserscan_normal.png": {
+      "content_hash": "0fe251dd260e6b54ffccc7e171bf6256763181e72addcf360e735c32651593bc",
+      "last_ingested": "2026-10-31T04:56:42.542244+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/synthesis/detection-service-test-matrix.md",
+        "projects/cloakbrowser/detection-vectors/cdp-automation-detection.md"
+      ]
+    },
+    "~/code/CloakBrowser/images/fingerprintjs_pass.png": {
+      "content_hash": "e2119ee5d1cc946088f9bca8a320b48956b6b38a6bc50545eeed70d3ef927501",
+      "last_ingested": "2026-10-31T04:56:42.696575+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/synthesis/detection-service-test-matrix.md",
+        "projects/cloakbrowser/detection-vectors/canvas-fingerprinting.md"
+      ]
+    },
+    "~/code/CloakBrowser/images/avatar.png": {
+      "content_hash": "cd8b3df6aef73bc5012f0c57d6c961dcff698da175d58d434c165932f28cae82",
+      "last_ingested": "2026-10-31T04:56:42.814254+00:00",
+      "pages_produced": []
+    },
+    "~/code/CloakBrowser/images/logo.png": {
+      "content_hash": "8de653a13b5a960e7f3fa56f8bab69003d2f88c36ce9aa2d6de8fb06d6a59985",
+      "last_ingested": "2026-10-31T04:56:42.945432+00:00",
+      "pages_produced": []
+    },
+    "~/code/CloakBrowser/js/tests/widevine.test.ts": {
+      "content_hash": "a3a5289bd9f77642f23fbbbaceaabdb2852fd355f8872d53cd1784100b23147a",
+      "last_ingested": "2026-10-31T05:00:07.943740+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/widevine-cdm-seeding.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/tsconfig.json": {
+      "content_hash": "eab375cd68b569aa13bfb4d627bcee8a30d857cf55c8c1a0ecedabe081c66ee7",
+      "last_ingested": "2026-10-31T05:00:08.036691+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/vitest.config.ts": {
+      "content_hash": "369f553d0322f053faa030d834f0d870d0a7de51d69aa136c70fa95becbee47c",
+      "last_ingested": "2026-10-31T05:00:08.128714+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/__init__.py": {
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "last_ingested": "2026-10-31T05:00:08.226715+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/conftest.py": {
+      "content_hash": "434307abeec57dc7d29d07151223224bce7d8ce4119147c97288246b29c2b158",
+      "last_ingested": "2026-10-31T05:00:08.315793+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md",
+        "projects/cloakbrowser/detection-vectors/screen-viewport-consistency.md",
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_build_args.py": {
+      "content_hash": "a4b162b20a5d96d13c64215cc59c4be257799f206034a9876b5a34d5d17347f4",
+      "last_ingested": "2026-10-31T05:00:08.408860+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md",
+        "projects/cloakbrowser/detection-vectors/screen-viewport-consistency.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_cli.py": {
+      "content_hash": "a107aa1c9e667e971d21e2e8c80bf315dbe4aca461c45b4e54ef4f2bf2f8bd69",
+      "last_ingested": "2026-10-31T05:00:08.508289+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/cli.md",
+        "projects/cloakbrowser/detection-vectors/font-fingerprinting.md",
+        "projects/cloakbrowser/architecture/release-channels-and-versioning.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_cloakserve.py": {
+      "content_hash": "4f6b9a76111a77080cff1ada8e9f0fc727c5a190af4d7c1b0e94ad7ce644e1bc",
+      "last_ingested": "2026-10-31T05:00:08.619434+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/cloakserve-cdp-server.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_config.py": {
+      "content_hash": "e4ebfab96d7ebf4798b35f2c0c384106a6bc267543f204af1e366edc000b13d8",
+      "last_ingested": "2026-10-31T05:00:08.719420+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md",
+        "projects/cloakbrowser/detection-vectors/screen-viewport-consistency.md",
+        "projects/cloakbrowser/subsystems/binary-download-and-verification.md",
+        "projects/cloakbrowser/architecture/release-channels-and-versioning.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_extension_loading.py": {
+      "content_hash": "2853ecb49e6136f7e1831bd6af67fc36e1c83edd07fe68e5b6a8234317caa037",
+      "last_ingested": "2026-10-31T05:00:08.817762+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_extract.py": {
+      "content_hash": "8d162bfb75c55478b822456fa92771060cfc05de1778f2b88e62340a8f3b7387",
+      "last_ingested": "2026-10-31T05:00:08.920418+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/binary-download-and-verification.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_fetch_widevine.py": {
+      "content_hash": "5e521ae0dec9b8071d51354882879ac41c65961b1ed4a8832bb51a61add06584",
+      "last_ingested": "2026-10-31T05:00:09.018748+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/widevine-cdm-seeding.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_font_warning.py": {
+      "content_hash": "aa3ef4163d1dcfb45c0fb0a39412eac79d36177bcfdef396bbd45ec11ef07e49",
+      "last_ingested": "2026-10-31T05:00:09.114925+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/detection-vectors/font-fingerprinting.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_free_version_pin.py": {
+      "content_hash": "491b38fe6b06e48b65007bc7ef447bcb5d5414476fca4c62583987219172aefe",
+      "last_ingested": "2026-10-31T05:00:09.207351+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/binary-download-and-verification.md",
+        "projects/cloakbrowser/architecture/release-channels-and-versioning.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_geoip.py": {
+      "content_hash": "56cd82fbf6733ed96f39377b0446b0edb29add76f1a487b5b7e611653535647e",
+      "last_ingested": "2026-10-31T05:00:09.300767+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/geoip-resolver.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_human_visual.mjs": {
+      "content_hash": "6be4c2c72d6fe118c43800e7df8be9ed18a8fa3d8c0be1f028cc52c36b411bb0",
+      "last_ingested": "2026-10-31T05:00:09.391048+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_human_visual.py": {
+      "content_hash": "1c05f880397db1d36fef09b3368c8fd6c2a6c1bf92a8c2b291932724efb8a8ed",
+      "last_ingested": "2026-10-31T05:00:09.486332+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_humanize_engine.py": {
+      "content_hash": "d90c675efa7fb7f83c264c05b30bc431cbe73f0261588d8c98d9c94210687180",
+      "last_ingested": "2026-10-31T05:00:09.582915+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md",
+        "projects/cloakbrowser/techniques/humanized-input.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_humanize_unit.mjs": {
+      "content_hash": "11e5fb38667604df628b872405a89873eb40f246d32b840d4be8f6693bfecbaf",
+      "last_ingested": "2026-10-31T05:00:09.676415+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_humanize_unit.py": {
+      "content_hash": "b792be4c62788eaa49fb42f73357a7d8ce2baa24a099b940608416cfa1389393",
+      "last_ingested": "2026-10-31T05:00:09.767431+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md",
+        "projects/cloakbrowser/techniques/humanized-input.md",
+        "projects/cloakbrowser/subsystems/humanize-errors.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_lambda_security.py": {
+      "content_hash": "c39fa658969513028c977835b9339d2e8726e0c2aa6366cd5790b3d3145e8aab",
+      "last_ingested": "2026-10-31T05:00:45.531443+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/aws-lambda-deployment.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_launch.py": {
+      "content_hash": "330db0b1609b0e35dbecc28b9172953af21e893095b4dc7e351b4e84ea84eb61",
+      "last_ingested": "2026-10-31T05:00:45.625271+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md",
+        "projects/cloakbrowser/detection-vectors/navigator-and-hardware-properties.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_launch_context.py": {
+      "content_hash": "e024df3be0f296b8ea902eb4ef445845e8294716760f7d63f703532e135da418",
+      "last_ingested": "2026-10-31T05:00:45.715494+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md",
+        "projects/cloakbrowser/detection-vectors/navigator-and-hardware-properties.md",
+        "projects/cloakbrowser/detection-vectors/headless-detection.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_license.py": {
+      "content_hash": "6a99d4ec7a411ecb10288eeb2199b81e08ac48d408cf3d3ea7dbb833342e4cb8",
+      "last_ingested": "2026-10-31T05:00:45.822676+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/license-and-tiers.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_license_error.py": {
+      "content_hash": "c37c734d11de36d6ca4b3a7c2fa5d02545a0b83a9e963868ffec6a843ea65af0",
+      "last_ingested": "2026-10-31T05:00:45.915300+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/license-and-tiers.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_login.py": {
+      "content_hash": "26fb051582f2df735321569956349cc9123e2211f76674d52738b336e530f092",
+      "last_ingested": "2026-10-31T05:00:46.007395+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/license-and-tiers.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_persistent_context.py": {
+      "content_hash": "eadad2965a7114567decc3c74085ce635d876f386c7912cf7f1e0301856f5d14",
+      "last_ingested": "2026-10-31T05:00:46.100891+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md",
+        "projects/cloakbrowser/detection-vectors/navigator-and-hardware-properties.md",
+        "projects/cloakbrowser/detection-vectors/incognito-storage-quota-detection.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_profile_seed.py": {
+      "content_hash": "5bf74fabcaeaf182b6ed619817672a7198ded528dc459ad72849cc2cbf40e5ea",
+      "last_ingested": "2026-10-31T05:00:46.194725+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/profile-seed.md",
+        "projects/cloakbrowser/detection-vectors/incognito-storage-quota-detection.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_proxy.py": {
+      "content_hash": "ff0cc0553ddb4c9eaf491695e1d647d92f8f92afb8311da42728d7d4811efc05",
+      "last_ingested": "2026-10-31T05:00:46.295361+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/proxy-handling.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_resolver_sources_match.py": {
+      "content_hash": "a534ac6ff04a9b364c80f1d3ea406e02a39188486bfa7e53084ea0b096b0e4ac",
+      "last_ingested": "2026-10-31T05:00:46.390273+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_stealth.py": {
+      "content_hash": "68393d55a00c30fdf27e77c50c32cbe48ee144aaf351468e3f5b228db0ac757f",
+      "last_ingested": "2026-10-31T05:00:46.488935+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/detection-vectors/navigator-and-hardware-properties.md",
+        "projects/cloakbrowser/detection-vectors/headless-detection.md",
+        "projects/cloakbrowser/detection-vectors/tls-network-fingerprinting.md",
+        "projects/cloakbrowser/detection-vectors/fingerprint-tampering-detection.md",
+        "projects/cloakbrowser/detection-vectors/incognito-storage-quota-detection.md",
+        "projects/cloakbrowser/synthesis/detection-service-test-matrix.md",
+        "projects/cloakbrowser/detection-vectors/cdp-automation-detection.md",
+        "projects/cloakbrowser/subsystems/proxy-handling.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_stealth_dom_browser.py": {
+      "content_hash": "a7e9cd60b2a0508b3bee96133ee196911046a8d20c6a96a06d08a0d6f22c19b5",
+      "last_ingested": "2026-10-31T05:00:46.586518+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_stealth_reproduction_110.py": {
+      "content_hash": "cd9ac39d00edd28327432a5ee1c26281b82eb30540cd7d66701cb3b59b944fea",
+      "last_ingested": "2026-10-31T05:00:46.679319+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/detection-vectors/cdp-automation-detection.md",
+        "projects/cloakbrowser/detection-vectors/headless-detection.md",
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_stealth_unit.py": {
+      "content_hash": "f10e4c34b5aa2841f2a169f2c0b48b9a504266b49dd73862d73bbdb2f1b571e3",
+      "last_ingested": "2026-10-31T05:00:46.779691+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/detection-vectors/cdp-automation-detection.md",
+        "projects/cloakbrowser/synthesis/detection-service-test-matrix.md",
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_update.py": {
+      "content_hash": "056b0cf4ccbbee3bb47b2bf8559b6beedf51e6f766dc51d21afae45358f9ef84",
+      "last_ingested": "2026-10-31T05:00:46.882952+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/binary-download-and-verification.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_welcome_banner.py": {
+      "content_hash": "2a4f47826e1fb0e99bde5c98b25971658fd3f303387edd3a516bc73642166e8c",
+      "last_ingested": "2026-10-31T05:00:46.974326+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/binary-download-and-verification.md",
+        "projects/cloakbrowser/subsystems/license-and-tiers.md"
+      ]
+    },
+    "~/code/CloakBrowser/tests/test_widevine.py": {
+      "content_hash": "5065aea44b5c97748381a9f26b29c7db4174f62cc26d68eeebcb9d4213ee662d",
+      "last_ingested": "2026-10-31T05:00:47.065850+00:00",
+      "pages_produced": []
+    },
+    "~/code/CloakBrowser/js/tests/extension-loading.test.ts": {
+      "content_hash": "38049b5ebfd5475d7ebfbc3e0ad40dbfae1f299860c04e449c88b64de026071c",
+      "last_ingested": "2026-10-31T05:02:12.105958+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/tests/fonts.test.ts": {
+      "content_hash": "163d8727678cadb7817ad02ece0b370d5cf19e269887eeca3052dbacf111a6e3",
+      "last_ingested": "2026-10-31T05:02:12.193833+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/detection-vectors/font-fingerprinting.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/tests/geoip.test.ts": {
+      "content_hash": "722f916d218af6a6aff4ff93509480fbcd317431b85364dfdb6343128765190c",
+      "last_ingested": "2026-10-31T05:02:12.287773+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/geoip-resolver.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/tests/humanize.test.ts": {
+      "content_hash": "9ece2b48f4afac10e4a311a5e95c0a5bc856169862c6e3fde354bcbd33a0eb3e",
+      "last_ingested": "2026-10-31T05:02:12.377771+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md",
+        "projects/cloakbrowser/techniques/humanized-input.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/tests/humanizeEngine.test.ts": {
+      "content_hash": "c8f53a3745a32794d5f9a5e67e6b835fa72792c4b8ab95216364720e3023ffe4",
+      "last_ingested": "2026-10-31T05:11:10.651373+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md",
+        "projects/cloakbrowser/techniques/humanized-input.md",
+        "projects/cloakbrowser/detection-vectors/cdp-automation-detection.md",
+        "projects/cloakbrowser/subsystems/license-and-tiers.md",
+        "projects/cloakbrowser/architecture/playwright-vs-puppeteer-backends.md",
+        "projects/cloakbrowser/detection-vectors/navigator-and-hardware-properties.md",
+        "projects/cloakbrowser/detection-vectors/behavioral-analysis.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/tests/humanizeHarness.ts": {
+      "content_hash": "8706e7a9e67c3b9955173889c4ec2b7b6d2a6a7730fe8a12c81dce2521314323",
+      "last_ingested": "2026-10-31T05:02:12.569135+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md",
+        "projects/cloakbrowser/detection-vectors/cdp-automation-detection.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/tests/humanizePuppeteer.test.ts": {
+      "content_hash": "7f2912ca04ea98081d46b7680edaede24fc61d1f26196445abb89c49daa23558",
+      "last_ingested": "2026-10-31T05:02:12.671518+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/playwright-vs-puppeteer-backends.md",
+        "projects/cloakbrowser/subsystems/humanize-engine.md",
+        "projects/cloakbrowser/techniques/humanized-input.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/tests/launch.test.ts": {
+      "content_hash": "5367e3a6ceafcd6268d714814ba9e6b518afb0cb4b7f92c60abfe5468fe61ca8",
+      "last_ingested": "2026-10-31T05:02:12.761491+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md",
+        "projects/cloakbrowser/subsystems/proxy-handling.md",
+        "projects/cloakbrowser/subsystems/profile-seed.md",
+        "projects/cloakbrowser/subsystems/license-and-tiers.md",
+        "projects/cloakbrowser/subsystems/binary-download-and-verification.md",
+        "projects/cloakbrowser/architecture/release-channels-and-versioning.md",
+        "projects/cloakbrowser/architecture/playwright-vs-puppeteer-backends.md",
+        "projects/cloakbrowser/detection-vectors/screen-viewport-consistency.md",
+        "projects/cloakbrowser/detection-vectors/navigator-and-hardware-properties.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/tests/license.test.ts": {
+      "content_hash": "5d9457a6ad5e466e36049f75a766fed9b1aa2322fec3dcc68161c75bbd8b2500",
+      "last_ingested": "2026-10-31T05:02:12.856928+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/license-and-tiers.md",
+        "projects/cloakbrowser/architecture/release-channels-and-versioning.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/tests/profile-seed.test.ts": {
+      "content_hash": "7847c3acb4e3842b1428a5aa79501d01fb889316f4df7b1e50149e8a0ca061cd",
+      "last_ingested": "2026-10-31T05:02:12.957864+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/profile-seed.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/tests/proxy.test.ts": {
+      "content_hash": "c2ead65225412fd2b05dd746f8bdb90ed8e74e7a99feb48171c14e7cc38ff4f8",
+      "last_ingested": "2026-10-31T05:02:13.048492+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/proxy-handling.md",
+        "projects/cloakbrowser/architecture/release-channels-and-versioning.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/tests/puppeteer.test.ts": {
+      "content_hash": "2e91064b76e90a8f9c1e0d76828bb31b85e51e73649a8a916d2bfb22c26d3ce9",
+      "last_ingested": "2026-10-31T05:02:13.140426+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/playwright-vs-puppeteer-backends.md",
+        "projects/cloakbrowser/subsystems/proxy-handling.md",
+        "projects/cloakbrowser/subsystems/profile-seed.md",
+        "projects/cloakbrowser/subsystems/license-and-tiers.md",
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md",
+        "projects/cloakbrowser/architecture/release-channels-and-versioning.md",
+        "projects/cloakbrowser/detection-vectors/screen-viewport-consistency.md",
+        "projects/cloakbrowser/detection-vectors/navigator-and-hardware-properties.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/tests/require.test.ts": {
+      "content_hash": "b46211af02d8d0951cc8bcf5b8d7ba72c227a39cb94797ab3b9ae2cf15398292",
+      "last_ingested": "2026-10-31T05:02:13.229580+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/tests/setup.ts": {
+      "content_hash": "7f83669e518a36d64c72d344eb6d6c4356b3f5325e12da625f81e641512e807c",
+      "last_ingested": "2026-10-31T05:02:13.326547+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/license-and-tiers.md",
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md",
+        "projects/cloakbrowser/detection-vectors/screen-viewport-consistency.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/tests/signature.test.ts": {
+      "content_hash": "671d8424b9d9dddde10f3d196e514bf7eff58be13b577359087c513961b772fa",
+      "last_ingested": "2026-10-31T05:02:13.427856+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/supply-chain-verification.md",
+        "projects/cloakbrowser/subsystems/binary-download-and-verification.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/tests/stealth.puppeteer.test.ts": {
+      "content_hash": "15887cf55a0e8423189490c4c904b45242006855d945a4cca4954af5a04e4a5d",
+      "last_ingested": "2026-10-31T05:02:13.520583+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md",
+        "projects/cloakbrowser/techniques/humanized-input.md",
+        "projects/cloakbrowser/architecture/playwright-vs-puppeteer-backends.md",
+        "projects/cloakbrowser/detection-vectors/cdp-automation-detection.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/tests/stealth.test.ts": {
+      "content_hash": "928620306b985145cb13302c1b4d543dae09cc87d6a2fd529f936bdeba06d264",
+      "last_ingested": "2026-10-31T05:02:13.624643+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md",
+        "projects/cloakbrowser/techniques/humanized-input.md",
+        "projects/cloakbrowser/detection-vectors/cdp-automation-detection.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/tests/update.test.ts": {
+      "content_hash": "a4e2322a16d3863f2f005ed2b53be11ac62782aeffc4067dad6dcfdeef035b53",
+      "last_ingested": "2026-10-31T05:02:13.721226+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/binary-download-and-verification.md",
+        "projects/cloakbrowser/architecture/release-channels-and-versioning.md",
+        "projects/cloakbrowser/architecture/supply-chain-verification.md",
+        "projects/cloakbrowser/detection-vectors/screen-viewport-consistency.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/tests/welcome.test.ts": {
+      "content_hash": "82dca480c6400e6fddf2ca85a1f641bde680a3a2bfe5334d15d873861aaa5a37",
+      "last_ingested": "2026-10-31T05:02:13.816023+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/binary-download-and-verification.md"
+      ]
+    },
+    "~/code/CloakBrowser/js/tests/widevine-integration.test.ts": {
+      "content_hash": "2261e09be225bdf5bc6139a6560dd8310ec32556f99e2156694a540a2e8ed44d",
+      "last_ingested": "2026-10-31T05:02:13.910013+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md"
+      ]
+    },
+    "~/code/CloakBrowser/bin/cloakserve": {
+      "content_hash": "eace398f294f16536b0962e7040450ad5e549d64848e5d755cb6e1e130ee3078",
+      "last_ingested": "2026-10-31T05:11:09.411459+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/cloakserve-cdp-server.md",
+        "projects/cloakbrowser/subsystems/proxy-handling.md",
+        "projects/cloakbrowser/subsystems/profile-seed.md"
+      ]
+    },
+    "~/code/CloakBrowser/bin/cloaktest": {
+      "content_hash": "add12609ef1cb11ec646e6d3f77e9fcad6382bb5feb0a08232db4124f26306c4",
+      "last_ingested": "2026-10-31T05:11:09.527255+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/cloakserve-cdp-server.md"
+      ]
+    },
+    "~/code/CloakBrowser/Dockerfile": {
+      "content_hash": "0bdd244d6ab290d4d4f83700cf36c324cbc2b32a48e3ef30058dc3395354a9c3",
+      "last_ingested": "2026-10-31T05:11:09.622692+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/cloakserve-cdp-server.md",
+        "projects/cloakbrowser/architecture/wrapper-binary-split.md",
+        "projects/cloakbrowser/detection-vectors/font-fingerprinting.md"
+      ]
+    },
+    "~/code/CloakBrowser/examples/integrations/aws_lambda/Dockerfile": {
+      "content_hash": "33fbf83b5cc7985d835a8000d55cb7eab7557bdd9553277937f58bf8e6b9bfdf",
+      "last_ingested": "2026-10-31T05:11:09.812880+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/aws-lambda-deployment.md"
+      ]
+    },
+    "~/code/CloakBrowser/LICENSE": {
+      "content_hash": "93a9c5b5542faf5ff6c7956406b56930fde10bd4d3e8dc7b89f01a88a8d2b29b",
+      "last_ingested": "2026-10-31T05:11:09.917806+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/wrapper-binary-split.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/src/App.tsx": {
+      "content_hash": "085304ee5712b57e98f05ecc53c7710d51047e2fec1fe7e20dd41971c7ee9321",
+      "last_ingested": "2026-10-31T05:24:21.307051+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-ui.md",
+        "projects/cloakbrowser-manager/synthesis/manager-cloakbrowser-responsibility-split.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/src/components/CdpEndpointButton.tsx": {
+      "content_hash": "b223bf55884683e637eaeef48fc1865c0060b1c8bcd15c7a0e4dac7e4f084360",
+      "last_ingested": "2026-10-31T05:24:21.400838+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-ui.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/src/components/LaunchButton.tsx": {
+      "content_hash": "2c3967cf01fc6e144f0a1f9de0c2b2ef72b459220e4178355c11989a4d91498d",
+      "last_ingested": "2026-10-31T05:24:21.502606+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-ui.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/src/components/LaunchErrorBanner.tsx": {
+      "content_hash": "52c4059cd8f328aecef32f0258f07e96b14baf895b6777a1a81aae49a7c6efb2",
+      "last_ingested": "2026-10-31T05:24:21.609203+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-ui.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/src/components/LoginPage.tsx": {
+      "content_hash": "c32fb2cb3b5db195490a5915da5e11cd4af269d5ab1222856d23684a36026c87",
+      "last_ingested": "2026-10-31T05:24:21.727177+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-ui.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/src/components/NativeWindowStatus.test.tsx": {
+      "content_hash": "73e025b204ac770e53c6f31431887ecd448f8f619d7267f63295ecee337db91d",
+      "last_ingested": "2026-10-31T05:24:21.826499+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-ui.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/src/components/NativeWindowStatus.tsx": {
+      "content_hash": "fa805859ff5783ff5995fe6bee0ae8564e7e047ce5322855816ccd8d9fe856f8",
+      "last_ingested": "2026-10-31T05:24:21.946178+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-ui.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/src/components/ProfileFiles.test.tsx": {
+      "content_hash": "d60a97bd12faaf96de0e080f386ecb72e6cc481197f2c3662c0ee79c4e4eb8e3",
+      "last_ingested": "2026-10-31T05:24:22.052043+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-ui.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/src/components/ProfileFiles.tsx": {
+      "content_hash": "ad1e58d0ac91c7cd2a5a0fdd45cd1891bce70de64b0fb73a235f265a922fc6ff",
+      "last_ingested": "2026-10-31T05:24:22.150415+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-ui.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/src/components/ProfileForm.test.tsx": {
+      "content_hash": "8d9428f6f95227f43cf89b1522d4cc7d846225286607c93dc79ad0c14ed884c8",
+      "last_ingested": "2026-10-31T05:24:22.248350+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-ui.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-identity-isolation.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/src/components/ProfileForm.tsx": {
+      "content_hash": "ac4b074c07450a5ad1ca94f950f24ac2d687051655316e518367c4d578b85e0f",
+      "last_ingested": "2026-10-31T05:34:11.241183+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-ui.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-identity-isolation.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-network-and-locale.md",
+        "projects/cloakbrowser-manager/synthesis/manager-cloakbrowser-responsibility-split.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-transparent-proxy.md",
+        "projects/cloakbrowser-manager/techniques/portable-cookies.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/src/components/ProfileList.tsx": {
+      "content_hash": "f3f8846c8eef63bb863be6eab427e4572a5eadad46bf9f64be529c269d5286ab",
+      "last_ingested": "2026-10-31T05:24:22.457058+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-ui.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-network-and-locale.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/src/components/ProfileViewer.tsx": {
+      "content_hash": "c663df76461e18ca5a90439a65966266eb5ca7721c61cfcea4eaf10ea4fdeb83",
+      "last_ingested": "2026-10-31T05:24:22.566521+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-ui.md",
+        "projects/cloakbrowser-manager/subsystems/vnc-viewer.md",
+        "projects/cloakbrowser-manager/synthesis/manager-cloakbrowser-responsibility-split.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/src/components/SettingsPanel.tsx": {
+      "content_hash": "482898ceb89a31995a632bcd0b5b5b55c1ddff7b747a0a9820ba51942d7d40eb",
+      "last_ingested": "2026-10-31T05:24:22.665859+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-ui.md",
+        "projects/cloakbrowser-manager/synthesis/manager-cloakbrowser-responsibility-split.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/src/components/StatusIndicator.tsx": {
+      "content_hash": "48b5cb33c1f1f53219b222100049b4d5af25ba839de06a355e8f074df5e3a801",
+      "last_ingested": "2026-10-31T05:24:22.779169+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-ui.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/src/components/SystemStatusBadge.tsx": {
+      "content_hash": "b30d402f47ece32200a138f11e820541cec81140f1646cb0ca0f3a6770d97e4f",
+      "last_ingested": "2026-10-31T05:34:11.349176+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-ui.md",
+        "projects/cloakbrowser-manager/synthesis/manager-cloakbrowser-responsibility-split.md",
+        "projects/cloakbrowser-manager/subsystems/diagnostics.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/src/components/UpdateBanner.tsx": {
+      "content_hash": "2728af043c65f3c9632b6096d5519e77b1a27aa175f4bc0b3be6c019ecf7efda",
+      "last_ingested": "2026-10-31T05:24:22.997351+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-ui.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/src/hooks/useProfiles.test.ts": {
+      "content_hash": "6625f54f6a8c138de92f68735b9df7424cd455b2f7d13f67f2af6711cb810bc1",
+      "last_ingested": "2026-10-31T05:24:23.095496+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-ui.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/src/hooks/useProfiles.ts": {
+      "content_hash": "9a5659f45e845886accb65dc3ff0e155e9c26186e894d0fb2177999cd731b607",
+      "last_ingested": "2026-10-31T05:24:23.189951+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-ui.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-identity-isolation.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/src/lib/api.test.ts": {
+      "content_hash": "01ce0600ce2f861f9dd8b3943b5ec182a65d08b859d3ba290a2ce4d89b17eac6",
+      "last_ingested": "2026-10-31T05:24:23.283617+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-ui.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/src/lib/api.ts": {
+      "content_hash": "9a3238c5f9861129a81fe4484ddb5c94cde1bd72fac49ade4530139986059636",
+      "last_ingested": "2026-10-31T05:24:23.489175+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-api-client.md",
+        "projects/cloakbrowser-manager/architecture/platform-modes.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/src/main.tsx": {
+      "content_hash": "529489188135c4ae24b5c45b3e2c19c7afd3e74059cd019c55fc2b07ed0f63f7",
+      "last_ingested": "2026-10-31T05:24:23.585752+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-api-client.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/src/novnc.d.ts": {
+      "content_hash": "849975b8d400cd490cac0453f5a769df9b0414dcc938233600544482ec526439",
+      "last_ingested": "2026-10-31T05:24:23.682241+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-api-client.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/src/styles/globals.css": {
+      "content_hash": "8b181e0ccb3668b8864c421fc875a19b98cdf1ced15f1fafee5aa45c92dd636f",
+      "last_ingested": "2026-10-31T05:24:23.786206+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-api-client.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/tailwind.config.ts": {
+      "content_hash": "53a8f18bc95b1845b9ac0287d5722f7e7d2e6528fc7c1554fb11971968a1aead",
+      "last_ingested": "2026-10-31T05:24:23.892183+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-api-client.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/tsconfig.json": {
+      "content_hash": "78d5939cd82a8904e2aabcdcde5c99c71f75f37a3a29b8a8e2f667376b7859fe",
+      "last_ingested": "2026-10-31T05:24:23.993334+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-api-client.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/vite.config.ts": {
+      "content_hash": "bb782ff3d3ed2fda4cc07622bdc7627ed92cdc068628f63302690bff30b82c82",
+      "last_ingested": "2026-10-31T05:24:24.095350+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-api-client.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/vitest.config.ts": {
+      "content_hash": "60df79366f11f343db5324b5c6251383dcbc1327d51f2b2fc0c76c4b66a0be70",
+      "last_ingested": "2026-10-31T05:24:24.199191+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-api-client.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/packaging/build_macos.sh": {
+      "content_hash": "3e242ac4827576daaee38648079ba33e5f8db95a8877f9e4876b11a53720206c",
+      "last_ingested": "2026-10-31T05:24:24.298813+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/architecture/release-and-packaging.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/packaging/make_universal_app.sh": {
+      "content_hash": "3c5c665b0ea43ad790da0c366685fca08a586e0f80e13e1dd36e3de93cd6f5b2",
+      "last_ingested": "2026-10-31T05:24:24.397971+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/architecture/release-and-packaging.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/packaging/sign_macos_app.sh": {
+      "content_hash": "64b1f448e6e2389bedc92390eced593907d4a976f8ee113f02910453253319d7",
+      "last_ingested": "2026-10-31T05:24:24.497198+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/architecture/release-and-packaging.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/packaging/entitlements.plist": {
+      "content_hash": "6d454943eb825c827a4d1bd133d8d728283c8e13862d74a6c5f1df0191da2b7d",
+      "last_ingested": "2026-10-31T05:24:24.594784+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/architecture/release-and-packaging.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/packaging/requirements-build.txt": {
+      "content_hash": "ad91d3beabd30fa3718f05570cb19bc5c1921d7107e6269eb436207c5cdfcf0b",
+      "last_ingested": "2026-10-31T05:24:24.690424+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/architecture/release-and-packaging.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/packaging/build_windows.ps1": {
+      "content_hash": "902b67721dfc14d3f3709c780b29fc8528d0d97286d8f3ed4f2d334bab1d516b",
+      "last_ingested": "2026-10-31T05:24:24.785394+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/architecture/release-and-packaging.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/packaging/installer.iss": {
+      "content_hash": "39b23540c328bd34262b4db06993a86326ecd004b5bfc9c0319c0292d44a24ff",
+      "last_ingested": "2026-10-31T05:24:24.878771+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/architecture/release-and-packaging.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/run-macos.sh": {
+      "content_hash": "706915ae899f1cb33748b3787907da730fc3aa6acf2a6164f72bd15ecaa7ec31",
+      "last_ingested": "2026-10-31T05:24:24.999075+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/architecture/release-and-packaging.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/run-windows.bat": {
+      "content_hash": "73ac1a64e62356c48d648af1534ee9f535825332932186ece880dad26df59bbc",
+      "last_ingested": "2026-10-31T05:24:25.095689+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/architecture/release-and-packaging.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/LICENSE": {
+      "content_hash": "1e922a729dfe23b5096717436771d6749a91c0972ac9bbc14a24fb1a7b174c5b",
+      "last_ingested": "2026-10-31T05:24:25.189308+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/architecture/release-and-packaging.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/packaging/manager.spec": {
+      "content_hash": "8f29da5c6c9d68ae6599311b6babd6ff1db6922720ba8dd1532048de568bffa3",
+      "last_ingested": "2026-10-31T05:24:25.285295+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/architecture/release-and-packaging.md",
+        "projects/cloakbrowser-manager/architecture/platform-modes.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/run.py": {
+      "content_hash": "0f8a5f14d707ade0e5ba8ff8d90192ba345d2ec13bf25a798746529b47250d43",
+      "last_ingested": "2026-10-31T05:24:25.381820+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/architecture/release-and-packaging.md",
+        "projects/cloakbrowser-manager/architecture/platform-modes.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/Dockerfile": {
+      "content_hash": "537a7812cb136c3ba2986db56b06d8a90e562178e4db31d43da7e7e6d750a33b",
+      "last_ingested": "2026-10-31T05:24:25.474001+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/architecture/release-and-packaging.md",
+        "projects/cloakbrowser-manager/architecture/platform-modes.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/.env.example": {
+      "content_hash": "47583ef6417090b2fe3d87e6fe175832bd87f8ba79a4efe5529c86e47ae0cce4",
+      "last_ingested": "2026-10-31T05:34:10.650377+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/architecture/platform-modes.md",
+        "projects/cloakbrowser-manager/subsystems/settings-and-license.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/packaging/icon-macos.png": {
+      "content_hash": "34aeaea7655c1543efc2e24804f01ec72b91ffe2015c99cedc2a60294117b83c",
+      "last_ingested": "2026-10-31T05:24:25.671238+00:00",
+      "pages_produced": []
+    },
+    "~/code/CloakBrowser-Manager/packaging/icon.png": {
+      "content_hash": "03841ae19a65edc989b6eecf7babe1f22d32f4e14b47300f2be95cec290e7bcc",
+      "last_ingested": "2026-10-31T05:24:25.768140+00:00",
+      "pages_produced": []
+    },
+    "~/code/CloakBrowser-Manager/.github/workflows/ci.yml": {
+      "content_hash": "e9dc458494d1bb6814ef9533754d4c4a2f5e56655e8c4c20845ee1a57eff15f4",
+      "last_ingested": "2026-10-31T05:27:41.576620+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/architecture/manager-architecture.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/.github/workflows/release.yml": {
+      "content_hash": "d2a4c30e373f0913e05a8d546761f65bcf664533e24dfb5b1d95231cbd761a8a",
+      "last_ingested": "2026-10-31T05:27:41.689527+00:00",
+      "pages_produced": []
+    },
+    "~/code/CloakBrowser-Manager/AGENTS.md": {
+      "content_hash": "bf83e48f58204bea5bee22b987a833b36deedd15253ddafd6bac106a78c1ded2",
+      "last_ingested": "2026-10-31T05:27:41.807807+00:00",
+      "pages_produced": []
+    },
+    "~/code/CloakBrowser-Manager/BINARY-LICENSE.md": {
+      "content_hash": "a959b6f9db58f7e273694368659140e9d82960d964ab48b5f6cf9c4545cc2981",
+      "last_ingested": "2026-10-31T05:27:41.905356+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/detection-vectors/cross-profile-linkage.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/CHANGELOG.md": {
+      "content_hash": "f43d8f88a28b68996dcd51127284d339137ba867410983ea6157259aa7a20758",
+      "last_ingested": "2026-10-31T05:34:10.897798+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/architecture/manager-architecture.md",
+        "projects/cloakbrowser-manager/subsystems/api-server.md",
+        "projects/cloakbrowser-manager/subsystems/browser-manager.md",
+        "projects/cloakbrowser-manager/subsystems/profile-database.md",
+        "projects/cloakbrowser-manager/subsystems/profile-files-and-artifacts.md",
+        "projects/cloakbrowser-manager/techniques/download-capture.md",
+        "projects/cloakbrowser-manager/techniques/profile-duplication-with-state.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-network-and-locale.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-identity-isolation.md",
+        "projects/cloakbrowser-manager/detection-vectors/cross-profile-linkage.md",
+        "projects/cloakbrowser-manager/architecture/authentication-model.md",
+        "projects/cloakbrowser-manager/architecture/platform-modes.md",
+        "projects/cloakbrowser-manager/subsystems/settings-and-license.md",
+        "projects/cloakbrowser-manager/subsystems/diagnostics.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-transparent-proxy.md",
+        "projects/cloakbrowser-manager/techniques/portable-cookies.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/README.md": {
+      "content_hash": "5fe23229309c7ab573647e6e40c809660af7906a33510fafebff1c11c7249e01",
+      "last_ingested": "2026-10-31T05:34:10.750588+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/architecture/manager-architecture.md",
+        "projects/cloakbrowser-manager/subsystems/api-server.md",
+        "projects/cloakbrowser-manager/subsystems/profile-files-and-artifacts.md",
+        "projects/cloakbrowser-manager/techniques/download-capture.md",
+        "projects/cloakbrowser-manager/techniques/cdp-endpoint-proxying.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-identity-isolation.md",
+        "projects/cloakbrowser-manager/detection-vectors/cross-profile-linkage.md",
+        "projects/cloakbrowser-manager/architecture/authentication-model.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-network-and-locale.md",
+        "projects/cloakbrowser-manager/subsystems/settings-and-license.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/app_entry.py": {
+      "content_hash": "22c4602c0204fde7cf4ef74c6469fe14c960dfc1e772334edd7212e0d05a52b1",
+      "last_ingested": "2026-10-31T05:27:42.288768+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/architecture/manager-architecture.md",
+        "projects/cloakbrowser-manager/architecture/authentication-model.md",
+        "projects/cloakbrowser-manager/architecture/platform-modes.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/assets/manager-macos.png": {
+      "content_hash": "31cd1e64184bc4fd53b92e18c4023307ab0ce8dcae40db28c406e286568f54c8",
+      "last_ingested": "2026-10-31T05:27:42.405674+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/techniques/per-profile-identity-isolation.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/backend/__init__.py": {
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "last_ingested": "2026-10-31T05:27:42.506750+00:00",
+      "pages_produced": []
+    },
+    "~/code/CloakBrowser-Manager/backend/artifacts.py": {
+      "content_hash": "8452b70e605107170904885fd385dcdd71bc2144966850a64301c07686c3ccf5",
+      "last_ingested": "2026-10-31T05:27:42.619657+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/profile-files-and-artifacts.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-identity-isolation.md",
+        "projects/cloakbrowser-manager/detection-vectors/cross-profile-linkage.md",
+        "projects/cloakbrowser-manager/architecture/platform-modes.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/backend/browser_manager.py": {
+      "content_hash": "2b0526dd5ef252149b898d451947813dbec0977033617cba6f83a07056bc650d",
+      "last_ingested": "2026-10-31T05:34:10.427526+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/browser-manager.md",
+        "projects/cloakbrowser-manager/architecture/manager-architecture.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-identity-isolation.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-network-and-locale.md",
+        "projects/cloakbrowser-manager/techniques/cdp-endpoint-proxying.md",
+        "projects/cloakbrowser-manager/techniques/download-capture.md",
+        "projects/cloakbrowser-manager/techniques/profile-duplication-with-state.md",
+        "projects/cloakbrowser-manager/detection-vectors/cross-profile-linkage.md",
+        "projects/cloakbrowser-manager/architecture/platform-modes.md",
+        "projects/cloakbrowser-manager/subsystems/settings-and-license.md",
+        "projects/cloakbrowser-manager/subsystems/diagnostics.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-transparent-proxy.md",
+        "projects/cloakbrowser-manager/techniques/portable-cookies.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/backend/database.py": {
+      "content_hash": "ac9c50cb83bdca7beaa694bdce676cf9f6e4e0937f435508bef1e9123312708c",
+      "last_ingested": "2026-10-31T05:34:11.121757+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/profile-database.md",
+        "projects/cloakbrowser-manager/architecture/manager-architecture.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-identity-isolation.md",
+        "projects/cloakbrowser-manager/detection-vectors/cross-profile-linkage.md",
+        "projects/cloakbrowser-manager/techniques/profile-duplication-with-state.md",
+        "projects/cloakbrowser-manager/subsystems/profile-files-and-artifacts.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-transparent-proxy.md",
+        "projects/cloakbrowser-manager/techniques/portable-cookies.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/backend/diagnostics.py": {
+      "content_hash": "399073c85396085f534efcf411e19b8c65a048dae89c188a4830504dfae83327",
+      "last_ingested": "2026-10-31T05:34:11.010357+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/api-server.md",
+        "projects/cloakbrowser-manager/subsystems/diagnostics.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/backend/downloads.py": {
+      "content_hash": "45adec79d7e291f4ef121e68b535b9382a310f9c7b790aadb97ecb7e9c9a621c",
+      "last_ingested": "2026-10-31T05:27:43.032507+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/profile-files-and-artifacts.md",
+        "projects/cloakbrowser-manager/techniques/download-capture.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/backend/env_file.py": {
+      "content_hash": "0759d9ea8f6b5ea16071ed9dd8493c0d47256884d07ad05195f5b6e350b3c038",
+      "last_ingested": "2026-10-31T05:34:10.223810+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/architecture/manager-architecture.md",
+        "projects/cloakbrowser-manager/subsystems/settings-and-license.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/backend/main.py": {
+      "content_hash": "0049bfa92ecea172476509b73984547593439eb4cc2c785af476cad870b6224c",
+      "last_ingested": "2026-10-31T05:34:10.325502+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/api-server.md",
+        "projects/cloakbrowser-manager/architecture/manager-architecture.md",
+        "projects/cloakbrowser-manager/architecture/authentication-model.md",
+        "projects/cloakbrowser-manager/techniques/cdp-endpoint-proxying.md",
+        "projects/cloakbrowser-manager/techniques/profile-duplication-with-state.md",
+        "projects/cloakbrowser-manager/subsystems/profile-files-and-artifacts.md",
+        "projects/cloakbrowser-manager/techniques/download-capture.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-identity-isolation.md",
+        "projects/cloakbrowser-manager/architecture/platform-modes.md",
+        "projects/cloakbrowser-manager/subsystems/api-models.md",
+        "projects/cloakbrowser-manager/detection-vectors/cross-profile-linkage.md",
+        "projects/cloakbrowser-manager/subsystems/settings-and-license.md",
+        "projects/cloakbrowser-manager/subsystems/diagnostics.md",
+        "projects/cloakbrowser-manager/techniques/portable-cookies.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/backend/models.py": {
+      "content_hash": "44aa60fe01f0491e915867e9ba1741f3242ade32d44d24db5310579f3cf2e2a3",
+      "last_ingested": "2026-10-31T05:34:10.543539+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/api-models.md",
+        "projects/cloakbrowser-manager/techniques/profile-duplication-with-state.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-network-and-locale.md",
+        "projects/cloakbrowser-manager/subsystems/settings-and-license.md",
+        "projects/cloakbrowser-manager/subsystems/diagnostics.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-transparent-proxy.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/backend/requirements.txt": {
+      "content_hash": "53d6dd62d3fc1e97a00248f60c43c8e2319f164c1a5806636ee5aea622bb1b1c",
+      "last_ingested": "2026-10-31T05:27:43.463345+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/architecture/manager-architecture.md",
+        "projects/cloakbrowser-manager/cloakbrowser-manager.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/backend/runtime.py": {
+      "content_hash": "492f1cc78e1751cfa94b3bc6df4d866247d85811bb62bb4293c9d741000a70fb",
+      "last_ingested": "2026-10-31T05:27:43.568898+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/architecture/manager-architecture.md",
+        "projects/cloakbrowser-manager/subsystems/profile-database.md",
+        "projects/cloakbrowser-manager/subsystems/api-models.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/backend/settings_store.py": {
+      "content_hash": "a2ae7f7cec601070e62e162b6c5134d0b02f5303eb8c6b50d0210cbb66e312e6",
+      "last_ingested": "2026-10-31T05:34:10.121617+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/architecture/manager-architecture.md",
+        "projects/cloakbrowser-manager/subsystems/settings-and-license.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/backend/tests/__init__.py": {
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "last_ingested": "2026-10-31T05:28:57.488390+00:00",
+      "pages_produced": []
+    },
+    "~/code/CloakBrowser-Manager/backend/tests/conftest.py": {
+      "content_hash": "115d10f57dba995e22edd419311c17cfaf2e18448ac92284c4771cbbc4a7868c",
+      "last_ingested": "2026-10-31T05:28:57.591947+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/api-server.md",
+        "projects/cloakbrowser-manager/subsystems/runtime-and-binary.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/backend/tests/test_api.py": {
+      "content_hash": "2316e95e3967cff697ed22aa05c2b2d06cc545034bab56c9ce77936f9ea0516e",
+      "last_ingested": "2026-10-31T05:34:11.565973+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/api-server.md",
+        "projects/cloakbrowser-manager/subsystems/api-models.md",
+        "projects/cloakbrowser-manager/architecture/authentication-model.md",
+        "projects/cloakbrowser-manager/techniques/cdp-endpoint-proxying.md",
+        "projects/cloakbrowser-manager/techniques/profile-duplication-with-state.md",
+        "projects/cloakbrowser-manager/techniques/download-capture.md",
+        "projects/cloakbrowser-manager/subsystems/vnc-viewer.md",
+        "projects/cloakbrowser-manager/subsystems/runtime-and-binary.md",
+        "projects/cloakbrowser-manager/subsystems/settings-and-license.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-transparent-proxy.md",
+        "projects/cloakbrowser-manager/techniques/portable-cookies.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/backend/tests/test_artifacts.py": {
+      "content_hash": "9800696e34bd94a62f5146511697fe3c2b24038ef005df5ab6a80d05fbe3dc65",
+      "last_ingested": "2026-10-31T05:28:57.800451+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/profile-files-and-artifacts.md",
+        "projects/cloakbrowser-manager/techniques/profile-duplication-with-state.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/backend/tests/test_auth.py": {
+      "content_hash": "2b6ae1b7cfe26551408ec70d96c995fa0fc432ea066675710ff7d89c11dc3fe8",
+      "last_ingested": "2026-10-31T05:28:57.902724+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/architecture/authentication-model.md",
+        "projects/cloakbrowser-manager/subsystems/api-server.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/backend/tests/test_browser_manager.py": {
+      "content_hash": "9208f398d182e07342a69a6f2e84c0e22ccac1a8d45499b55ac464fe2f602d9f",
+      "last_ingested": "2026-10-31T05:34:11.460423+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/browser-manager.md",
+        "projects/cloakbrowser-manager/techniques/download-capture.md",
+        "projects/cloakbrowser-manager/techniques/cdp-endpoint-proxying.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-transparent-proxy.md",
+        "projects/cloakbrowser-manager/techniques/portable-cookies.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/backend/tests/test_database.py": {
+      "content_hash": "63b72de69a217f7d8234b04a8b2fb69891ed192f9cc5b3edfc16b1f06c2caf72",
+      "last_ingested": "2026-10-31T05:34:11.666385+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/profile-database.md",
+        "projects/cloakbrowser-manager/techniques/per-profile-transparent-proxy.md",
+        "projects/cloakbrowser-manager/techniques/portable-cookies.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/backend/tests/test_downloads.py": {
+      "content_hash": "e3de1f355611135bc933ec1d7d0fc6d47c06dc2418d169775ab67e763dc084e7",
+      "last_ingested": "2026-10-31T05:28:58.228052+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/profile-files-and-artifacts.md",
+        "projects/cloakbrowser-manager/techniques/download-capture.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/backend/tests/test_launcher.py": {
+      "content_hash": "f578eb66c50db735bc7eb1ce7da18f52f7883805f682a9581c0c6f6f3fe41ad8",
+      "last_ingested": "2026-10-31T05:28:58.330741+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/architecture/platform-modes.md",
+        "projects/cloakbrowser-manager/subsystems/runtime-and-binary.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/backend/tests/test_models.py": {
+      "content_hash": "a69238d17cb92fe9b4ee51f8f10cad9451ead2461557783bd3122089a8e715ce",
+      "last_ingested": "2026-10-31T05:28:58.442506+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/api-models.md",
+        "projects/cloakbrowser-manager/subsystems/vnc-viewer.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/backend/tests/test_rfb.py": {
+      "content_hash": "652b98e30001b9479bb4536ee00d55c0681f9dd82158b10791a7fb330f41bb54",
+      "last_ingested": "2026-10-31T05:28:58.542772+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/vnc-viewer.md",
+        "projects/cloakbrowser-manager/subsystems/api-server.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/backend/tests/test_runtime.py": {
+      "content_hash": "82fb986f079af227ff48712f3156a269610ca96ab26c51b159ac42d6f4d6aa74",
+      "last_ingested": "2026-10-31T05:28:58.656901+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/architecture/platform-modes.md",
+        "projects/cloakbrowser-manager/subsystems/runtime-and-binary.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/backend/tests/test_vnc_manager.py": {
+      "content_hash": "4e24ff92b7d43efc8d4ec0964ba8a7bb00ac90fd99eb42c575a2e0f55959c354",
+      "last_ingested": "2026-10-31T05:28:58.780502+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/vnc-viewer.md",
+        "projects/cloakbrowser-manager/subsystems/browser-manager.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/backend/vnc_manager.py": {
+      "content_hash": "0481fb79215e3408a3ec262f760c46c6758f2682eef00f39cad5858ac55edf5e",
+      "last_ingested": "2026-10-31T05:28:58.895492+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/vnc-viewer.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/docker-compose.yml": {
+      "content_hash": "30fc8f8871cf779210d74e69042a929a0f20d2bbd07fc0bbf06cce9a8f9df07e",
+      "last_ingested": "2026-10-31T05:28:59.002261+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/vnc-viewer.md",
+        "projects/cloakbrowser-manager/architecture/platform-modes.md",
+        "projects/cloakbrowser-manager/architecture/authentication-model.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/entrypoint.sh": {
+      "content_hash": "902b34ee52e1a84280b9da096a7b8328f07598d41ea7e3fa96b1c266aab6b4b2",
+      "last_ingested": "2026-10-31T05:28:59.107442+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/vnc-viewer.md",
+        "projects/cloakbrowser-manager/architecture/platform-modes.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/index.html": {
+      "content_hash": "da5fa687e802553111bcb716c0a1a3bd8adddb2209cfbec79521a5fe71455dbd",
+      "last_ingested": "2026-10-31T05:28:59.264660+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-ui.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/package-lock.json": {
+      "content_hash": "3a4222219e9a2358f033ebd73b539b824eeb516e146aed3e6693984ee20b8717",
+      "last_ingested": "2026-10-31T05:28:59.397383+00:00",
+      "pages_produced": []
+    },
+    "~/code/CloakBrowser-Manager/frontend/package.json": {
+      "content_hash": "23d932b45b4c35e37fff1fb91a0d896706258d038bba8ce37cff3aaa2414c547",
+      "last_ingested": "2026-10-31T05:28:59.527487+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-ui.md",
+        "projects/cloakbrowser-manager/subsystems/vnc-viewer.md"
+      ]
+    },
+    "~/code/CloakBrowser-Manager/frontend/postcss.config.js": {
+      "content_hash": "e32657baf631d7c5f4dc67b4b2ee0ec8e7d5b3c41860e09cddce7c0377cd80bc",
+      "last_ingested": "2026-10-31T05:28:59.640054+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser-manager/subsystems/frontend-ui.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/.gitignore": {
+      "content_hash": "4c0afc96c6c3bd7d1130eb70b2ea92a109e35e48f86701478ffc14b19423b4f2",
+      "last_ingested": "2026-10-31T06:01:42.641785+00:00",
+      "pages_produced": []
+    },
+    "~/code/CloakBrowser/dotnet/CloakBrowser.sln": {
+      "content_hash": "59e95a434ce39ece331d71650e5c94795bd0d5d1c9108e8cd6fbb64b6193d21d",
+      "last_ingested": "2026-10-31T06:01:42.750861+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/examples/CloakBrowser.Examples/CloakBrowser.Examples.csproj": {
+      "content_hash": "38bb6332d01ed82895afb17ba7e5111164247e6f060bd5ec944756a322a6cb13",
+      "last_ingested": "2026-10-31T06:01:42.861827+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/examples/CloakBrowser.Examples/Program.cs": {
+      "content_hash": "426899a36d1cee5e69c002b5a6ea14541a7bde760ccfaa073f3973a60e7fc945",
+      "last_ingested": "2026-10-31T06:01:42.968759+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser.Cli/CloakBrowser.Cli.csproj": {
+      "content_hash": "770bf357d6b9310edd9bded7db581ae9271514239b652808c5e07512d1625836",
+      "last_ingested": "2026-10-31T06:01:43.090704+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md",
+        "projects/cloakbrowser/subsystems/cli.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser.Cli/Program.cs": {
+      "content_hash": "d3f0748c4e1cf8c7e9afafaf6cb15563e33a0e72dd069a21e3d846aabb39eefa",
+      "last_ingested": "2026-10-31T06:01:43.207949+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md",
+        "projects/cloakbrowser/subsystems/cli.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md",
+        "projects/cloakbrowser/subsystems/license-and-tiers.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser.Generators/CloakBrowser.Generators.csproj": {
+      "content_hash": "27965ad2bba44caef5e32bb06375032654118631692431b45cf1de6c477b7386",
+      "last_ingested": "2026-10-31T06:01:43.348578+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser.Generators/InterfaceDelegationGenerator.cs": {
+      "content_hash": "b5644601fbd87e3233acdb3edd876e86b7a43b999e783ed1de8f0b38bb3f10c1",
+      "last_ingested": "2026-10-31T06:01:43.478084+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/CloakBrowser.csproj": {
+      "content_hash": "8dfe63eae99a91b01817f5365ea5e85aeb1c0c0c19cd521af20f14fab9121746",
+      "last_ingested": "2026-10-31T06:01:43.587231+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/CloakLauncher.cs": {
+      "content_hash": "c23d993e591361347390b6b1d9e1484fb3be3fde87c4691261805edd1942e80d",
+      "last_ingested": "2026-10-31T06:01:43.707652+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md",
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/CloakLog.cs": {
+      "content_hash": "2a59a83291da2d75f22ee903d2567344e5817e069fb974a563ac00b3442a931e",
+      "last_ingested": "2026-10-31T06:01:43.827009+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/CloakVersion.cs": {
+      "content_hash": "22a106e60f0a516efcaada9217ca1f829ece09943fbd2d62ecf7f668a8120766",
+      "last_ingested": "2026-10-31T06:01:43.979943+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/Config.cs": {
+      "content_hash": "92ff982a5899684273d26b0ff0f30c210e77246030689d2bde264ea993125e58",
+      "last_ingested": "2026-10-31T06:01:44.117923+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md",
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md",
+        "projects/cloakbrowser/subsystems/profile-seed.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/Diagnostics.cs": {
+      "content_hash": "51c3a08ad88ba02d7fb9c7e5328833b526052d200906ef8b6dbd92abb4094e2e",
+      "last_ingested": "2026-10-31T06:01:44.230063+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md",
+        "projects/cloakbrowser/subsystems/cli.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/Download.cs": {
+      "content_hash": "3048079184af307f3ce3ff95297472159b93ed3c20adbd00e1d03dc068d404c7",
+      "last_ingested": "2026-10-31T06:01:44.354714+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md",
+        "projects/cloakbrowser/subsystems/binary-download-and-verification.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/GeoIp.cs": {
+      "content_hash": "aacdb497d45ddf752c1c99d9695a850a20c4b99c69349bab13e2b84d35c01650",
+      "last_ingested": "2026-10-31T06:01:44.481741+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md",
+        "projects/cloakbrowser/subsystems/geoip-resolver.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/Handles.cs": {
+      "content_hash": "cd84fa9919251166632df02ffb5d626d2b5041e469b34c77e03b7addf93548a4",
+      "last_ingested": "2026-10-31T06:01:44.607852+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md",
+        "projects/cloakbrowser/subsystems/license-and-tiers.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/Human/Actionability.cs": {
+      "content_hash": "618e2e671a7b1d2ec3ce0e9645bdc225336277fd43bbd8ed1134c96f73e2200e",
+      "last_ingested": "2026-10-31T06:01:44.748378+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md",
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/Human/Fields.cs": {
+      "content_hash": "7f88b1ee60b1597c4cc203bf884e8ed5c479ad2d01c67f840ad5d7d87cfab6eb",
+      "last_ingested": "2026-10-31T06:01:44.863500+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/Human/HumanConfig.cs": {
+      "content_hash": "a41d2205a62ea3bc59784f06f5cb2fb64d6c6ebe79a5ea9195ef3f93669eba0e",
+      "last_ingested": "2026-10-31T06:01:44.968650+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md",
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/Human/HumanEngine.Actions.cs": {
+      "content_hash": "9e9234d0cbcb8aa746d7896a0fc7933ea73f7419186a2367db99fe0011c0be98",
+      "last_ingested": "2026-10-31T06:01:45.076963+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/Human/HumanEngine.cs": {
+      "content_hash": "b74dafccd2192255a293569aee0a80deb9e9a0d56a734f221ad10fca6a7b7e08",
+      "last_ingested": "2026-10-31T06:01:45.192541+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md",
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/Human/HumanKeyboard.cs": {
+      "content_hash": "13ed1ecd8ca6dd167657b4a293033d57a70a76789b2c2787a713027648ea85cb",
+      "last_ingested": "2026-10-31T06:01:45.311569+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/Human/HumanMouse.cs": {
+      "content_hash": "0d92cad10167f48fa6cdcea4f4a302c9b351f28bdaed5acf26ef9265ca1fdef8",
+      "last_ingested": "2026-10-31T06:01:45.457471+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/Human/HumanPage.cs": {
+      "content_hash": "33a681c8e10aa18495af5f0c1267ff9c7e10705992049d45a028c9d31ee4da6b",
+      "last_ingested": "2026-10-31T06:01:45.596785+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/Human/HumanRandom.cs": {
+      "content_hash": "48577e782edd25ad6f4036657abe4292a944eaa6a7cb3a76d6c8de4bd232476c",
+      "last_ingested": "2026-10-31T06:01:45.744384+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/Human/HumanScroll.cs": {
+      "content_hash": "bd2d83ecfca91f8dd4c273a997226df9b00d687c0658d56a3d97682d65c99ede",
+      "last_ingested": "2026-10-31T06:01:45.875330+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md",
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/Human/HumanWorld.cs": {
+      "content_hash": "008ae52d9bee1546531c0b8f84dbc791e32ffbfabc5bf2ddb4282327c408d408",
+      "last_ingested": "2026-10-31T06:01:45.978059+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/Human/InjectedSource.cs": {
+      "content_hash": "90b52bb5c0cf8ac02fedfa409c46f0c0300de9d8b959743aa64f35da93b7a525",
+      "last_ingested": "2026-10-31T06:01:46.090132+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md",
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/Human/IsolatedWorld.cs": {
+      "content_hash": "e4352398e08051c68c418fe3a3267ec6b8119c0ef28580ab3dabefaaa72b8ff5",
+      "last_ingested": "2026-10-31T06:01:46.202545+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md",
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/Human/WorldHelpers.cs": {
+      "content_hash": "978e16a181046fb852914b654058551b29fe1dc42f876c513f7431b4034fd2d8",
+      "last_ingested": "2026-10-31T06:01:46.342560+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/LaunchOptions.cs": {
+      "content_hash": "da1a5310b8fcf1705a3bd3adb55b307b5fc687ab37ac5514a9870a91db1a058f",
+      "last_ingested": "2026-10-31T06:01:46.493675+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md",
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/License.cs": {
+      "content_hash": "56fdb1e6ccf91154d55baa1bbbc74fd0ef011984b885a2ac119f75d674193f65",
+      "last_ingested": "2026-10-31T06:01:46.616423+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md",
+        "projects/cloakbrowser/subsystems/license-and-tiers.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/ProxyResolver.cs": {
+      "content_hash": "3db7690ea960d98d31879c1213c989902d140ce820beea3f85384cf4f8ae69b6",
+      "last_ingested": "2026-10-31T06:01:46.728213+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md",
+        "projects/cloakbrowser/subsystems/proxy-handling.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/ProxySettings.cs": {
+      "content_hash": "b336e5be9787635f373622b489882fa5537fbb20955999a5c815f694741cd67f",
+      "last_ingested": "2026-10-31T06:01:46.847290+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/proxy-handling.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/ViewportDefaults.cs": {
+      "content_hash": "01af288e29a95a802be79fda7300996347a667cd2e9f4965a14b6300ce470eb3",
+      "last_ingested": "2026-10-31T06:01:46.953395+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md",
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/Widevine.cs": {
+      "content_hash": "851fac72b010c074b76c341f67026e85362a719693b2fa472fbb1ed36e783ed9",
+      "last_ingested": "2026-10-31T06:01:47.067120+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/Wrappers/HumanCursor.cs": {
+      "content_hash": "c9945ef99213a73a9aa4d1d0f30da4278bf46954ef8f260784521ff1f453916c",
+      "last_ingested": "2026-10-31T06:01:47.205927+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/Wrappers/Humanize.cs": {
+      "content_hash": "768ba4e5a69a806e83a9fd03268bc9b7b1dd2c25489716bf52456461a0edcb57",
+      "last_ingested": "2026-10-31T06:01:47.327931+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/Wrappers/HumanizedBrowser.cs": {
+      "content_hash": "af8fc2e24a94a99fe0534812aac2fc21422f7f453e897e14ff83db5485ed9ed1",
+      "last_ingested": "2026-10-31T06:01:47.447573+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/Wrappers/HumanizedBrowserContext.cs": {
+      "content_hash": "c89ffdba78e265f2934bf67049289f259340a7d746668ad0d171216d08a0275d",
+      "last_ingested": "2026-10-31T06:01:47.557699+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/Wrappers/HumanizedElementHandle.cs": {
+      "content_hash": "06208c66203549c1ae54754f9d3215352569cfa8624955797df2e713b6dc7b10",
+      "last_ingested": "2026-10-31T06:01:47.668577+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/Wrappers/HumanizedFrame.cs": {
+      "content_hash": "67c39dda88934c81502b7abad5a277723f8483e2d82b164ae899f0715aa5bb1d",
+      "last_ingested": "2026-10-31T06:01:47.775122+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/Wrappers/HumanizedFrameLocator.cs": {
+      "content_hash": "7fe9a5a7004ed4ee2c8aabd07028e59e7cd5eb3b78f17b0d73a6c57c8a2227c4",
+      "last_ingested": "2026-10-31T06:01:47.883386+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/Wrappers/HumanizedKeyboard.cs": {
+      "content_hash": "3ab0035c4f5c3641e3843eb5da0bd982fba7426f1e6e37aaf59721e3d69d4019",
+      "last_ingested": "2026-10-31T06:01:47.989198+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/Wrappers/HumanizedLocator.cs": {
+      "content_hash": "540b88c69c9ded30a98e1f6d30bc20644e26cf8451f4370431b434c129804c9e",
+      "last_ingested": "2026-10-31T06:01:48.099950+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/Wrappers/HumanizedMouse.cs": {
+      "content_hash": "2762ed81a1c6553b84dd7f81e4cc8a71cc28d6d9e2ce6ab107e016a1921dd3bb",
+      "last_ingested": "2026-10-31T06:01:48.231473+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/src/CloakBrowser/Wrappers/HumanizedPage.cs": {
+      "content_hash": "f9811075d83b03d1b9d2ca2f05c3b2f9edf7151075697d07d134cd8aa56faf15",
+      "last_ingested": "2026-10-31T06:01:48.345133+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/BezierMathTests.cs": {
+      "content_hash": "24d07fe524f88ad89cb51f70f469457990eefe3a5bbfbef865039294fe0051c4",
+      "last_ingested": "2026-10-31T06:01:48.491734+00:00",
+      "pages_produced": []
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/BrowserFactAttribute.cs": {
+      "content_hash": "f0e7af12b1f1c66dc4ad8b86863290ddec9a96160f7abeee8541571d99810deb",
+      "last_ingested": "2026-10-31T06:01:48.613399+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/BuildArgsTests.cs": {
+      "content_hash": "d9fff7268e773831b355aee3ee5fcf434b0a11da747a30a5d03da1bdf6cc0f9f",
+      "last_ingested": "2026-10-31T06:01:48.731093+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/CloakBrowser.Tests.csproj": {
+      "content_hash": "5908dfe654d5a18451beb82abc690384eb88a0844b7ce77f5301aa8f034c3ca6",
+      "last_ingested": "2026-10-31T06:01:48.854423+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/ConfigTests.cs": {
+      "content_hash": "30398f09f42f84c26634b1f4c1e04fbdeaa180c6bffe2202173a7e87666b7b20",
+      "last_ingested": "2026-10-31T06:01:48.961660+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/DiagnosticsTests.cs": {
+      "content_hash": "b0866136e518ef5fc9a89dfcdcb2a3c86435029e9c5a76fc6bacc267c0b6df5e",
+      "last_ingested": "2026-10-31T06:01:49.074448+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/cli.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/DownloadConfigTests.cs": {
+      "content_hash": "757565575a35dc89d92ca069ec5b4b2ade992e174c3614a8e097b40b06883c57",
+      "last_ingested": "2026-10-31T06:01:49.208063+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md",
+        "projects/cloakbrowser/subsystems/binary-download-and-verification.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/EnvSerialCollection.cs": {
+      "content_hash": "b4703deda24d1d38b04cc85bb5e43b93274c961dd9ac76a06c85d7072a1588e4",
+      "last_ingested": "2026-10-31T06:01:49.326837+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/FontWarningTests.cs": {
+      "content_hash": "560b746003a05c5b51879f885f1b2ea606871a501d01893305092c5bced1f6ec",
+      "last_ingested": "2026-10-31T06:01:49.456188+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/Human/MatchChildTests.cs": {
+      "content_hash": "524fda8ba6887be584c641f1a8ed735b2f0564f59cc08d9ec260b9ec963d2955",
+      "last_ingested": "2026-10-31T06:01:49.562731+00:00",
+      "pages_produced": []
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/Human/NonAsciiKeyboardTests.cs": {
+      "content_hash": "1dbabcaa2c6264aba41428a4f5d5e7bbe6ee45dd4b90fade80fca36de4b77975",
+      "last_ingested": "2026-10-31T06:01:49.667373+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/Human/SelectorParityBrowserTests.cs": {
+      "content_hash": "a37c8f070ea757763a8d7d8009a628c805c9bc5174146bf3afd8ec049e6d2461",
+      "last_ingested": "2026-10-31T06:01:49.780752+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/Human/TimeoutBudgetTests.cs": {
+      "content_hash": "be61993d834912ba26504d07ae2174dff7ba8f6cc0b001325470f72a48e18097",
+      "last_ingested": "2026-10-31T06:01:49.887786+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/HumanConfigTests.cs": {
+      "content_hash": "2a56f0a2999645d818609df404018677e9a5f4e0b140fe280fdfda395268bd31",
+      "last_ingested": "2026-10-31T06:01:50.024277+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/HumanEngine/ActionabilityApiTests.cs": {
+      "content_hash": "636297fc0521b92d306ad6c397f1a6b34b9aa0e2fb4bb1578ee93835ba349fb3",
+      "last_ingested": "2026-10-31T06:01:50.129466+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/HumanEngine/HumanEngineBrowserTests.cs": {
+      "content_hash": "0cf98fd953fd809e1d85f4233c88c54803fb954a3e30d938bd3eee6e6748b9d6",
+      "last_ingested": "2026-10-31T06:01:50.262465+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md",
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/HumanEngine/HumanReadsTests.cs": {
+      "content_hash": "71827abbf0bf417cce61d1f22d7bc3c22b4ff5a2486d6a69ca286e00d0857361",
+      "last_ingested": "2026-10-31T06:01:50.408529+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/HumanEngine/SiteServer.cs": {
+      "content_hash": "20a7c995c3b19ad270733e003c89b0437d0b759b048cc188ef964e5022e3087a",
+      "last_ingested": "2026-10-31T06:01:50.532349+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/HumanEngine/WorldSmokeTests.cs": {
+      "content_hash": "893a12dbe39beeb566a700a892bcac29f778e16d8dafe5fc0204f5d5b11281b6",
+      "last_ingested": "2026-10-31T06:01:50.651626+00:00",
+      "pages_produced": []
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/IsolatedCacheDir.cs": {
+      "content_hash": "908ad1b749591929e2d7de612c7a8329fcced1d5eec8653fede0e62dff655ccb",
+      "last_ingested": "2026-10-31T06:01:50.760853+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md",
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/LicenseTests.cs": {
+      "content_hash": "e9da9fa9127baaf7f00d09e90cd6a094110da752ecf4fce989e4d2d754b9053b",
+      "last_ingested": "2026-10-31T06:01:50.875878+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/architecture/python-js-wrapper-parity.md",
+        "projects/cloakbrowser/subsystems/license-and-tiers.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/MiscTests.cs": {
+      "content_hash": "7464e23d557d11a003705930b4e4e4bf7147d32c4f8b72f57c4f1b15656944b1",
+      "last_ingested": "2026-10-31T06:01:51.000870+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/geoip-resolver.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/ProfileSeedTests.cs": {
+      "content_hash": "935dcf099383a67972b2fe53b4afe994c31eb05c477c35883f95a6553e35cbdc",
+      "last_ingested": "2026-10-31T06:01:51.107116+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/profile-seed.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/ProxyResolverTests.cs": {
+      "content_hash": "f52ee114d96384aee809442f09ca0adc645076110a1577df9459b1a4310daa1b",
+      "last_ingested": "2026-10-31T06:01:51.214253+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/proxy-handling.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/ScrollFallbackTests.cs": {
+      "content_hash": "d648e2a78b1bba0e584d9415d3202f08d6f9fadfacbcd287749f4eeb5925ba7b",
+      "last_ingested": "2026-10-31T06:01:51.324023+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/humanize-engine.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/SignatureTests.cs": {
+      "content_hash": "5c62aacd286dd3e9c2c074f026f5a63a5689798cba90280e7db4b1749040b285",
+      "last_ingested": "2026-10-31T06:01:51.430387+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/binary-download-and-verification.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/ViewportTests.cs": {
+      "content_hash": "f2e31e7495797228db4910fddc15a0c2b9075b15f0b18067d8ff0f5a1abde5ae",
+      "last_ingested": "2026-10-31T06:01:51.557920+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/launcher-and-stealth-args.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/WidevineTests.cs": {
+      "content_hash": "17814c9edd85ad8b433f7c50885abdaa8a578d3d4697824fe388bbaed06929f9",
+      "last_ingested": "2026-10-31T06:01:51.696451+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/Wrappers/BrowserContextWrapperTests.cs": {
+      "content_hash": "996fe3746d9d4d3a7e6d8d2337f2e304a61b1222d3b2f6eaee9f69744da8de16",
+      "last_ingested": "2026-10-31T06:01:51.846027+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/Wrappers/FakeProxy.cs": {
+      "content_hash": "3c3f028f6d19099e447f77988e9fc5fff1f3c0f8c47ada491d34a7058bbe9dbf",
+      "last_ingested": "2026-10-31T06:01:51.968340+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/Wrappers/GeneratorDelegationTests.cs": {
+      "content_hash": "40e932ca8e22b4357fd5ec604ef26453b15d9965ea926eaa0f694e62c45b3c7e",
+      "last_ingested": "2026-10-31T06:01:52.078101+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/Wrappers/LicenseGuardCompositionTests.cs": {
+      "content_hash": "03220f1c7f86711137f03123ff89c61ef43e687fa54617e7973f80d1221c4a87",
+      "last_ingested": "2026-10-31T06:01:52.194713+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md",
+        "projects/cloakbrowser/subsystems/license-and-tiers.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/Wrappers/LocatorWrapperTests.cs": {
+      "content_hash": "e8bc1bda16d08ba389110dacd5cba522e4b40426283099e959900dc83c7cdb32",
+      "last_ingested": "2026-10-31T06:01:52.313911+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/Wrappers/MouseKeyboardWrapperTests.cs": {
+      "content_hash": "694870bee6957098ab23b568224365bc623e7c8cb3ddff26fb13bc715b67c88c",
+      "last_ingested": "2026-10-31T06:01:52.433871+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md"
+      ]
+    },
+    "~/code/CloakBrowser/dotnet/tests/CloakBrowser.Tests/Wrappers/PageWrapperTests.cs": {
+      "content_hash": "ef24a3ca9c298605daf4730f0bda6056f363e5831274cd0c2245d133575a563e",
+      "last_ingested": "2026-10-31T06:01:52.548022+00:00",
+      "pages_produced": [
+        "projects/cloakbrowser/subsystems/dotnet-client.md"
+      ]
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "search": "-path:_raw -path:_archives -path:_staging -path:_meta -path:_readouts -file:index -file:log -file:hot",
+  "showTags": false,
+  "showOrphans": true,
+  "showArrow": true,
+  "hideUnresolved": true,
+  "colorGroups": [
+    {
+      "query": "path:concepts",
+      "color": {
+        "a": 1,
+        "rgb": 5213943
+      }
+    },
+    {
+      "query": "path:entities",
+      "color": {
+        "a": 1,
+        "rgb": 15902017
+      }
+    },
+    {
+      "query": "path:skills",
+      "color": {
+        "a": 1,
+        "rgb": 3982474
+      }
+    },
+    {
+      "query": "path:references",
+      "color": {
+        "a": 1,
+        "rgb": 10194162
+      }
+    },
+    {
+      "query": "path:synthesis",
+      "color": {
+        "a": 1,
+        "rgb": 15687034
+      }
+    },
+    {
+      "query": "path:journal",
+      "color": {
+        "a": 1,
+        "rgb": 8370377
+      }
+    },
+    {
+      "query": "path:projects",
+      "color": {
+        "a": 1,
+        "rgb": 13214247
+      }
+    }
+  ]
+}
